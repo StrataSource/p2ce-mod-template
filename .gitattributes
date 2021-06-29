@@ -1,1 +1,25 @@
+* filter=lfs diff=lfs merge=lfs
+* binary
+
+# Untrack text files from LFS,
+# diff them as text, and don't
+# normalise line-endings.
+*.txt			-text !filter !diff !merge
+*.res			-text !filter !diff !merge
+*.vmt			-text !filter !diff !merge
+*.cfg			-text !filter !diff !merge
+*.vbsp			-text !filter !diff !merge
+*.rad			-text !filter !diff !merge
+*.vdf			-text !filter !diff !merge
+*.csv			-text !filter !diff !merge
+*.rc			-text !filter !diff !merge
+*.fgd			-text !filter !diff !merge
+*.inf			-text !filter !diff !merge
+*.lst			-text !filter !diff !merge
+*.dsp			-text !filter !diff !merge
+*.bat			-text !filter !diff !merge
+*.sh			-text !filter !diff !merge
+*.md			-text !filter !diff !merge
+.gitattributes	-text !filter !diff !merge
+.gitignore		-text !filter !diff !merge
 * !text !filter !merge !diff
