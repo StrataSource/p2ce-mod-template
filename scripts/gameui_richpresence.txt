@@ -1,0 +1,57 @@
+"RichPresence"
+{
+    "MainMenu"
+    {
+        "discord"
+        {
+            "state" "Idling"
+            "name" "P2CE" 
+            "details" "In Main-Menu"
+            "assets"
+            {
+                "large_image" "logo_square"
+                "small_text" "Portal 2: Community Edition"
+            }
+        }
+        "steam"
+        {
+            // TODO...
+        }
+    }
+    "Options"
+    {
+        "discord"
+        {
+            "state" "Idling"
+            "name" "P2CE" 
+            "details" "In Options Menu"
+            "assets"
+            {
+                "large_image" "logo_square"
+                "small_text" "Portal 2: Community Edition"
+            }
+        }
+        "steam"
+        {
+            // TODO...
+        }
+    }
+    "pvplobby"
+    {
+        "discord"
+        {
+            "state" "Playing P2CE"
+            "name" "P2CE" 
+            "details" "Searching for co-op game"
+            "assets"
+            {
+                "large_image" "logo_square"
+                "small_text" "Portal 2: Community Edition"
+            }
+        }
+        "steam"
+        {
+            // TODO...
+        }
+    }
+}

@@ -1,8 +1,8 @@
 "GameInfo"
 {
-	game 		"Portal 2: Community Edition"
+	game 		"Portal 2: My Cool Template Mod"
 	title 		"PORTAL 2"
-	title2		"CE"
+	title2		"TEMPLATE"
 	type		both
 
 	gamelogo 1
@@ -41,6 +41,20 @@
 			"portal2"
 			{
 				"vpk" "pak01"
+			}
+		}
+		440000 
+		{
+			"required" "1"
+			"p2ce"
+			{
+				// TODO: Change this once we start packing assets 
+				"dir" "materials" 
+				"dir" "scripts"
+				"dir" "maps"
+				"dir" "models" 
+				"dir" "sounds"
+				//"vpk" "pak01"
 			}
 		}
 
@@ -89,8 +103,7 @@
 		{
 			game+mod+default_write_path				|gameinfo_path|.
 			Game				hammer
-			Game				p2ce
-			Game				testmod
+			Game				templatemod
 			gamebin				|gameinfo_path|bin
 			Game				update
 			Platform			platform

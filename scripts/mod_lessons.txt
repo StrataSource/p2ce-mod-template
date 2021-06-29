@@ -1,0 +1,75 @@
+//--------------------------------------------------------
+//
+// This file contains all the scripted lessons used by 
+// the game instructor.
+//
+//
+// PRIORITY LEVELS
+// 200 Return to Hub
+// 165 Unzoom
+// 160 Zoom
+// 151 Create Left Portal
+// 150 Create Right Portal
+// 145 Movement
+// 140 Push Button
+// 135 Partner View
+// 130 Countdown Timer
+// 120 Air Taunt
+// 100 New Taunt
+//
+// NOTE: Zero priority lessons are NOT affected by priority, but NEVER affect priority
+// 00
+//
+//
+//
+// INSTANCE TYPES
+//
+// 0 = multiple lessons of same type can be open at once
+// 1 = only one of each lesson type can be open at once
+// 2 = replace lesson of the same type and "replace_key" at a fixed amount "fixed_instances_max"
+// 3 = only one instance will display at a time (but all instances will be open)
+//
+//
+// FLAGS (use these to build an integer)
+//
+//#define LOCATOR_ICON_FX_NONE			0x00000000
+//#define LOCATOR_ICON_FX_PULSE_SLOW		0x00000001
+//#define LOCATOR_ICON_FX_PULSE_FAST		0x00000002
+//#define LOCATOR_ICON_FX_PULSE_URGENT		0x00000004
+//
+// 
+// CAPTION COLOR - supply a string in the format "rrr,ggg,bbb"  ex. "255,255,255" for white
+//
+//--------------------------------------------------------
+
+// PAINT instructor conventions
+// 
+// painttype (int)
+// 0 = JUMP_PAINT
+// 1 = STICK_PAINT
+// 2 = SPEED_PAINT
+// 3 = ERASE_PAINT
+//
+//
+// surfacedir (int)
+// 0 = floor
+// 1 = wall
+// 2 = ceiling
+//
+//
+// paintcount (int)
+// 0 = The paint gun has no paint powers equipped
+// 1 = The paint gun has the NO_POWER (erase paint) only
+// 2 = The paint gun has erase paint + 1 paint power
+// 3 = The paint gun has erase paint + 2 paint powers
+// 4 = The paint gun has erase paint + 3 paint powers
+//
+
+"instructor_lessons"
+{
+	"version number"
+	{
+		"priority"			"0"
+		"success_limit"		"1"	// increase this number to force a reset counts for everyone
+	}
+}
