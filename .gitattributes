@@ -22,3 +22,7 @@
 *.md			-text !filter !diff !merge
 .gitattributes	-text !filter !diff !merge
 .gitignore		-text !filter !diff !merge
+*.nut			-text !filter !diff !merge
+*.cs			-text !filter !diff !merge
+*.kv			-text !filter !diff !merge
+*.config		-text !filter !diff !merge
