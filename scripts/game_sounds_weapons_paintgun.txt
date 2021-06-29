@@ -1,0 +1,26 @@
+"Paintgun.FireLoop"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"	"1.0"
+	"pitch"			"80"
+	"wave"		")physics/paint/paint_nozzle_waterfall_short_lp.wav"
+}
+
+"Paintgun.FireStart"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"	"1.0"
+	"pitch"			"80"
+	"wave"		")props/tbeam_emitter_start_01.wav"
+}
+
+"Paintgun.FireLoop"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"	"1.0"
+	"pitch"			"80"
+	"wave"		")props/tbeam_emitter_end_01.wav"
+}
