@@ -104,7 +104,6 @@
 			game+mod+default_write_path				|gameinfo_path|.
 			Game				hammer
 			Game				templatemod
-			gamebin				|gameinfo_path|bin
 			Game				update
 			Platform			platform
 		}
