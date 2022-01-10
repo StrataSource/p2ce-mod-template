@@ -32,7 +32,6 @@
 		SearchPaths
 		{
 			Game+mod+default_write_path	|gameinfo_path|.
-			GameBin				|gameinfo_path|bin
 
 			Game				p2ce
 			GameBin				p2ce/bin
