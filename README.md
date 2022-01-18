@@ -11,10 +11,10 @@ If you do not wish to launch from Steam, you can also launch via the chaos execu
 ## Launching (Alternative)
 To launch on Windows: 
 ```sh
-"\..\..\..\common\Portal 2 Community Edition\bin\win64\chaos.exe" -game %cd%
+"..\..\common\Portal 2 Community Edition\bin\win64\chaos.exe" -legacyui -game %cd%
 ```
 
 To launch on Linux:
 ```sh
-"/../../../common/Portal 2 Community Edition/p2ce.sh" -game $PWD
+"../../common/Portal 2 Community Edition/p2ce.sh" -legacyui -game $PWD
 ```
