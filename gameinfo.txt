@@ -37,7 +37,7 @@
 			GameBin				p2ce/bin
 			Game				hammer
 			Game				update
-			Platform			platform
+			Platform+game			platform
 		}
 	}
 }
