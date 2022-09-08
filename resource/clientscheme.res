@@ -50,6 +50,15 @@ Scheme
 		Border.Selection				"Blank"				// the additional border color for displaying the default/selected button
 		Border.BuyPreset				"Orange"
 
+		Rosette.DefaultFgColor			"White"
+		Rosette.DefaultBgColor			"Blank"
+		Rosette.ArmedBgColor			"Blank"
+		Rosette.DisabledBgColor			"Blank"
+		Rosette.DisabledBorderColor		"Blank"
+		Rosette.LineColor				"192 192 192 128"
+		Rosette.DrawBorder				"0"
+		Rosette.DefaultFont				DefaultSmall
+		Rosette.ArmedFont				Default
 
 		Button.TextColor				"Grey"
 		Button.BgColor					"0 0 0 64"
@@ -1233,24 +1242,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stratum2-Bold" [!$RUSSIAN]
-				"name"			"Arial"			[$RUSSIAN]
+				"name"			"UniversLTStd-BoldCn"
 				"tall"			"18"
 				"weight"		"400"
 				"antialias"		"1"
-				"dropshadow"	"1"
 			}
 		}
 		"InstructorTitle_ss"
 		{
 			"1"
 			{
-				"name"			"Stratum2-Bold" [!$RUSSIAN]
-				"name"			"Arial"			[$RUSSIAN]
+				"name"			"UniversLTStd-BoldCn"
 				"tall"			"14"
 				"weight"		"400"
 				"antialias"		"1"
-				"dropshadow"	"1"
 			}
 		}
 		"InstructorButtons"
@@ -1283,15 +1288,34 @@ Scheme
 				"scaley"	"0.5"
 			}
 		}
+		"InstructorButtonsSteamController_ss"
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.5"
+				"scaley"	"0.5"
+			}
+		}
 		"InstructorKeyBindings"
 		{
 			"1"
 			{
-				"name"			"Stratum2-Medium"	[!$RUSSIAN]
-				"name"			"Arial"				[$RUSSIAN]
+				"name"			"UniversLTStd-BoldCn"
 				"tall"			"12"
 				"weight"		"800"
 				"antialias"		"1"
+			}
+		}
+		"InstructorKeyBindingsSmall"
+		{
+			"1"
+			{
+				"name"		"UniversLTStd-BoldCn"
+				"tall"		"9"
+				"weight"	"400"
+				"antialias" "1"
 			}
 		}
 		"ChatFont"
