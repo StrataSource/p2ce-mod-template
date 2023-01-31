@@ -644,38 +644,58 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
 				"weight"	"500"
+				"antialias"	"1"
 			}
 		}
+		
 		"CloseCaption_Italic"
-		{
+		{	
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
 				"weight"	"500"
 				"italic"	"1"
+				"antialias"	"1"
 			}
 		}
+		
 		"CloseCaption_Bold"
-		{
+		{		
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
+		
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
 				"weight"	"900"
 				"italic"	"1"
+				"antialias"	"1"
+			}
+		}
+
+		"CloseCaption_Console"
+		{
+			"isproportional"	"only"
+			"1"
+			{
+				"name"		"UniversLTStd-BoldCn"
+				"tall"		"20"
+				"weight"	"400"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
 
@@ -1369,5 +1389,11 @@ Scheme
 		"1"		"resource/HALFLIFE2.vfont"
 		"2"		"resource/HL2EP2.vfont"
 		"3"		"vgui/fonts/marlett.ttf"	[$OSX]
+		"4"		"resource/univercb.vfont"
+		"5"		"resource/univercb_t.vfont"
+		"6"		"resource/univercl.vfont"
+		"7"		"resource/univercl_t.vfont"
+		"8"		"resource/universc.vfont"
+		"9"		"resource/universc_t.vfont"
 	}
 }

@@ -1066,48 +1066,66 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
+		
 		"CloseCaption_Italic"
-		{
+		{	
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
 				"weight"	"500"
 				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
+		
 		"CloseCaption_Bold"
-		{
+		{		
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
+		
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"UniversLTStd-Cn"
+				"tall"		"20"
 				"weight"	"900"
 				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
+
+		"CloseCaption_Console"
+		{
+			"isproportional"	"only"
+			"1"
+			{
+				"name"		"UniversLTStd-BoldCn"
+				"tall"		"20"
+				"weight"	"400"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+
 		// this is the symbol font
 		"Marlett"
 		{
@@ -2976,7 +2994,12 @@ Scheme
 		"4"		"resource/CSlogo.vfont"
 		"5"		"resource/stratum2medium.vfont"
 		"6"		"resource/stratum2bold.vfont"
-		//RUSSIAN
+		"7"		"resource/univercb.vfont"
+		"8"		"resource/univercb_t.vfont"
+		"9"		"resource/univercl.vfont"
+		"10"	"resource/univercl_t.vfont"
+		"11"	"resource/universc.vfont"
+		"12"	"resource/universc_t.vfont"
 	}
 
 }
