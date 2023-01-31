@@ -33,11 +33,11 @@
 		{
 			Game+mod+default_write_path	|gameinfo_path|.
 
-			Game				p2ce
+			Game+mod			p2ce
 			GameBin				p2ce/bin
 			Game				hammer
 			Game				update
-			Platform+game			platform
+			Platform+game		platform
 		}
 	}
 }
