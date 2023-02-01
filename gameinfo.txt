@@ -1,3 +1,8 @@
+	//When renaming the mod folder you also need to rename "\resource\p2ce-mod-template_english.txt" to exactly what the folder is called 
+	//Reason this breaks the localization of the subtitles 
+	//This is a work around as the mod should mount the files from P2CE but doesn't
+
+
 "GameInfo"
 {
 	game 		"Portal 2: My Cool Template Mod"
