@@ -18,10 +18,25 @@
 			// For example, assets in "portal2_dlc1" will
 			// be overridden by assets in "update"
 
-			"update"	{ "vpk" "pak01" }
-			"portal2_dlc2"	{ "vpk" "pak01" }
-			"portal2_dlc1"	{ "vpk" "pak01" }
-			"portal2"	{ "vpk" "pak01" }
+			"update"
+			{
+				"vpk" "pak01"
+			}
+			
+			"portal2_dlc2"
+			{
+				"vpk" "pak01"
+			}
+
+			"portal2_dlc1"
+			{
+				"vpk" "pak01"
+			}
+			
+			"portal2"
+			{
+				"vpk" "pak01"
+			}
 		}
 	}
 
@@ -33,6 +48,8 @@
 		{
 			Game+mod+default_write_path	|gameinfo_path|.
 
+			// Important!: p2ce must be added as game+mod, because steam.inf and some other important files are pulled from the MOD path
+			//  MOD may have multiple directories on it, hence why this works.
 			Game+mod			p2ce
 			GameBin				p2ce/bin
 			Game				hammer
