@@ -9,7 +9,7 @@
 		"setting.defaultres"	"800"
 		"setting.defaultresheight"	"600"
 		"setting.gpu_level"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"0"
 		"setting.mat_vsync"	"0"
 	}
@@ -21,7 +21,7 @@
 		"setting.defaultres"	"1024"
 		"setting.defaultresheight"	"768"
 		"setting.gpu_level"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"0"
 		"setting.mat_vsync"	"0"
 	}
@@ -33,7 +33,7 @@
 		"setting.defaultres"	"1024"
 		"setting.defaultresheight"	"768"
 		"setting.gpu_level"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"0"
 		"setting.mat_vsync"	"0"
 	}
@@ -46,7 +46,7 @@
 		"setting.defaultresheight"	"1024"
 		"setting.gpu_level"	"3"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"0"
 		"setting.mat_vsync"	"0"
 	}
@@ -59,7 +59,7 @@
 		"setting.defaultresheight"	"1024"
 		"setting.gpu_level"	"3"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"0"
 		"setting.mat_vsync"	"0"
 	}
@@ -73,7 +73,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"0"
 		"setting.mat_vsync"	"0"
 	}
@@ -188,7 +188,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"22"
 	{
@@ -204,7 +204,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"23"
 	{
@@ -220,7 +220,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"24"
 	{
@@ -236,7 +236,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"25"
 	{
@@ -252,7 +252,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"26"
 	{
@@ -268,7 +268,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"27"
 	{
@@ -284,7 +284,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"28"
 	{
@@ -300,7 +300,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"29"
 	{
@@ -316,7 +316,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"30"
 	{
@@ -332,7 +332,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"31"
 	{
@@ -348,7 +348,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"32"
 	{
@@ -364,7 +364,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"33"
 	{
@@ -380,7 +380,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"34"
 	{
@@ -396,7 +396,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"35"
 	{
@@ -412,7 +412,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"36"
 	{
@@ -428,7 +428,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"37"
 	{
@@ -444,7 +444,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"38"
 	{
@@ -460,7 +460,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"39"
 	{
@@ -476,7 +476,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"40"
 	{
@@ -492,7 +492,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"41"
 	{
@@ -508,7 +508,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"42"
 	{
@@ -524,7 +524,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"43"
 	{
@@ -540,7 +540,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"44"
 	{
@@ -556,7 +556,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"45"
 	{
@@ -572,7 +572,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"46"
 	{
@@ -588,7 +588,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"47"
 	{
@@ -604,7 +604,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"48"
 	{
@@ -620,7 +620,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"49"
 	{
@@ -636,7 +636,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"50"
 	{
@@ -652,7 +652,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"51"
 	{
@@ -668,7 +668,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"52"
 	{
@@ -684,7 +684,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"53"
 	{
@@ -700,7 +700,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"54"
 	{
@@ -716,7 +716,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"55"
 	{
@@ -732,7 +732,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"56"
 	{
@@ -748,7 +748,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"57"
 	{
@@ -764,7 +764,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"58"
 	{
@@ -780,7 +780,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"59"
 	{
@@ -796,7 +796,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"60"
 	{
@@ -812,7 +812,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"61"
 	{
@@ -828,7 +828,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"62"
 	{
@@ -844,7 +844,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"63"
 	{
@@ -860,7 +860,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"64"
 	{
@@ -876,7 +876,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"65"
 	{
@@ -892,7 +892,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"66"
 	{
@@ -908,7 +908,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"67"
 	{
@@ -924,7 +924,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"68"
 	{
@@ -940,7 +940,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"69"
 	{
@@ -955,7 +955,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"70"
 	{
@@ -971,7 +971,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"71"
 	{
@@ -987,7 +987,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"72"
 	{
@@ -1002,7 +1002,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"73"
 	{
@@ -1017,7 +1017,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"74"
 	{
@@ -1032,7 +1032,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"75"
 	{
@@ -1048,7 +1048,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"76"
 	{
@@ -1063,7 +1063,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"77"
 	{
@@ -1078,7 +1078,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"78"
 	{
@@ -1093,7 +1093,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"79"
 	{
@@ -1108,7 +1108,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"80"
 	{
@@ -1123,7 +1123,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"81"
 	{
@@ -1138,7 +1138,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"82"
 	{
@@ -1153,7 +1153,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"83"
 	{
@@ -1168,7 +1168,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"84"
 	{
@@ -1184,7 +1184,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"85"
 	{
@@ -1200,7 +1200,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"86"
 	{
@@ -1216,7 +1216,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"87"
 	{
@@ -1232,7 +1232,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"88"
 	{
@@ -1248,7 +1248,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"89"
 	{
@@ -1264,7 +1264,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"90"
 	{
@@ -1280,7 +1280,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"91"
 	{
@@ -1296,7 +1296,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"92"
 	{
@@ -1312,7 +1312,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"93"
 	{
@@ -1328,7 +1328,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"94"
 	{
@@ -1344,7 +1344,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"95"
 	{
@@ -1360,7 +1360,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"96"
 	{
@@ -1376,7 +1376,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"97"
 	{
@@ -1392,7 +1392,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"98"
 	{
@@ -1408,7 +1408,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"99"
 	{
@@ -1424,7 +1424,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"100"
 	{
@@ -1440,7 +1440,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"101"
 	{
@@ -1456,7 +1456,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"102"
 	{
@@ -1472,7 +1472,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"103"
 	{
@@ -1488,7 +1488,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"104"
 	{
@@ -1504,7 +1504,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"105"
 	{
@@ -1520,7 +1520,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"106"
 	{
@@ -1536,7 +1536,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"107"
 	{
@@ -1552,7 +1552,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"108"
 	{
@@ -1568,7 +1568,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"109"
 	{
@@ -1584,7 +1584,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"110"
 	{
@@ -1600,7 +1600,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"111"
 	{
@@ -1616,7 +1616,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"112"
 	{
@@ -1632,7 +1632,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"113"
 	{
@@ -1648,7 +1648,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"114"
 	{
@@ -1664,7 +1664,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"115"
 	{
@@ -1680,7 +1680,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"116"
 	{
@@ -1696,7 +1696,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"117"
 	{
@@ -1712,7 +1712,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"118"
 	{
@@ -1728,7 +1728,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"119"
 	{
@@ -1744,7 +1744,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"120"
 	{
@@ -1760,7 +1760,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"121"
 	{
@@ -1776,7 +1776,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"122"
 	{
@@ -1792,7 +1792,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"123"
 	{
@@ -1808,7 +1808,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"124"
 	{
@@ -1824,7 +1824,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"125"
 	{
@@ -1840,7 +1840,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"126"
 	{
@@ -1856,7 +1856,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"127"
 	{
@@ -1872,7 +1872,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"128"
 	{
@@ -1888,7 +1888,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"129"
 	{
@@ -1904,7 +1904,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"130"
 	{
@@ -1920,7 +1920,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"131"
 	{
@@ -1936,7 +1936,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"132"
 	{
@@ -1951,7 +1951,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"133"
 	{
@@ -1966,7 +1966,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"134"
 	{
@@ -1982,7 +1982,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"135"
 	{
@@ -1998,7 +1998,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"136"
 	{
@@ -2013,7 +2013,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"137"
 	{
@@ -2028,7 +2028,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"138"
 	{
@@ -2044,7 +2044,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"139"
 	{
@@ -2060,7 +2060,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"140"
 	{
@@ -2076,7 +2076,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"141"
 	{
@@ -2092,7 +2092,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"142"
 	{
@@ -2108,7 +2108,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"143"
 	{
@@ -2124,7 +2124,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"144"
 	{
@@ -2140,7 +2140,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"145"
 	{
@@ -2156,7 +2156,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"146"
 	{
@@ -2172,7 +2172,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"147"
 	{
@@ -2188,7 +2188,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"148"
 	{
@@ -2204,7 +2204,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"149"
 	{
@@ -2220,7 +2220,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"150"
 	{
@@ -2236,7 +2236,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"151"
 	{
@@ -2252,7 +2252,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"152"
 	{
@@ -2268,7 +2268,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"153"
 	{
@@ -2284,7 +2284,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"154"
 	{
@@ -2299,7 +2299,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"155"
 	{
@@ -2314,7 +2314,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"156"
 	{
@@ -2330,7 +2330,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"157"
 	{
@@ -2346,7 +2346,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"158"
 	{
@@ -2362,7 +2362,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"159"
 	{
@@ -2378,7 +2378,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"160"
 	{
@@ -2394,7 +2394,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"161"
 	{
@@ -2410,7 +2410,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"162"
 	{
@@ -2426,7 +2426,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"163"
 	{
@@ -2442,7 +2442,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"164"
 	{
@@ -2458,7 +2458,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"165"
 	{
@@ -2474,7 +2474,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"166"
 	{
@@ -2490,7 +2490,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"167"
 	{
@@ -2506,7 +2506,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"168"
 	{
@@ -2522,7 +2522,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"169"
 	{
@@ -2538,7 +2538,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"170"
 	{
@@ -2554,7 +2554,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"171"
 	{
@@ -2570,7 +2570,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"172"
 	{
@@ -2586,7 +2586,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"173"
 	{
@@ -2602,7 +2602,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"174"
 	{
@@ -2618,7 +2618,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"175"
 	{
@@ -2634,7 +2634,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"176"
 	{
@@ -2650,7 +2650,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"177"
 	{
@@ -2665,7 +2665,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"178"
 	{
@@ -2681,7 +2681,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"179"
 	{
@@ -2696,7 +2696,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"180"
 	{
@@ -2711,7 +2711,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"181"
 	{
@@ -2726,7 +2726,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"182"
 	{
@@ -2741,7 +2741,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"183"
 	{
@@ -2756,7 +2756,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"184"
 	{
@@ -2771,7 +2771,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"185"
 	{
@@ -2786,7 +2786,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"186"
 	{
@@ -2801,7 +2801,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"187"
 	{
@@ -2816,7 +2816,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"188"
 	{
@@ -2832,7 +2832,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"189"
 	{
@@ -2848,7 +2848,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"190"
 	{
@@ -2864,7 +2864,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"191"
 	{
@@ -2880,7 +2880,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"192"
 	{
@@ -2896,7 +2896,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"193"
 	{
@@ -2912,7 +2912,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"194"
 	{
@@ -2928,7 +2928,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"195"
 	{
@@ -2944,7 +2944,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"196"
 	{
@@ -2960,7 +2960,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"197"
 	{
@@ -2975,7 +2975,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"198"
 	{
@@ -2990,7 +2990,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"199"
 	{
@@ -3005,7 +3005,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"200"
 	{
@@ -3020,7 +3020,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"201"
 	{
@@ -3035,7 +3035,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"202"
 	{
@@ -3050,7 +3050,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"203"
 	{
@@ -3065,7 +3065,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"204"
 	{
@@ -3080,7 +3080,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"205"
 	{
@@ -3095,7 +3095,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"206"
 	{
@@ -3110,7 +3110,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"207"
 	{
@@ -3125,7 +3125,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"208"
 	{
@@ -3140,7 +3140,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"209"
 	{
@@ -3155,7 +3155,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"210"
 	{
@@ -3170,7 +3170,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"211"
 	{
@@ -3185,7 +3185,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"212"
 	{
@@ -3200,7 +3200,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"213"
 	{
@@ -3215,7 +3215,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"214"
 	{
@@ -3230,7 +3230,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"215"
 	{
@@ -3245,7 +3245,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"216"
 	{
@@ -3260,7 +3260,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"217"
 	{
@@ -3275,7 +3275,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"218"
 	{
@@ -3290,7 +3290,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"219"
 	{
@@ -3305,7 +3305,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"220"
 	{
@@ -3320,7 +3320,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"221"
 	{
@@ -3335,7 +3335,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"222"
 	{
@@ -3350,7 +3350,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"223"
 	{
@@ -3365,7 +3365,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"224"
 	{
@@ -3380,7 +3380,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"225"
 	{
@@ -3395,7 +3395,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"226"
 	{
@@ -3410,7 +3410,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"227"
 	{
@@ -3425,7 +3425,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"228"
 	{
@@ -3440,7 +3440,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"229"
 	{
@@ -3455,7 +3455,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"230"
 	{
@@ -3470,7 +3470,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"231"
 	{
@@ -3485,7 +3485,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"232"
 	{
@@ -3500,7 +3500,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"233"
 	{
@@ -3515,7 +3515,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"234"
 	{
@@ -3530,7 +3530,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"235"
 	{
@@ -3545,7 +3545,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"236"
 	{
@@ -3560,7 +3560,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"237"
 	{
@@ -3575,7 +3575,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"238"
 	{
@@ -3591,7 +3591,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"239"
 	{
@@ -3606,7 +3606,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"240"
 	{
@@ -3622,7 +3622,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"241"
 	{
@@ -3638,7 +3638,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"242"
 	{
@@ -3653,7 +3653,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"243"
 	{
@@ -3669,7 +3669,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"244"
 	{
@@ -3684,7 +3684,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"245"
 	{
@@ -3699,7 +3699,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"246"
 	{
@@ -3714,7 +3714,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"247"
 	{
@@ -3729,7 +3729,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"248"
 	{
@@ -3744,7 +3744,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"249"
 	{
@@ -3759,7 +3759,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"250"
 	{
@@ -3774,7 +3774,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"251"
 	{
@@ -3789,7 +3789,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"252"
 	{
@@ -3805,7 +3805,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"253"
 	{
@@ -3821,7 +3821,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"254"
 	{
@@ -3836,7 +3836,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"255"
 	{
@@ -3851,7 +3851,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"256"
 	{
@@ -3866,7 +3866,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"257"
 	{
@@ -3881,7 +3881,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"258"
 	{
@@ -3896,7 +3896,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"259"
 	{
@@ -3911,7 +3911,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"260"
 	{
@@ -3926,7 +3926,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"261"
 	{
@@ -3941,7 +3941,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"262"
 	{
@@ -3956,7 +3956,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"263"
 	{
@@ -3971,7 +3971,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"264"
 	{
@@ -3986,7 +3986,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"265"
 	{
@@ -4001,7 +4001,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"266"
 	{
@@ -4016,7 +4016,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"267"
 	{
@@ -4031,7 +4031,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"268"
 	{
@@ -4046,7 +4046,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"269"
 	{
@@ -4061,7 +4061,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"270"
 	{
@@ -4076,7 +4076,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"271"
 	{
@@ -4091,7 +4091,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"272"
 	{
@@ -4106,7 +4106,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"273"
 	{
@@ -4121,7 +4121,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"274"
 	{
@@ -4136,7 +4136,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"275"
 	{
@@ -4151,7 +4151,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"276"
 	{
@@ -4166,7 +4166,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"277"
 	{
@@ -4181,7 +4181,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"278"
 	{
@@ -4196,7 +4196,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"279"
 	{
@@ -4211,7 +4211,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"280"
 	{
@@ -4227,7 +4227,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"281"
 	{
@@ -4242,7 +4242,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"282"
 	{
@@ -4257,7 +4257,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"283"
 	{
@@ -4272,7 +4272,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"284"
 	{
@@ -4287,7 +4287,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"285"
 	{
@@ -4302,7 +4302,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"286"
 	{
@@ -4318,7 +4318,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"287"
 	{
@@ -4334,7 +4334,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"288"
 	{
@@ -4349,7 +4349,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"289"
 	{
@@ -4365,7 +4365,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"290"
 	{
@@ -4380,7 +4380,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"291"
 	{
@@ -4395,7 +4395,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"292"
 	{
@@ -4410,7 +4410,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"293"
 	{
@@ -4425,7 +4425,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"294"
 	{
@@ -4440,7 +4440,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"295"
 	{
@@ -4455,7 +4455,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"296"
 	{
@@ -4470,7 +4470,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"297"
 	{
@@ -4486,7 +4486,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"298"
 	{
@@ -4502,7 +4502,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"299"
 	{
@@ -4517,7 +4517,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"300"
 	{
@@ -4532,7 +4532,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"301"
 	{
@@ -4547,7 +4547,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"302"
 	{
@@ -4562,7 +4562,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"303"
 	{
@@ -4577,7 +4577,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"304"
 	{
@@ -4592,7 +4592,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"305"
 	{
@@ -4607,7 +4607,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"306"
 	{
@@ -4622,7 +4622,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"307"
 	{
@@ -4637,7 +4637,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"308"
 	{
@@ -4652,7 +4652,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"309"
 	{
@@ -4667,7 +4667,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"310"
 	{
@@ -4682,7 +4682,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"311"
 	{
@@ -4697,7 +4697,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"312"
 	{
@@ -4712,7 +4712,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"313"
 	{
@@ -4727,7 +4727,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"314"
 	{
@@ -4742,7 +4742,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"315"
 	{
@@ -4757,7 +4757,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"316"
 	{
@@ -4772,7 +4772,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"317"
 	{
@@ -4787,7 +4787,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"318"
 	{
@@ -4803,7 +4803,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"319"
 	{
@@ -4819,7 +4819,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"320"
 	{
@@ -4835,7 +4835,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"321"
 	{
@@ -4851,7 +4851,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"322"
 	{
@@ -4867,7 +4867,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"323"
 	{
@@ -4883,7 +4883,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"324"
 	{
@@ -4898,7 +4898,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"325"
 	{
@@ -4913,7 +4913,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"326"
 	{
@@ -4928,7 +4928,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"327"
 	{
@@ -4943,7 +4943,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"328"
 	{
@@ -4959,7 +4959,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"329"
 	{
@@ -4975,7 +4975,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"330"
 	{
@@ -4991,7 +4991,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"331"
 	{
@@ -5006,7 +5006,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"332"
 	{
@@ -5021,7 +5021,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"333"
 	{
@@ -5036,7 +5036,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"334"
 	{
@@ -5051,7 +5051,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"335"
 	{
@@ -5066,7 +5066,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"336"
 	{
@@ -5081,7 +5081,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"337"
 	{
@@ -5096,7 +5096,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"338"
 	{
@@ -5111,7 +5111,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"339"
 	{
@@ -5126,7 +5126,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"340"
 	{
@@ -5141,7 +5141,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"341"
 	{
@@ -5156,7 +5156,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"342"
 	{
@@ -5171,7 +5171,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"343"
 	{
@@ -5186,7 +5186,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"344"
 	{
@@ -5201,7 +5201,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"345"
 	{
@@ -5216,7 +5216,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"346"
 	{
@@ -5231,7 +5231,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"347"
 	{
@@ -5246,7 +5246,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"348"
 	{
@@ -5261,7 +5261,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"349"
 	{
@@ -5276,7 +5276,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"350"
 	{
@@ -5291,7 +5291,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"351"
 	{
@@ -5306,7 +5306,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"352"
 	{
@@ -5321,7 +5321,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"353"
 	{
@@ -5336,7 +5336,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"354"
 	{
@@ -5351,7 +5351,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"355"
 	{
@@ -5366,7 +5366,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"356"
 	{
@@ -5381,7 +5381,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"357"
 	{
@@ -5396,7 +5396,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"358"
 	{
@@ -5411,7 +5411,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"359"
 	{
@@ -5426,7 +5426,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"360"
 	{
@@ -5441,7 +5441,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"361"
 	{
@@ -5456,7 +5456,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"362"
 	{
@@ -5471,7 +5471,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"363"
 	{
@@ -5486,7 +5486,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"364"
 	{
@@ -5501,7 +5501,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"365"
 	{
@@ -5516,7 +5516,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"366"
 	{
@@ -5531,7 +5531,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"367"
 	{
@@ -5546,7 +5546,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"368"
 	{
@@ -5561,7 +5561,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"369"
 	{
@@ -5576,7 +5576,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"370"
 	{
@@ -5591,7 +5591,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"371"
 	{
@@ -5606,7 +5606,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"372"
 	{
@@ -5621,7 +5621,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"373"
 	{
@@ -5636,7 +5636,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"374"
 	{
@@ -5651,7 +5651,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"375"
 	{
@@ -5666,7 +5666,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"376"
 	{
@@ -5681,7 +5681,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"377"
 	{
@@ -5696,7 +5696,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"378"
 	{
@@ -5711,7 +5711,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"379"
 	{
@@ -5726,7 +5726,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"380"
 	{
@@ -5741,7 +5741,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"381"
 	{
@@ -5756,7 +5756,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"382"
 	{
@@ -5771,7 +5771,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"383"
 	{
@@ -5786,7 +5786,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"384"
 	{
@@ -5801,7 +5801,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"385"
 	{
@@ -5816,7 +5816,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"386"
 	{
@@ -5831,7 +5831,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"387"
 	{
@@ -5846,7 +5846,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"388"
 	{
@@ -5861,7 +5861,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"389"
 	{
@@ -5876,7 +5876,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"390"
 	{
@@ -5891,7 +5891,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"391"
 	{
@@ -5906,7 +5906,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"392"
 	{
@@ -5921,7 +5921,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"393"
 	{
@@ -5936,7 +5936,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"394"
 	{
@@ -5951,7 +5951,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"395"
 	{
@@ -5966,7 +5966,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"396"
 	{
@@ -5981,7 +5981,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"397"
 	{
@@ -5996,7 +5996,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"398"
 	{
@@ -6011,7 +6011,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"399"
 	{
@@ -6026,7 +6026,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"400"
 	{
@@ -6041,7 +6041,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"401"
 	{
@@ -6056,7 +6056,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"402"
 	{
@@ -6071,7 +6071,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"403"
 	{
@@ -6086,7 +6086,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"404"
 	{
@@ -6101,7 +6101,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"406"
 	{
@@ -6121,7 +6121,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"407"
 	{
@@ -6141,7 +6141,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"408"
 	{
@@ -6161,7 +6161,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"409"
 	{
@@ -6181,7 +6181,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"410"
 	{
@@ -6201,7 +6201,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"411"
 	{
@@ -6221,7 +6221,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"412"
 	{
@@ -6241,7 +6241,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"413"
 	{
@@ -6261,7 +6261,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"414"
 	{
@@ -6280,7 +6280,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"415"
 	{
@@ -6300,7 +6300,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"416"
 	{
@@ -6320,7 +6320,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"417"
 	{
@@ -6339,7 +6339,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"418"
 	{
@@ -6358,7 +6358,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"419"
 	{
@@ -6377,7 +6377,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"420"
 	{
@@ -6396,7 +6396,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"421"
 	{
@@ -6416,7 +6416,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"422"
 	{
@@ -6436,7 +6436,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"423"
 	{
@@ -6456,7 +6456,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"424"
 	{
@@ -6475,7 +6475,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"425"
 	{
@@ -6494,7 +6494,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"426"
 	{
@@ -6514,7 +6514,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"427"
 	{
@@ -6534,7 +6534,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"428"
 	{
@@ -6554,7 +6554,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"429"
 	{
@@ -6574,7 +6574,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"430"
 	{
@@ -6594,7 +6594,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"431"
 	{
@@ -6614,7 +6614,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"432"
 	{
@@ -6634,7 +6634,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"433"
 	{
@@ -6654,7 +6654,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"434"
 	{
@@ -6673,7 +6673,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"435"
 	{
@@ -6693,7 +6693,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"436"
 	{
@@ -6713,7 +6713,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"437"
 	{
@@ -6733,7 +6733,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"438"
 	{
@@ -6753,7 +6753,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"439"
 	{
@@ -6773,7 +6773,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"440"
 	{
@@ -6793,7 +6793,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"441"
 	{
@@ -6813,7 +6813,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"442"
 	{
@@ -6833,7 +6833,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"443"
 	{
@@ -6853,7 +6853,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"444"
 	{
@@ -6873,7 +6873,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"445"
 	{
@@ -6893,7 +6893,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"446"
 	{
@@ -6913,7 +6913,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"447"
 	{
@@ -6933,7 +6933,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"448"
 	{
@@ -6953,7 +6953,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"449"
 	{
@@ -6973,7 +6973,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"450"
 	{
@@ -6993,7 +6993,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"451"
 	{
@@ -7013,7 +7013,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"452"
 	{
@@ -7033,7 +7033,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"453"
 	{
@@ -7053,7 +7053,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"454"
 	{
@@ -7073,7 +7073,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"455"
 	{
@@ -7093,7 +7093,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"456"
 	{
@@ -7112,7 +7112,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"457"
 	{
@@ -7132,7 +7132,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"458"
 	{
@@ -7152,7 +7152,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"459"
 	{
@@ -7172,7 +7172,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"460"
 	{
@@ -7192,7 +7192,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"461"
 	{
@@ -7212,7 +7212,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"462"
 	{
@@ -7232,7 +7232,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"463"
 	{
@@ -7252,7 +7252,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"464"
 	{
@@ -7272,7 +7272,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"465"
 	{
@@ -7292,7 +7292,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"466"
 	{
@@ -7312,7 +7312,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"467"
 	{
@@ -7332,7 +7332,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"468"
 	{
@@ -7351,7 +7351,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"469"
 	{
@@ -7370,7 +7370,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"470"
 	{
@@ -7389,7 +7389,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"471"
 	{
@@ -7409,7 +7409,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"472"
 	{
@@ -7429,7 +7429,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"473"
 	{
@@ -7449,7 +7449,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"474"
 	{
@@ -7469,7 +7469,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"475"
 	{
@@ -7489,7 +7489,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"476"
 	{
@@ -7509,7 +7509,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"477"
 	{
@@ -7529,7 +7529,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"478"
 	{
@@ -7549,7 +7549,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"479"
 	{
@@ -7569,7 +7569,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"480"
 	{
@@ -7589,7 +7589,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"481"
 	{
@@ -7609,7 +7609,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"482"
 	{
@@ -7629,7 +7629,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"483"
 	{
@@ -7649,7 +7649,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"484"
 	{
@@ -7669,7 +7669,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"485"
 	{
@@ -7689,7 +7689,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"486"
 	{
@@ -7709,7 +7709,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"487"
 	{
@@ -7729,7 +7729,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"488"
 	{
@@ -7749,7 +7749,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"489"
 	{
@@ -7769,7 +7769,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"490"
 	{
@@ -7788,7 +7788,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"491"
 	{
@@ -7807,7 +7807,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"492"
 	{
@@ -7826,7 +7826,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"493"
 	{
@@ -7846,7 +7846,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"494"
 	{
@@ -7866,7 +7866,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"495"
 	{
@@ -7886,7 +7886,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"496"
 	{
@@ -7905,7 +7905,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"497"
 	{
@@ -7924,7 +7924,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"498"
 	{
@@ -7943,7 +7943,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"499"
 	{
@@ -7962,7 +7962,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"500"
 	{
@@ -7981,7 +7981,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"501"
 	{
@@ -8000,7 +8000,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"502"
 	{
@@ -8019,7 +8019,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"503"
 	{
@@ -8039,7 +8039,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"504"
 	{
@@ -8059,7 +8059,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"505"
 	{
@@ -8078,7 +8078,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"506"
 	{
@@ -8098,7 +8098,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"507"
 	{
@@ -8117,7 +8117,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"508"
 	{
@@ -8137,7 +8137,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"509"
 	{
@@ -8157,7 +8157,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"510"
 	{
@@ -8177,7 +8177,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"511"
 	{
@@ -8197,7 +8197,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"512"
 	{
@@ -8217,7 +8217,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"513"
 	{
@@ -8237,7 +8237,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"514"
 	{
@@ -8257,7 +8257,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"515"
 	{
@@ -8277,7 +8277,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"516"
 	{
@@ -8297,7 +8297,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"517"
 	{
@@ -8317,7 +8317,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"518"
 	{
@@ -8337,7 +8337,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"519"
 	{
@@ -8357,7 +8357,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"520"
 	{
@@ -8377,7 +8377,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"521"
 	{
@@ -8397,7 +8397,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"522"
 	{
@@ -8417,7 +8417,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"523"
 	{
@@ -8437,7 +8437,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"524"
 	{
@@ -8457,7 +8457,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"525"
 	{
@@ -8477,7 +8477,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"526"
 	{
@@ -8497,7 +8497,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"527"
 	{
@@ -8517,7 +8517,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"528"
 	{
@@ -8537,7 +8537,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"529"
 	{
@@ -8557,7 +8557,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"530"
 	{
@@ -8577,7 +8577,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"531"
 	{
@@ -8596,7 +8596,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"532"
 	{
@@ -8615,7 +8615,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"533"
 	{
@@ -8634,7 +8634,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"534"
 	{
@@ -8653,7 +8653,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"535"
 	{
@@ -8672,7 +8672,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"536"
 	{
@@ -8692,7 +8692,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"537"
 	{
@@ -8712,7 +8712,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"538"
 	{
@@ -8732,7 +8732,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"539"
 	{
@@ -8752,7 +8752,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"540"
 	{
@@ -8772,7 +8772,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"541"
 	{
@@ -8791,7 +8791,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"542"
 	{
@@ -8810,7 +8810,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"543"
 	{
@@ -8829,7 +8829,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"544"
 	{
@@ -8848,7 +8848,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"545"
 	{
@@ -8867,7 +8867,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"546"
 	{
@@ -8886,7 +8886,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"547"
 	{
@@ -8906,7 +8906,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"548"
 	{
@@ -8926,7 +8926,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"549"
 	{
@@ -8946,7 +8946,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"550"
 	{
@@ -8966,7 +8966,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"551"
 	{
@@ -8986,7 +8986,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"552"
 	{
@@ -9006,7 +9006,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"553"
 	{
@@ -9026,7 +9026,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"554"
 	{
@@ -9046,7 +9046,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"555"
 	{
@@ -9066,7 +9066,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"556"
 	{
@@ -9086,7 +9086,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"557"
 	{
@@ -9106,7 +9106,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"558"
 	{
@@ -9126,7 +9126,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"559"
 	{
@@ -9146,7 +9146,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"560"
 	{
@@ -9166,7 +9166,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"561"
 	{
@@ -9186,7 +9186,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"562"
 	{
@@ -9206,7 +9206,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"563"
 	{
@@ -9226,7 +9226,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"564"
 	{
@@ -9246,7 +9246,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"565"
 	{
@@ -9266,7 +9266,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"566"
 	{
@@ -9286,7 +9286,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"567"
 	{
@@ -9306,7 +9306,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"568"
 	{
@@ -9326,7 +9326,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"569"
 	{
@@ -9346,7 +9346,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"570"
 	{
@@ -9366,7 +9366,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"571"
 	{
@@ -9386,7 +9386,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"572"
 	{
@@ -9406,7 +9406,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"573"
 	{
@@ -9426,7 +9426,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"574"
 	{
@@ -9446,7 +9446,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"575"
 	{
@@ -9466,7 +9466,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"576"
 	{
@@ -9486,7 +9486,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"577"
 	{
@@ -9506,7 +9506,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"578"
 	{
@@ -9525,7 +9525,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"579"
 	{
@@ -9544,7 +9544,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"580"
 	{
@@ -9563,7 +9563,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"581"
 	{
@@ -9582,7 +9582,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"582"
 	{
@@ -9601,7 +9601,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"583"
 	{
@@ -9620,7 +9620,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"584"
 	{
@@ -9639,7 +9639,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"585"
 	{
@@ -9658,7 +9658,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"586"
 	{
@@ -9677,7 +9677,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"587"
 	{
@@ -9696,7 +9696,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"588"
 	{
@@ -9715,7 +9715,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"589"
 	{
@@ -9735,7 +9735,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"590"
 	{
@@ -9754,7 +9754,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"591"
 	{
@@ -9774,7 +9774,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"592"
 	{
@@ -9794,7 +9794,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"593"
 	{
@@ -9813,7 +9813,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"594"
 	{
@@ -9832,7 +9832,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"595"
 	{
@@ -9851,7 +9851,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"596"
 	{
@@ -9870,7 +9870,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"597"
 	{
@@ -9889,7 +9889,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"598"
 	{
@@ -9908,7 +9908,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"599"
 	{
@@ -9927,7 +9927,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"600"
 	{
@@ -9995,7 +9995,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"604"
 	{
@@ -10046,7 +10046,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"607"
 	{
@@ -10065,7 +10065,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"608"
 	{
@@ -10084,7 +10084,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"609"
 	{
@@ -10103,7 +10103,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"610"
 	{
@@ -10122,7 +10122,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"611"
 	{
@@ -10141,7 +10141,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"612"
 	{
@@ -10160,7 +10160,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"613"
 	{
@@ -10179,7 +10179,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"614"
 	{
@@ -10198,7 +10198,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"615"
 	{
@@ -10217,7 +10217,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"616"
 	{
@@ -10236,7 +10236,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"617"
 	{
@@ -10255,7 +10255,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"618"
 	{
@@ -10274,7 +10274,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"619"
 	{
@@ -10293,7 +10293,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"620"
 	{
@@ -10312,7 +10312,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"621"
 	{
@@ -10331,7 +10331,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"622"
 	{
@@ -10350,7 +10350,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"623"
 	{
@@ -10369,7 +10369,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"624"
 	{
@@ -10388,7 +10388,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"2"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"625"
 	{
@@ -10407,7 +10407,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"626"
 	{
@@ -10426,7 +10426,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"8"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"627"
 	{
@@ -10445,7 +10445,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"8"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"628"
 	{
@@ -10464,7 +10464,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"629"
 	{
@@ -10483,7 +10483,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"630"
 	{
@@ -10502,7 +10502,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"631"
 	{
@@ -10521,7 +10521,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"632"
 	{
@@ -10540,7 +10540,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"633"
 	{
@@ -10559,7 +10559,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"634"
 	{
@@ -10578,7 +10578,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"635"
 	{
@@ -10597,7 +10597,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"636"
 	{
@@ -10616,7 +10616,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"637"
 	{
@@ -10635,7 +10635,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"638"
 	{
@@ -10654,7 +10654,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"639"
 	{
@@ -10673,7 +10673,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"640"
 	{
@@ -10692,7 +10692,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"641"
 	{
@@ -10711,7 +10711,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"642"
 	{
@@ -10730,7 +10730,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"643"
 	{
@@ -10749,7 +10749,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"644"
 	{
@@ -10768,7 +10768,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"645"
 	{
@@ -10787,7 +10787,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"646"
 	{
@@ -10806,7 +10806,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"647"
 	{
@@ -10825,7 +10825,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"648"
 	{
@@ -10844,7 +10844,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"649"
 	{
@@ -10863,7 +10863,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"650"
 	{
@@ -10882,7 +10882,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"651"
 	{
@@ -10901,7 +10901,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"652"
 	{
@@ -10920,7 +10920,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"653"
 	{
@@ -10939,7 +10939,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"654"
 	{
@@ -10958,7 +10958,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"655"
 	{
@@ -10977,7 +10977,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"656"
 	{
@@ -10996,7 +10996,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"657"
 	{
@@ -11015,7 +11015,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"658"
 	{
@@ -11034,7 +11034,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"659"
 	{
@@ -11053,7 +11053,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"660"
 	{
@@ -11072,7 +11072,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"661"
 	{
@@ -11091,7 +11091,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"662"
 	{
@@ -11110,7 +11110,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"663"
 	{
@@ -11129,7 +11129,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"664"
 	{
@@ -11148,7 +11148,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"665"
 	{
@@ -11167,7 +11167,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"666"
 	{
@@ -11186,7 +11186,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"667"
 	{
@@ -11205,7 +11205,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"668"
 	{
@@ -11224,7 +11224,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"669"
 	{
@@ -11243,7 +11243,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"670"
 	{
@@ -11262,7 +11262,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"671"
 	{
@@ -11281,7 +11281,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"672"
 	{
@@ -11300,7 +11300,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"673"
 	{
@@ -11319,7 +11319,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"674"
 	{
@@ -11338,7 +11338,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"675"
 	{
@@ -11357,7 +11357,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"676"
 	{
@@ -11376,7 +11376,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"677"
 	{
@@ -11395,7 +11395,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"678"
 	{
@@ -11414,7 +11414,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"679"
 	{
@@ -11433,7 +11433,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"680"
 	{
@@ -11452,7 +11452,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"681"
 	{
@@ -11471,7 +11471,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"682"
 	{
@@ -11490,7 +11490,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"683"
 	{
@@ -11509,7 +11509,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"684"
 	{
@@ -11528,7 +11528,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"685"
 	{
@@ -11547,7 +11547,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"686"
 	{
@@ -11566,7 +11566,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"687"
 	{
@@ -11585,7 +11585,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"688"
 	{
@@ -11604,7 +11604,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"689"
 	{
@@ -11623,7 +11623,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"690"
 	{
@@ -11642,7 +11642,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"691"
 	{
@@ -11661,7 +11661,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"692"
 	{
@@ -11680,7 +11680,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"693"
 	{
@@ -11699,7 +11699,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"694"
 	{
@@ -11718,7 +11718,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"695"
 	{
@@ -11737,7 +11737,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"696"
 	{
@@ -11756,7 +11756,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"697"
 	{
@@ -11775,7 +11775,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"698"
 	{
@@ -11794,7 +11794,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"699"
 	{
@@ -11813,7 +11813,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"700"
 	{
@@ -11832,7 +11832,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"701"
 	{
@@ -11851,7 +11851,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"702"
 	{
@@ -11870,7 +11870,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"703"
 	{
@@ -11889,7 +11889,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"704"
 	{
@@ -11908,7 +11908,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"705"
 	{
@@ -11927,7 +11927,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"706"
 	{
@@ -11946,7 +11946,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"707"
 	{
@@ -11965,7 +11965,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"708"
 	{
@@ -11984,7 +11984,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"709"
 	{
@@ -12003,7 +12003,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"710"
 	{
@@ -12022,7 +12022,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"711"
 	{
@@ -12041,7 +12041,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"712"
 	{
@@ -12060,7 +12060,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"713"
 	{
@@ -12079,7 +12079,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"714"
 	{
@@ -12098,7 +12098,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"715"
 	{
@@ -12117,7 +12117,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"716"
 	{
@@ -12136,7 +12136,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"717"
 	{
@@ -12155,7 +12155,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"718"
 	{
@@ -12174,7 +12174,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"719"
 	{
@@ -12193,7 +12193,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"720"
 	{
@@ -12212,7 +12212,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"721"
 	{
@@ -12231,7 +12231,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"722"
 	{
@@ -12250,7 +12250,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"723"
 	{
@@ -12269,7 +12269,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"724"
 	{
@@ -12288,7 +12288,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"725"
 	{
@@ -12307,7 +12307,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"726"
 	{
@@ -12326,7 +12326,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"727"
 	{
@@ -12345,7 +12345,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"728"
 	{
@@ -12364,7 +12364,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"729"
 	{
@@ -12383,7 +12383,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"730"
 	{
@@ -12402,7 +12402,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"731"
 	{
@@ -12421,7 +12421,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"732"
 	{
@@ -12440,7 +12440,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"733"
 	{
@@ -12459,7 +12459,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"734"
 	{
@@ -12478,7 +12478,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"735"
 	{
@@ -12497,7 +12497,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"736"
 	{
@@ -12516,7 +12516,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"737"
 	{
@@ -12535,7 +12535,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"738"
 	{
@@ -12554,7 +12554,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"739"
 	{
@@ -12573,7 +12573,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"740"
 	{
@@ -12592,7 +12592,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"741"
 	{
@@ -12611,7 +12611,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"742"
 	{
@@ -12630,7 +12630,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"743"
 	{
@@ -12649,7 +12649,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"744"
 	{
@@ -12668,7 +12668,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"745"
 	{
@@ -12687,7 +12687,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"746"
 	{
@@ -12706,7 +12706,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"747"
 	{
@@ -12725,7 +12725,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"748"
 	{
@@ -12744,7 +12744,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"749"
 	{
@@ -12763,7 +12763,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"750"
 	{
@@ -12782,7 +12782,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"751"
 	{
@@ -12801,7 +12801,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"752"
 	{
@@ -12820,7 +12820,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"753"
 	{
@@ -12839,7 +12839,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"754"
 	{
@@ -12858,7 +12858,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"755"
 	{
@@ -12877,7 +12877,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"756"
 	{
@@ -12896,7 +12896,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"757"
 	{
@@ -12915,7 +12915,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"758"
 	{
@@ -12934,7 +12934,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"759"
 	{
@@ -12954,7 +12954,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"760"
 	{
@@ -12974,7 +12974,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"761"
 	{
@@ -12993,7 +12993,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"762"
 	{
@@ -13013,7 +13013,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"763"
 	{
@@ -13032,7 +13032,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"764"
 	{
@@ -13051,7 +13051,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"765"
 	{
@@ -13070,7 +13070,7 @@
 		"setting.gpu_level"	"2"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"766"
 	{
@@ -13089,7 +13089,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"767"
 	{
@@ -13108,7 +13108,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"768"
 	{
@@ -13127,7 +13127,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"769"
 	{
@@ -13146,7 +13146,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"770"
 	{
@@ -13165,7 +13165,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"771"
 	{
@@ -13184,7 +13184,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"772"
 	{
@@ -13203,7 +13203,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"773"
 	{
@@ -13222,7 +13222,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"774"
 	{
@@ -13241,7 +13241,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"775"
 	{
@@ -13260,7 +13260,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"776"
 	{
@@ -13279,7 +13279,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"777"
 	{
@@ -13298,7 +13298,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"778"
 	{
@@ -13317,7 +13317,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"779"
 	{
@@ -13336,7 +13336,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"780"
 	{
@@ -13356,7 +13356,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"781"
 	{
@@ -13375,7 +13375,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"782"
 	{
@@ -13394,7 +13394,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"783"
 	{
@@ -13413,7 +13413,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"784"
 	{
@@ -13432,7 +13432,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"785"
 	{
@@ -13451,7 +13451,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"786"
 	{
@@ -13470,7 +13470,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"787"
 	{
@@ -13489,7 +13489,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"788"
 	{
@@ -13508,7 +13508,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"789"
 	{
@@ -13527,7 +13527,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"790"
 	{
@@ -13546,7 +13546,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"791"
 	{
@@ -13565,7 +13565,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"792"
 	{
@@ -13585,7 +13585,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"793"
 	{
@@ -13604,7 +13604,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"794"
 	{
@@ -13623,7 +13623,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"0"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"795"
 	{
@@ -13642,7 +13642,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"796"
 	{
@@ -13661,7 +13661,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"797"
 	{
@@ -13680,7 +13680,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"798"
 	{
@@ -13699,7 +13699,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"799"
 	{
@@ -13718,7 +13718,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"800"
 	{
@@ -13737,7 +13737,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"801"
 	{
@@ -13756,7 +13756,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"802"
 	{
@@ -13775,7 +13775,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"803"
 	{
@@ -13794,7 +13794,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"804"
 	{
@@ -13813,7 +13813,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"805"
 	{
@@ -13832,7 +13832,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"806"
 	{
@@ -13851,7 +13851,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"807"
 	{
@@ -13870,7 +13870,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"808"
 	{
@@ -13889,7 +13889,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"809"
 	{
@@ -13908,7 +13908,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"810"
 	{
@@ -13927,7 +13927,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"811"
 	{
@@ -13946,7 +13946,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"1"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"812"
 	{
@@ -13965,7 +13965,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"813"
 	{
@@ -13984,7 +13984,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"814"
 	{
@@ -14003,7 +14003,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"815"
 	{
@@ -14022,7 +14022,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"816"
 	{
@@ -14041,7 +14041,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"817"
 	{
@@ -14060,7 +14060,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"818"
 	{
@@ -14079,7 +14079,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"819"
 	{
@@ -14098,7 +14098,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"820"
 	{
@@ -14117,7 +14117,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"821"
 	{
@@ -14136,7 +14136,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"822"
 	{
@@ -14155,7 +14155,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"823"
 	{
@@ -14174,7 +14174,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"824"
 	{
@@ -14193,7 +14193,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"825"
 	{
@@ -14212,7 +14212,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"826"
 	{
@@ -14231,7 +14231,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"827"
 	{
@@ -14250,7 +14250,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"828"
 	{
@@ -14269,7 +14269,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"829"
 	{
@@ -14288,7 +14288,7 @@
 		"setting.gpu_level"	"1"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"830"
 	{
@@ -14307,7 +14307,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"2"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"831"
 	{
@@ -14326,7 +14326,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"832"
 	{
@@ -14341,7 +14341,7 @@
 		"setting.gpu_level"	"3"
 		"setting.mat_antialias"	"4"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"834"
 	{
@@ -14356,7 +14356,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"835"
@@ -14372,7 +14372,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"836"
@@ -14388,7 +14388,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"837"
@@ -14404,7 +14404,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"838"
@@ -14420,7 +14420,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"839"
@@ -14436,7 +14436,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"840"
@@ -14452,7 +14452,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"841"
@@ -14468,7 +14468,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"842"
@@ -14484,7 +14484,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"843"
@@ -14500,7 +14500,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"844"
@@ -14516,7 +14516,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"845"
@@ -14532,7 +14532,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"846"
@@ -14548,7 +14548,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"847"
@@ -14564,7 +14564,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"848"
@@ -14580,7 +14580,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"849"
@@ -14596,7 +14596,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"850"
@@ -14612,7 +14612,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"851"
@@ -14628,7 +14628,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"852"
@@ -14644,7 +14644,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"853"
@@ -14660,7 +14660,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"854"
@@ -14676,7 +14676,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"855"
@@ -14692,7 +14692,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"856"
@@ -14708,7 +14708,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"857"
@@ -14724,7 +14724,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"858"
@@ -14740,7 +14740,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"859"
@@ -14756,7 +14756,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"860"
@@ -14772,7 +14772,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"861"
@@ -14788,7 +14788,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"862"
@@ -14804,7 +14804,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"863"
@@ -14820,7 +14820,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"864"
@@ -14836,7 +14836,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"865"
@@ -14852,7 +14852,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"866"
@@ -14868,7 +14868,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"867"
@@ -14884,7 +14884,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"868"
@@ -14900,7 +14900,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"869"
@@ -14916,7 +14916,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"870"
@@ -14932,7 +14932,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"871"
@@ -14948,7 +14948,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"872"
@@ -14964,7 +14964,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"873"
@@ -14980,7 +14980,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"874"
@@ -14996,7 +14996,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"875"
@@ -15012,7 +15012,7 @@
 		"setting.gpu_level"	"0"
 		"setting.mat_antialias"	"0"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 	"20"
@@ -15028,7 +15028,7 @@
 		"setting.defaultresheight"	"1600"
 		"setting.gpu_level"	"3"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"405"
 	{
@@ -15047,7 +15047,7 @@
 		"setting.defaultresheight"	"1600"
 		"setting.gpu_level"	"3"
 		"setting.mat_forceaniso"	"4"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 	}
 	"833"
 	{
@@ -15062,7 +15062,7 @@
 		"setting.defaultresheight"	"1600"
 		"setting.gpu_level"	"2"
 		"setting.mat_forceaniso"	"1"
-		"setting.mat_grain_scale_override"	"1"
+		"setting.mat_grain_scale_override"	"-1"
 		"setting.mat_tonemapping_occlusion_use_stencil"	"1"
 	}
 }
