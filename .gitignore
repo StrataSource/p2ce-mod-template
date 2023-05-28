@@ -28,6 +28,10 @@ cfg/videodefaults.txt
 # Pamorama
 panorama_storage.db
 
+# Workshop crap
+thumb*.jpg
+workshop_log.txt
+
 GameConfig.txt
 albedo.tga
 config.cfg
