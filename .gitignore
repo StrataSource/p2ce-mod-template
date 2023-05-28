@@ -11,7 +11,7 @@ bin/
 *.cache
 # demoheader.tmp
 *.tmp
-# ep1_gamestats.dat
+# ep1_gamestats.dat, sass_cache.dat
 *.dat
 # Don't ignore compiled closed captions
 !closecaption_*.dat
@@ -19,6 +19,14 @@ bin/
 *stats.txt
 makereslists*.txt
 *.mdmp
+
+# user settings
+cfg/video.bak
+cfg/video.txt
+cfg/videodefaults.txt
+
+# Pamorama
+panorama_storage.db
 
 GameConfig.txt
 albedo.tga
