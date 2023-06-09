@@ -32,6 +32,7 @@ panorama_storage.db
 thumb*.jpg
 workshop_log.txt
 
+imgui.ini
 GameConfig.txt
 albedo.tga
 config.cfg
