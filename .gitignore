@@ -20,10 +20,11 @@ bin/
 makereslists*.txt
 *.mdmp
 
-# user settings
+# Stuff from cfg that gets auto generated
 cfg/video.bak
 cfg/video.txt
 cfg/videodefaults.txt
+cfg/banned_user.cfg
 
 # Pamorama
 panorama_storage.db
