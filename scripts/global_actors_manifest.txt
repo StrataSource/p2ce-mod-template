@@ -1,0 +1,8 @@
+game_actors_manifest
+{
+    // Load all global actor files inside scripts/global_actors/*
+    // Addons should add their global actors inside that folder.
+    // Keep in mind, you cannot override genders here, 
+    // you will only be able to add new entries.
+    "file" "scripts/global_actors/*"
+}

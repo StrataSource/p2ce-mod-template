@@ -896,79 +896,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
-		CSType
-		  {
-		   "1"
-		   {
-			"name"  "cs" // cs.ttf
-			"tall"  "80"
-			"weight" "0"
-			"additive" "1"
-			"antialias" "1"
-		   }
-		  }
 
-		CSweapons // temporary, for testing. overlaps with CSType, above
-		  {
-		   "1"
-		   {
-			"name"  "Counter-Strike" // Cstrike.ttf
-			"tall"  "70"
-			"weight" "0"
-			"additive" "1"
-			"antialias" "1"
-		   }
-		  }
-
-		CSweaponsSmall 
-		  {
-		   "1"
-		   {
-			"name"  "Counter-Strike" // Cstrike.ttf
-			"tall"  "60"
-			"weight" "0"
-			"additive" "1"
-			"antialias" "1"
-		   }
-		  }
-
-		
-		CSTypeSmall
-		  {
-		   "1"
-		   {
-			"name"  "cs" // cs.ttf
-			"tall"  "40"
-			"weight" "20"
-			"additive" "1"
-			"antialias" "1"
-		   }
-		  }
-		  
-		  CSTypelr
-		  {
-		   "1"
-		   {
-			"name"  "cs" // cs.ttf
-			"tall"  "30"
-			"weight" "0"
-			"additive" "1"
-			"antialias" "1"
-		   }
-		  }
-
-		  CSTypeDeath
-		  {
-		   "1"
-		   {
-			"name"  "csd" // csd.ttf
-			"tall"  "42"
-			"weight" "0"
-			"additive" "1"
-			"antialias" "1"
-		   }
-		  }
-		
 		"MenuLarge"
 		{
 			"1"	[$WIN32]
@@ -987,47 +915,15 @@ Scheme
 				"antialias" "1"
 				"outline" "1"
 			}
-		}
-		Icons
-		{
-			"1"
-			 {
-			"name"  "Counter-Strike" // Cstrike.ttf
-			"tall"  "28"
-			"weight" "0"
-			"additive" "1"
-			"antialias" "1"
-			 }
-		}
-		IconsBig
-		{
-			"1"
-			 {
-			"name"  "Counter-Strike" // Cstrike.ttf
-			"tall"  "48"
-			"weight" "0"
-			"additive" "1"
-			"antialias" "1"
-			 }
-		}
-		IconsSmall
-		{
-			"1"
-			 {
-			"name"  "Counter-Strike" // Cstrike.ttf
-			"tall"  "20"
-			"weight" "0"
-			"additive" "0"
-			"antialias" "1"
-			 }
-		}		
+		}	
 
 		ClientTitleFont
 		{
 			"1"
 			{
-				"name"  "Counter-Strike Logo" // CSlogo.ttf
-				"tall"  "60"
+				"name"  "Impact"
+				"tall"			"64"
+				"tall_hidef"	"72"
 				"weight" "0"
 				"additive" "0"
 				"antialias" "1"
@@ -1051,12 +947,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Counter-Strike" // Cstrike.ttf
-				"tall"  "28"
+				"name"  "HalfLife2" // Pulled from P2, was originally cstrike shit
+				"tall"  "32"
 				"weight" "0"
 				"additive" "1"
 				"antialias" "1"
+				"custom"	"1"
 			}
+
 			"2"
 			{
 				"name"  "Verdana"
@@ -1478,42 +1376,6 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A				
 				"antialias"	"1"
 			}	
-		}
-
-		"WinPanelLarge"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		"WinPanelTiny"
-		{
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"9" 
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		WinPanelClock
-		{
-			"1"
-			{
-				"name"		"Counter-Strike" // Cstrike.ttf
-				"tall"		"14"
-				"weight"	"0"
-				"additive"	"1"
-				"antialias"	"1"
-			}
 		}
 
 		"HUDAchievementTiny"
@@ -2988,18 +2850,13 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/cs.vfont"
-		"2"		"resource/csd.vfont"
-		"3"		"resource/Cstrike.vfont"
-		"4"		"resource/CSlogo.vfont"
-		"5"		"resource/stratum2medium.vfont"
-		"6"		"resource/stratum2bold.vfont"
-		"7"		"resource/univercb.vfont"
-		"8"		"resource/univercb_t.vfont"
-		"9"		"resource/univercl.vfont"
-		"10"	"resource/univercl_t.vfont"
-		"11"	"resource/universc.vfont"
-		"12"	"resource/universc_t.vfont"
+		"1"		"resource/univercb.vfont"
+		"2"		"resource/univercb_t.vfont"
+		"3"		"resource/univercl.vfont"
+		"4"		"resource/univercl_t.vfont"
+		"5"		"resource/universc.vfont"
+		"6"		"resource/universc_t.vfont"
+		//RUSSIAN
 	}
 
 }

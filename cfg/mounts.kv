@@ -1,6 +1,6 @@
 "Mounts"
 {
-	// =========================================================================================
+	// ==============================================================================================
 	// This file is a list of SteamApp objects defining the Steam apps you want to mount.
 	// Assets from apps higher in the list are preferred more than ones lower. Some games are
 	// known to break others if they override any existing base game content, e.g.: hl2dm.
@@ -8,130 +8,151 @@
 	// The format for this file is as follows:
 	// "<appID>" // ex. "620" is Portal 2
 	//	{
-	//		"required" "0" // is this mount required?
+	//		"required" "0" // Is this mount required?
+	//		"enabled" "0" // Is this entry enabled?
 	//		"head"	"0" // put this at head
 	//		"mod_folder" // ex. "portal2"
 	//		{
-	//			"vpk"	"vpk_name" // mounts file: GameDir\mod_folder\vpk_name.vpk
-	//			"dir"	"dir_inside" // mounts folder: GameDir\mod_folder\dir_inside
+	//			"vpk"	"vpk_name"   // mounts file: GameDir\mod_folder\vpk_name.vpk
+	//                                           // e.g.: passing "tf2_textures" will try loading 
+	//                                           // tf2_textures.vpk first, then attempts to load 
+	//                                           // tf2_textures_dir.vpk and associated sub-vpks
+	//                                           // if invalid
+	//			"dir"	"dir_inside" // mounts content located within a directory
+	//                                           // e.g.: passing "download" will also mount content
+	//                                           // in that directory as if it were an ordinary mod
 	//		}
 	//	}
-	// =========================================================================================
+	// ==============================================================================================
 
-	// Uncomment the lines between the asterisks surrounding any Valve game's mount dirs to mount it.
-	// Do not remove the double-slashes from the lines containing asterisks, as it will break your mounts.kv file.
+	// To enable a game, set the 'enabled' key to 1.
+	// For example:
+	//   "enabled" "1"
 
-	// Counter-Strike: Global Offensive (AppID 730)
-	// **********************
-	// 730
-	// {
-	// 	"csgo"
-	// 	{
-	// 		"vpk"	"pak01"
-	// 		"dir"	"download"
-	// 	}
-	// }
-	// **********************
+	// Counter-Strike: Global Offensive - Legacy Source 1 Branch (AppID 730)
+    // Only mount this if you are opted into the legacy CS:GO Source 1 compat build.
+	// Does not work with Counter-Strike 2 as Source 2 model/texture formats are vastly
+	// different compared to Source 1.
+	730
+	{
+		"enabled" "0"	// Set to "1" to enable this game
 
-	// Half-Life 2: Episode Two (AppID 420)
-	// **********************
-	// 420
-	// {
-	//	"ep2"
-	//	{
-	//		"vpk" "ep2_pak"
-	//	}
-	//
-	//	// Needed for Ep2 to work properly as a standalone game mount;
-	//	// not mounting ep1's folder + vpks will result in missing assets
-	// 	// persisting across the various ep2_outland maps.
-	//	//
-	//	// You do not need to mount AppID 380 (Half-Life 2: Episode One)
-	//	// if you have Ep2 installed, as both games share content between each other.
-	//	"episodic"
-	//	{
-	//		"vpk"	"ep1_pak"	
-	//	}
-	// }
-	// **********************
+		"csgo"
+		{
+			"vpk"	"pak01"
+			"dir"	"download"
+		}
+	}
 
-	// Half-Life 2: Episode Two (AppID 380)
+	// Half-Life 2: Episode Two (AppID 220 (legacy id 420))
+	220
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"ep2"
+		{
+			"vpk" "ep2_pak"
+		}
+	
+		// Needed for Ep2 to work properly as a standalone game mount;
+		// not mounting ep1's folder + vpks will result in missing assets
+	 	// persisting across the various ep2_outland maps.
+		//
+		// You do not need to mount AppID 380 (Half-Life 2: Episode One)
+		// if you have Ep2 installed, as both games share content between each other.
+		"episodic"
+		{
+			"vpk"	"ep1_pak"	
+		}
+	}
+	
+	// Half-Life 2: Episode One (AppID 220 (legacy id 380))
 	// Refer to the above if you have Ep2 installed
-	// **********************
-	// 380
-	// {
-	//	"episodic"
-	//	{
-	//		"vpk" "ep1_pak"
-	//	}
-	// }
-	// **********************
+	220
+	{
+		"enabled" "0"	// Set to "1" to enable this game
 
-	// Half-Life 2: Lost Coast (AppID 340)
-	// **********************
-	// 340
-	// {
-	//	"lostcoast"
-	//	{
-	//		"vpk" "lostcoast_pak"
-	//	}
-	// }
-	// **********************
+		"episodic"
+		{
+			"vpk" "ep1_pak"
+		}
+	}
 
 	// Team Fortress 2 (AppId 440)
 	// Known to override a few hl2 textures with tf2 counterparts, e.g.: hl2 shotgun
 	// worldmodel and concrete walls used across spytech environments
-	// **********************
-	// 440
-	// {
-	//	"tf"
-	//	{
-	//		"vpk" "tf2_misc"
-	//		"vpk" "tf2_sound_misc"
-	//		"vpk" "tf2_sound_vo_english"
-	//		"vpk" "tf2_textures"
-	//	}
-	// }
-	// **********************
+	440
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"tf"
+		{
+			"vpk" "tf2_misc"
+			"vpk" "tf2_sound_misc"
+			"vpk" "tf2_sound_vo_english"
+			"vpk" "tf2_textures"
+		}
+	}
+
+	// Half-Life 2: Lost Coast (AppID 220 (legacy appid 340))
+	220
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"lostcoast"
+		{
+			"vpk" "lostcoast_pak"
+		}
+	}
 
 	// Half-Life 2 (AppID 220)
-	// **********************
-	// 220
-	// {
-	//	"hl2"
-	//	{
-	//		"vpk" "hl2_misc"
-	//		"vpk" "hl2_pak"
-	//		"vpk" "hl2_sound_misc"
-	//		"vpk" "hl2_sound_vo_english"
-	//		"vpk" "hl2_textures"
-	//	}
-	// }
-	// **********************
-
+	220
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+		
+		// this is prioritized over hl2 for 20th anniversary update-specific compatibility
+		// FIXME: if possible, backport weapon_stunstick from hl2dm into p2ce (as weapon_stunstick_player)
+		"hl2_complete"
+		{
+			"vpk" "hl2_complete_misc"
+		}
+		"hl2"
+		{
+			"vpk" "hl2_misc"
+			"vpk" "hl2_pak"
+			"vpk" "hl2_sound_misc"
+			"vpk" "hl2_sound_vo_english"
+			"vpk" "hl2_textures"
+		}
+	}
+	
 	// Source SDK Base 2013 SP (AppID 243730)
 	// Only uncomment the below if you do not own Half-Life 2 or its episodes.
-	// **********************
-	// 243730
-	// {
-	// 	"ep2"
-	// 	{
-	// 		"vpk"	"ep2_pak"
-	// 	}
-	// 	"episodic"
-	// 	{
-	// 		"vpk"	"ep1_pak"	
-	// 	}
-	// 	"hl2"
-	// 	{
-	// 		"vpk"	"hl2_misc"
-	// 		"vpk"	"hl2_pak"
-	// 		"vpk"	"hl2_sound_misc"
-	// 		"vpk"	"hl2_sound_vo_english"
-	// 		"vpk"	"hl2_textures"
-	// 	}
-	// }
-	// **********************
+	243730
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"ep2"
+		{
+			"vpk"	"ep2_pak"
+		}
+		"episodic"
+		{
+			"vpk"	"ep1_pak"	
+		}
+		"sourcetest"    // is actually Lost Coast w/o the actual maps
+		{
+			"vpk"	"sourcetest_pak"	
+		}
+		"hl2"
+		{
+			"vpk"	"hl2_misc"
+			"vpk"	"hl2_pak"
+			"vpk"	"hl2_sound_misc"
+			"vpk"	"hl2_sound_vo_english"
+			"vpk"	"hl2_textures"
+		}
+	}
 
 	// ================================================================
 	// Games that break base HL2 compat if mounted above belong here.
@@ -140,121 +161,121 @@
 
 	// Portal (AppId 400)
 	// Replaces HL2 doors with Aperture counterparts, replaces v_hands/suit equip viewmodel
-	// **********************
-	// 400
-	// {
-	//	"portal"
-	//	{
-	//		"vpk"	"portal_pak"
-	//	}
-	// }
-	// **********************
+	400
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"portal"
+		{
+			"vpk"	"portal_pak"
+		}
+	}
 
 	// Counter-Strike: Source (AppID 240)
 	// Overrides portal2 footstep soundscripts with low-quality cstrike variants
-	// **********************
-	// 240
-	// {
-	//	"cstrike"
-	//	{
-	//		"vpk"	"cstrike_pak"
-	//		"dir"	"download"
-	//	}
-	// }
-	// **********************
+	240
+	{
+		"enabled" "0"	// Set to "1" to enable this game
 
+		"cstrike"
+		{
+			"vpk"	"cstrike_pak"
+			"dir"	"download"
+		}
+	}
+	
 	// Day of Defeat: Source (AppID 300)
 	// Identical to cstrike; overrides a few base hl2 models + portal2 footstep soundscripts
-	// **********************
-	// 300
-	// {
-	//	"dod"
-	//	{
-	//		"vpk"	"dod_pak"
-	//		"dir"	"download"
-	//	}
-	// }
-	// **********************
+	300
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"dod"
+		{
+			"vpk"	"dod_pak"
+			"dir"	"download"
+		}
+	}
 
 	// Garry's Mod (AppId 4000)
 	// Overrides mega physcannon model with variant containing unimplemented player-configurable color shader;
 	// includes extremely low-quality fallback resources for dod/cstrike/episodic/ep2
-	// **********************
-	// 4000
-	// {
-	//	"garrysmod"
-	//	{
-	//		"vpk"	"garrysmod"
-	//		"vpk"	"fallbacks"
-	//		"dir"	"download"
-	//	}
-	// }
-	// **********************
+	4000
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"garrysmod"
+		{
+			"vpk"	"garrysmod"
+			"vpk"	"fallbacks"
+			"dir"	"download"
+		}
+	}
 
 	// Half-Life 2: Deathmatch (AppID 320)
 	// Breaks HL2 NPC animations if this is mounted above base HL2/episodic as it
 	// overrides male/female/combine soldier anims with multiplayer counterparts
-	// **********************
-	// 320
-	// {
-	// 	"hl2mp"
-	// 	{
-	// 		"vpk"	"hl2mp_pak"
-	// 		"dir"	"download"
-	// 	}
-	// }
-	// **********************
+	320
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"hl2mp"
+		{
+			"vpk"	"hl2mp_pak"
+			"dir"	"download"
+		}
+	}
 
 	// Source SDK Base 2013 MP (AppID 243750)
 	// Only uncomment the below if you do not own Half-Life 2: Deathmatch or base HL2.
 	// See above appid for side effects.
-	// **********************
-	// 243750
-	// {
-	// 	"hl2mp"
-	// 	{
-	// 		"vpk"	"hl2mp_pak"
-	// 		"dir"	"download"
-	// 	}
-	// 	"hl2"
-	// 	{
-	// 		"vpk"	"hl2_misc"
-	// 		"vpk"	"hl2_pak"
-	// 		"vpk"	"hl2_sound_misc"
-	// 		"vpk"	"hl2_sound_vo_english"
-	// 		"vpk"	"hl2_textures"
-	// 	}
-	// }
-	// **********************
+	243750
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"hl2"
+		{
+			"vpk"	"hl2_misc"
+			"vpk"	"hl2_pak"
+			"vpk"	"hl2_sound_misc"
+			"vpk"	"hl2_sound_vo_english"
+			"vpk"	"hl2_textures"
+		}
+		"hl2mp"
+		{
+			"vpk"	"hl2mp_pak"
+			"dir"	"download"
+		}
+	}
 
 	// Half-Life Deathmatch: Source (AppID 360)
 	// Refer to below appid for side effects.
-	// **********************
-	// 360
-	// {
-	//	"hl1mp"
-	//	{
-	//		"vpk"	"hl1mp_pak"
-	//		"dir"	"download"
-	//	}
-	// }
-	// **********************
+	360
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		"hl1mp"
+		{
+			"vpk"	"hl1mp_pak"
+			"dir"	"download"
+		}
+	}
 
 	// Half-Life: Source (AppID 280)
 	// Overrides certain HL2 models (e.g.: 357, crossbow) with HL1 counterparts.
 	// Mounting this will NOT enable HL:S NPC and weapon support!
-	// **********************
-	// 280
-	// {
-	// 	// Uncomment the below code block to enable Blue Shift/Opposing Force HD model pack
-	//	// "hl1_hd"
-	//	// {
-	//	// 	"vpk"	"hl1_hd_pak"
-	//	// }
-	// 	"hl1"
-	//	{
-	//		"vpk"	"hl1_pak"
-	//	}
-	// }
-	// **********************
+	280
+	{
+		"enabled" "0"	// Set to "1" to enable this game
+
+		// Uncomment the below code block to enable Blue Shift/Opposing Force HD model pack
+		// "hl1_hd"
+		// {
+		// 	"vpk"	"hl1_hd_pak"
+		// }
+		"hl1"
+		{
+			"vpk"	"hl1_pak"
+		}
+	}
 }
