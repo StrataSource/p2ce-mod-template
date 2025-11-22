@@ -2,10 +2,10 @@
 //exec default.cfg
 
 // Setup custom controller
-exec joystick.cfg
+execifexists joystick.cfg
 
 // run a user script file if present
-exec autoexec.cfg
+execifexists autoexec.cfg
 
 //
 // stuff command line statements
