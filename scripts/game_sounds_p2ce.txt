@@ -1,0 +1,109 @@
+"Music.StopNonMainMenuMusic"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"  "common/null.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack" //replaces null.wav
+		{
+			"stop_musix"
+			{
+				"operator" "sys_stop_entries"
+				"input_max_entries" "0.000000" //A sound will not stop itself from playing.
+				"match_entity" "false"	
+				"match_substring" "true"
+				"match_this_entry" "false"
+				"match_entry" "Musix"	
+			}
+			"stop_music"
+			{
+				"operator" "sys_stop_entries"
+				"input_max_entries" "0.000000" //A sound will not stop itself from playing.
+				"match_entity" "false"	
+				"match_substring" "true"
+				"match_this_entry" "false"
+				"match_entry" "Music"	
+			}
+			"block_this"
+			{
+				"operator" "sys_output"
+				"output" "block_start"
+					
+			}
+		}
+	}
+}
+
+"Music.StopAllExceptMusic"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"  "common/null.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack" //replaces null.wav
+		{
+			"stop_non_music"
+			{
+				"operator" "sys_stop_entries"
+				"input_max_entries" "0.000000" //A sound will not stop itself from playing.
+				"match_entity" "false"	
+				"match_substring" "true"
+				"match_this_entry" "false"
+				"match_entry" "Music."	
+				"invert_match" "true"	
+			}
+
+			"block_this"
+			{
+				"operator" "sys_output"
+				"output" "block_start"
+					
+			}
+		}
+	}
+}
+
+// Pickup sound for the boots
+"ItemBoots.Touch"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"			"items/ammo_pickup.wav" // TODO: New sounds
+}
+
+// Pickup sound for paint ammo
+"ItemPaintAmmo.Touch"
+{
+	"channel"		"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"			"items/ammo_pickup.wav" // TODO: New sounds
+}
+
+// Schrodinger cube sounds
+"SchrodingerCube.StartEmitting"
+{
+	"channel"               "CHAN_STATIC"
+	"soundlevel"            "SNDLVL_95dB"
+	"volume"                "1.0"
+	"wave"			"&world/laser_node_power_on.wav"
+}
+
+"SchrodingerCube.StopEmitting"
+{
+	"channel"               "CHAN_STATIC"
+	"soundlevel"            "SNDLVL_95dB"
+	"volume"                "1.0"
+	"wave"			"&world/laser_node_power_off.wav"
+}

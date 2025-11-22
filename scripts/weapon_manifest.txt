@@ -1,0 +1,32 @@
+weapon_manifest
+{
+	// P2CE weapons
+	"file"		"scripts/weapons/weapon_paintgun.txt"
+
+	// Portal 2 weapons
+	"file"		"scripts/weapons/weapon_portalgun.txt"
+	"file"		"scripts/weapons/weapon_promo_antenna_ball.txt"
+	"file"		"scripts/weapons/weapon_promo_antenna_egg.txt"
+	"file"		"scripts/weapons/weapon_promo_helmet_ball.txt"
+	"file"		"scripts/weapons/weapon_promo_helmet_egg.txt"
+
+	// HL2 weapons
+	"file"		"scripts/weapons/weapon_357.txt"
+	"file"		"scripts/weapons/weapon_alyxgun.txt"
+	"file"		"scripts/weapons/weapon_annabelle.txt"
+	"file"		"scripts/weapons/weapon_ar2.txt"
+	"file"		"scripts/weapons/weapon_bugbait.txt"
+	"file"		"scripts/weapons/weapon_citizenpackage.txt"
+	"file"		"scripts/weapons/weapon_citizensuitcase.txt"
+	"file"		"scripts/weapons/weapon_crossbow.txt"
+	"file"		"scripts/weapons/weapon_crowbar.txt"
+	"file"		"scripts/weapons/weapon_cubemap.txt"
+	"file"		"scripts/weapons/weapon_frag.txt"
+	"file"		"scripts/weapons/weapon_physcannon.txt"
+	"file"		"scripts/weapons/weapon_physgun.txt"
+	"file"		"scripts/weapons/weapon_pistol.txt"
+	"file"		"scripts/weapons/weapon_rpg.txt"
+	"file"		"scripts/weapons/weapon_shotgun.txt"
+	"file"		"scripts/weapons/weapon_smg1.txt"
+	"file"		"scripts/weapons/weapon_stunstick.txt"
+}
