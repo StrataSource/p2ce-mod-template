@@ -1,6 +1,11 @@
 "GameInfo"
 {
 	game 		"Portal 2: Community Edition - Mod Template"
+
+	// The icon used in Steam.
+	// Even though `icon` is set to "resource/icon", Steam will still use "resource/icon_big.tga"
+	GameLogo	1
+	icon		"resource/icon"
 	
 	// FGD file used by Hammer vbsp to automatically apply correct KVs
 	GameData	"p2ce.fgd"
