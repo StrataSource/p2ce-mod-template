@@ -1,0 +1,48 @@
+//
+//  Portal 2 Sounds
+//
+
+"UIPanorama.P2.MenuAccept"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "ui/menu_accept.wav"
+}
+
+"UIPanorama.P2.MenuBack"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "ui/menu_back.wav"
+}
+
+"UIPanorama.P2.MenuCountdown"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "ui/menu_countdown.wav"
+}
+
+"UIPanorama.P2.MenuFocus"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "ui/menu_focus.wav"
+}
+
+"UIPanorama.P2.MenuInvalid"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "ui/menu_invalid.wav"
+}

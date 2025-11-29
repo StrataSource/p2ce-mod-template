@@ -229,10 +229,7 @@ Scheme
 	BitmapFontFiles
 	{
 		// UI buttons, custom font, (256x64)
-        "Buttons"            "materials/vgui/fonts/buttons_32.vbf"			[!$PS3]
-        "Buttons"            "materials/vgui/fonts/buttons_ps3_32.vbf"		[$PS3 && !$INPUTSWAPAB]
-        "Buttons"            "materials/vgui/fonts/buttons_ps3_j_32.vbf"	[$PS3 && $INPUTSWAPAB]
-        "Buttons"            "materials/vgui/fonts/buttons_ps3_j_32.vbf"	[$PS3 && $INPUTSWAPAB]
+        "Buttons"            "materials/vgui/fonts/buttons_32.vbf"
 		"ButtonsSC"			 "materials/vgui/fonts/buttons_sc_32.vbf"
 	}
 
@@ -251,7 +248,7 @@ Scheme
 			{
 				"name"		"Courier New"
 				"tall"		"10" [$WIN32]
-				"tall"		"14" [!$WIN32]
+				"tall"		"16" [!$WIN32]
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -263,7 +260,7 @@ Scheme
 			{
 				"name"		"Courier New"
 				"tall"		"7" [$WIN32]
-				"tall"		"12" [!$WIN32]
+				"tall"		"14" [!$WIN32]
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -274,7 +271,7 @@ Scheme
 			{
 				"name"		"Lucida Console"
 				"tall"		"10" [$WIN32]
-				"tall"		"14" [!$WIN32]
+				"tall"		"16" [!$WIN32]
 				"tall_lodef" "15"
 				"tall_hidef" "20"
 				"weight"	 "0"

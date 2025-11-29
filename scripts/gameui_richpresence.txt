@@ -6,7 +6,7 @@
         {
             "state" "Idling"
             "name" "P2CE" 
-            "details" "In Main-Menu"
+            "details" "Main Menu"
             "assets"
             {
                 "large_image" "logo_square"
@@ -24,7 +24,7 @@
         {
             "state" "Idling"
             "name" "P2CE" 
-            "details" "In Options Menu"
+            "details" "Options Menu"
             "assets"
             {
                 "large_image" "logo_square"

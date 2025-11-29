@@ -1,0 +1,14 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+// DO NOT EDIT! THIS IS OVERWRITTEN BY UPDATES!
+{
+//	create new table for each update that has changed default convar value(s) with increased version number
+//	"version number" =
+//	{
+//		cvar_name = [ "old default value", "new default value" ]
+//	}
+
+	"1" =
+	{
+		mat_brightness = [ "0", "1" ]
+	}
+}

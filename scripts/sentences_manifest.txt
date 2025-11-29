@@ -1,0 +1,6 @@
+sentences_manifest
+{
+    // Load all sentence files inside scripts/sentences/*
+    // Addons should add their sentences inside that folder.
+    "file" "scripts/sentences/*"
+}
