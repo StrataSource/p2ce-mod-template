@@ -1,0 +1,238 @@
+{
+   "supports_dominant_hand_setting": true,
+   "action_sets" : [
+      {
+         "name" : "/actions/default",
+         "usage" : "leftright"
+      },
+      {
+         "name" : "/actions/move",
+         "usage" : "leftright"
+      },
+      {
+         "name" : "/actions/ground",
+         "usage" : "leftright"
+      },
+      {
+         "name": "/actions/vehicle",
+         "usage": "leftright"
+      },
+      {
+         "name" : "/actions/interact",
+         "usage" : "leftright"
+      },
+      {
+         "name" : "/actions/weapon",
+         "usage" : "leftright"
+      },
+      {
+         "name" : "/actions/menu",
+         "usage" : "leftright"
+      }
+   ],
+   "actions" : [
+      {
+         "name" : "/actions/default/in/HapticVibration",
+         "type" : "vibration"
+      },
+      {
+         "name" : "/actions/default/in/HandPoseLeft",
+         "requirement" : "mandatory",
+         "type" : "pose"
+      },
+      {
+         "name" : "/actions/default/in/HandPoseRight",
+         "requirement" : "mandatory",
+         "type" : "pose"
+      },
+      {
+         "name" : "/actions/default/in/HandPointerLeft",
+         "requirement" : "mandatory",
+         "type" : "pose"
+      },
+      {
+         "name" : "/actions/default/in/HandPointerRight",
+         "requirement" : "mandatory",
+         "type" : "pose"
+      },
+      {
+         "name" : "/actions/default/in/HandSkeletonLeft",
+         "skeleton" : "/skeleton/hand/left",
+         "type" : "skeleton"
+      },
+      {
+         "name" : "/actions/default/in/HandSkeletonRight",
+         "skeleton" : "/skeleton/hand/right",
+         "type" : "skeleton"
+      },
+      {
+         "name" : "/actions/default/in/HandCurl",
+         "type" : "vector1"
+      },
+      {
+         "name" : "/actions/default/in/TriggerPull",
+         "type" : "vector1"
+      },
+      {
+         "name" : "/actions/move/in/Move",
+         "type" : "vector2"
+      },
+      {
+         "name" : "/actions/move/in/ContinuousTurn",
+         "type": "vector2"
+      },
+      {
+         "name" : "/actions/move/in/TurnLeft",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/move/in/TurnRight",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/ground/in/Sprint",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/ground/in/Jump",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/ground/in/Crouch",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/ground/in/CommandSquad",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/vehicle/in/Accelerate",
+         "requirement" : "optional",
+         "type" : "vector1"
+      },
+      {
+         "name" : "/actions/vehicle/in/Brake",
+         "requirement" : "optional",
+         "type" : "vector1"
+      },
+      {
+         "name" : "/actions/vehicle/in/Attack",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/vehicle/in/Attack2",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/vehicle/in/Handbrake",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/vehicle/in/Boost",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/vehicle/in/Lights",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/vehicle/in/Leave",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/interact/in/Use",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/interact/in/Grab",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/weapon/in/Attack",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/weapon/in/Attack2",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+	  {
+         "name" : "/actions/weapon/in/Use",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/weapon/in/BugbaitSqueeze",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/weapon/in/Next",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/weapon/in/Previous",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/weapon/in/Select",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/weapon/in/Eject",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/menu/in/ToggleMenu",
+         "type" : "boolean"
+      },
+      {
+         "name" : "/actions/menu/in/Press",
+         "requirement" : "mandatory",
+         "type" : "boolean"
+      }
+   ],
+   "default_bindings" : [
+      {
+         "binding_url" : "bindings_touch.json",
+         "controller_type" : "oculus_touch"
+      },
+      {
+         "binding_url" : "bindings_touch_vehicle_alt.json",
+         "controller_type" : "oculus_touch"
+      },
+      {
+         "binding_url" : "bindings_knuckles.json",
+         "controller_type" : "knuckles"
+      },
+      {
+         "binding_url" : "bindings_knuckles_vehicle_alt.json",
+         "controller_type" : "knuckles"
+      },
+      {
+         "binding_url" : "bindings_vive_controller.json",
+         "controller_type" : "vive_controller"
+      },
+      {
+         "binding_url" : "bindings_vive_controller_vehicle_alt.json",
+         "controller_type" : "vive_controller"
+      },
+      {
+         "binding_url" : "bindings_holographic_controller.json",
+         "controller_type" : "holographic_controller"
+      },
+      {
+         "binding_url" : "bindings_holographic_controller_vehicle_alt.json",
+         "controller_type" : "holographic_controller"
+      }
+   ],
+   "localization_files": {
+      "en_US" : "actions_en_US.json"
+   }
+}

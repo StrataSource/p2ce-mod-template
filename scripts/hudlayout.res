@@ -1,5 +1,194 @@
 "Resource/HudLayout.res"
 {
+	HudHealth
+	{
+		"fieldName"		"HudHealth"
+		"xpos"	"16"
+		"ypos"	"432"
+		"wide"	"102"
+		"tall"  "36"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+		
+		"text_xpos" "8"
+		"text_ypos" "20"
+		"digit_xpos" "50"
+		"digit_ypos" "2"
+	}
+	
+	HudSuit
+	{
+		"fieldName"		"HudSuit"
+		"xpos"	"140"
+		"ypos"	"432"
+		"wide"	"108"
+		"tall"  "36"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+
+		"text_xpos" "8"
+		"text_ypos" "20"
+		"digit_xpos" "50"
+		"digit_ypos" "2"
+	}
+	
+	HudAmmo
+	{
+		"fieldName" "HudAmmo"
+		"xpos"	"r150"
+		"ypos"	"432"
+		"wide"	"136"
+		"tall"  "36"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+
+		"text_xpos" "8"
+		"text_ypos" "20"
+		"digit_xpos" "44"
+		"digit_ypos" "2"
+		"digit2_xpos" "98"
+		"digit2_ypos" "16"
+	}
+	
+	HudAmmoSecondary
+	{
+		"fieldName" "HudAmmoSecondary"
+		"xpos"	"r76"
+		"ypos"	"432"
+		"wide"	"60"
+		"tall"  "36"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+
+		"text_xpos" "8"
+		"text_ypos" "22"
+		"digit_xpos" "36"
+		"digit_ypos" "2"
+	}
+	
+	HudSuitPower
+	{
+		"fieldName" "HudSuitPower"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"16"
+		"ypos"	"420"
+		"wide"	"102"
+		"tall"	"48"
+		
+		"AuxPowerLowColor" "255 0 0 220"
+		"AuxPowerHighColor" "255 220 0 220"
+		"AuxPowerDisabledAlpha" "70"
+
+		"BarInsetX" "8"
+		"BarInsetY" "15"
+		"BarWidth" "92"
+		"BarHeight" "4"
+		"BarChunkWidth" "6"
+		"BarChunkGap" "3"
+
+		"text_xpos" "8"
+		"text_ypos" "4"
+		"text2_xpos" "8"
+		"text2_ypos" "22"
+		"text2_gap" "10"
+
+		"PaintBackgroundType"	"2"
+	}
+	
+	HudFlashlight
+	{
+		"fieldName" "HudFlashlight"
+		"visible" "1"
+		"PaintBackgroundType"	"2"
+		"xpos"	"270"
+		"ypos"	"444"	
+		"tall"  "24"
+		"wide"	"36"
+		"font"	"WeaponIconsSmall"
+		
+		"icon_xpos"	"4"
+		"icon_ypos" "-8"
+		
+		"BarInsetX" "4"
+		"BarInsetY" "18"
+		"BarWidth" "28"
+		"BarHeight" "2"
+		"BarChunkWidth" "2"
+		"BarChunkGap" "1"
+	}
+	
+	HudDamageIndicator
+	{
+		"fieldName" "HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"DmgColorLeft" "255 0 0 0"
+		"DmgColorRight" "255 0 0 0"
+		
+		"dmg_xpos" "30"
+		"dmg_ypos" "100"
+		"dmg_wide" "36"
+		"dmg_tall1" "240"
+		"dmg_tall2" "200"
+	}
+	
+	HudZoom
+	{
+		"fieldName" "HudZoom"
+		"visible" "1"
+		"enabled" "1"
+		"Circle1Radius" "66"
+		"Circle2Radius"	"74"
+		"DashGap"	"16"
+		"DashHeight" "4"
+		"BorderThickness" "88"
+	}
+	
+	HudPosture
+	{
+		"fieldName" 		"HudPosture"
+		"visible" 		"1"
+		"PaintBackgroundType"	"2"
+		"xpos"	"16"
+		"ypos"	"316"
+		"tall"  "35"
+		"wide"	"36"
+		"font"	"WeaponIconsSmall"
+		"icon_xpos"	"8"
+		"icon_ypos" 	"-2"
+	}
+	
+	HudWeaponSelection
+	{
+		"fieldName" "HudWeaponSelection"
+		"ypos" 	"16"
+		"visible" "1"
+		"enabled" "1"
+		"SmallBoxSize" "32"
+		"MediumBoxWide"	"95"
+		"MediumBoxWide_hidef"	"78"
+		"MediumBoxTall"	"50"
+		"MediumBoxTall_hidef"	"50"
+		"MediumBoxWide_lodef"	"74"
+		"MediumBoxTall_lodef"	"50"
+		"LargeBoxWide" "112"
+		"LargeBoxTall" "84"
+		"BoxGap" "8"
+		"SelectionNumberXPos" "4"
+		"SelectionNumberYPos" "4"
+		"SelectionGrowTime"	"0.4"
+		"TextYPos" "64"
+	}
+	
 	HudIndicator
 	{
 		"fieldName" "HudIndicator"
@@ -21,24 +210,6 @@
 	HudCrosshair
 	{
 		"fieldName" "HudCrosshair"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	ScorePanel								   
-	{
-		"fieldName" "ScorePanel"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
-	HudMOTD
-	{
-		"fieldName" "HudMOTD"
 		"visible" "1"
 		"enabled" "1"
 		"wide"	 "640"
@@ -69,11 +240,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$GAMECONSOLE]
+		"ypos"		"276"
 		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$GAMECONSOLE]
+		"tall"		"136"
 
 		"BgAlpha"	"128"
 
@@ -81,8 +250,7 @@
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
 		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
 		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"		[$WIN32]
-		"topoffset"		"0"	[$GAMECONSOLE]
+		"topoffset"		"0"
 	}
 
 	HudChat
@@ -139,8 +307,6 @@
 		"enabled"				"1"
 		"xpos"					"c-240"
 		"ypos"					"c60"
-		"xpos"	"r148"	[$GAMECONSOLE]
-		"ypos"	"r338"	[$GAMECONSOLE]
 		"wide"					"480"
 		"tall"					"100"
 		"HintSize"				"1"
@@ -156,10 +322,8 @@
 		"fieldName"	"HudHintKeyDisplay"
 		"visible"	"0"
 		"enabled" 	"1"
-		"xpos"		"r120"	[$WIN32]
-		"ypos"		"r340"	[$WIN32]
-		"xpos"		"r148"	[$GAMECONSOLE]
-		"ypos"		"r338"	[$GAMECONSOLE]
+		"xpos"		"r120"
+		"ypos"		"r340"
 		"wide"		"100"
 		"tall"		"200"
 		"text_xpos"	"8"
@@ -168,6 +332,41 @@
 		"text_ygap"	"8"
 		"TextColor"	"255 170 0 220"
 
+		"PaintBackgroundType"	"2"
+	}
+	
+	HudSquadStatus
+	{
+		"fieldName"	"HudSquadStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"r120"
+		"ypos"		"380"
+		"wide"		"104"
+		"tall"		"46"
+		"text_xpos"	"8"
+		"text_ypos"	"34"
+		"SquadIconColor"	"255 220 0 160"
+		"IconInsetX"	"8"
+		"IconInsetY"	"0"
+		"IconGap"		"24"
+
+		"PaintBackgroundType"	"2"
+	}
+	
+	HudPoisonDamageIndicator
+	{
+		"fieldName"		"HudPoisonDamageIndicator"
+		"visible"		"0"
+		"enabled"		"1"
+		"xpos"			"16"
+		"ypos"			"338"
+		"wide"			"136"
+		"tall"			"38"
+		"text_xpos"		"8"
+		"text_ypos"		"8"
+		"text_ygap"		"14"
+		"TextColor"		"255 170 0 220"
 		"PaintBackgroundType"	"2"
 	}
 
@@ -181,7 +380,6 @@
 		"wide"	"640"
 		"tall"	"480"
 		"TextColor"	"255 255 255 192"
-
 	}
 	
 	HudCommentary
@@ -211,31 +409,6 @@
 		"icon_width"	"40"
 		"icon_height"	"40"
 	}
-	
-	HudHDRDemo
-	{
-		"fieldName" "HudHDRDemo"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"640"
-		"tall"  "480"
-		"visible" "1"
-		"enabled" "1"
-		
-		"Alpha"	"255"
-		"PaintBackgroundType"	"2"
-		
-		"BorderColor"	"0 0 0 255"
-		"BorderLeft"	"16"
-		"BorderRight"	"16"
-		"BorderTop"		"16"
-		"BorderBottom"	"64"
-		"BorderCenter"	"0"
-		
-		"TextColor"		"255 255 255 255"
-		"LeftTitleY"	"422"
-		"RightTitleY"	"422"
-	}
 
 	AchievementNotificationPanel	
 	{
@@ -244,8 +417,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$GAMECONSOLE]
+		"wide"					"f10"
 		"tall"					"100"
 	}
 	
@@ -317,13 +489,11 @@
 		"fieldName" "HUDAutoAim"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"	[$WIN32]
-		"tall"	 "480"	[$WIN32]
-		"wide"	 "960"	[$GAMECONSOLE]
-		"tall"	 "720"	[$GAMECONSOLE]
+		"wide"	 "640"
+		"tall"	 "480"
 	}
 	
-	HudHistoryResource	[$WIN32]
+	HudHistoryResource
 	{
 		"fieldName" "HudHistoryResource"
 		"visible" "1"
@@ -337,21 +507,6 @@
 		"icon_inset"	"38"
 		"text_inset"	"36"
 		"text_inset"	"26"
-		"NumberFont"	"HudNumbersSmall"
-	}
-	HudHistoryResource	[$GAMECONSOLE]
-	{
-		"fieldName" "HudHistoryResource"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"r300"
-		"ypos"	"40" 
-		"wide"	 "248"
-		"tall"	 "240"
-
-		"history_gap"	"50"
-		"icon_inset"	"38"
-		"text_inset"	"36"
 		"NumberFont"	"HudNumbersSmall"
 	}
 	
@@ -460,41 +615,5 @@
 		"wide"					"135"	[$GAMECONSOLE]
 		"tall"					"45"
 		"bgcolor_override"		"0 0 0 180"
-	}
-
-	PlaytestUpload
-	{
-		"fieldName"				"PlaytestUpload"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-125"
-		"ypos"					"c-25"
-		"wide"					"250"
-		"tall"					"50"
-		"bgcolor_override"		"0 0 0 180"
-	}
-
-	PuzzleMakerMapOutOfDate
-	{
-		"fieldName"				"PuzzleMakerMapOutOfDate"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"50"
-		"ypos"					"r70"
-		"wide"					"325"
-		"tall"					"50"
-		"bgcolor_override"		"0 0 0 180"
-	}
-
-	PuzzleMakerSaving
-	{
-		"fieldName"				"PuzzleMakerSaving"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"20"
-		"ypos"					"r80"
-		"wide"					"250"
-		"tall"					"50"
-		"bgcolor_override"		"0 0 0 0"
 	}
 }

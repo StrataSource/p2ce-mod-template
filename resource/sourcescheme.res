@@ -8,6 +8,10 @@
 //		Borders			- description of all the borders
 //
 ///////////////////////////////////////////////////////////
+
+// Note: VGUI is unsupported by the Portal 2: Community Edition development team.
+// Changes you make to this file will have zero effect on Panorama.
+
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
@@ -25,11 +29,6 @@ Scheme
 
 		"Blank"				"0 0 0 0"
 		
-		"SteamLightGreen"	"157 194 80 255"
-		"AchievementsLightGrey"		"79 79 79 255"
-		"AchievementsDarkGrey"		"55 55 55 255"
-		"AchievementsInactiveFG"	"130 130 130 255"
-		
 		"ScrollBarGrey"		"51 51 51 255"
 		"ScrollBarHilight"	"110 110 110 255"
 		"ScrollBarDark"		"38 38 38 255"
@@ -42,15 +41,14 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Bright					"51 51 51 196"	// the lit side of a control
+		Border.Dark						"30 30 30 196"		// the dark/unlit side of a control
 		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[$X360]
+		Button.ArmedBgColor				"Blank"
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -61,9 +59,9 @@ Scheme
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"				// color of the check itself
-		CheckButton.ArmedBgColor "OffWhite"
-		CheckButton.DepressedBgColor "OffWhite"
-		CheckButton.HighlightFgColor "OffWhite"
+		CheckButton.ArmedBgColor		"OffWhite"
+		CheckButton.DepressedBgColor	"OffWhite"
+		CheckButton.HighlightFgColor	"OffWhite"
 
 		ComboBoxButton.ArrowColor		"DullWhite"
 		ComboBoxButton.ArmedArrowColor	"White"
@@ -73,11 +71,10 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"65 65 65 255"
-		Frame.OutOfFocusBgColor			"51 51 51 255"
+		Frame.BgColor					"51 51 51 255"
+		Frame.OutOfFocusBgColor			"30 30 30 255"
 		Frame.FocusTransitionEffectTime	"0"								// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0"					[$WIN32]	// time it takes for a window to fade in/out on open/close
-		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0"								// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 255"
 		FrameGrip.Color2				"0 0 0 255"
@@ -89,8 +86,7 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.Font				"UiBold"		[$WIN32]
-		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
+		FrameTitleBar.Font				"UiBold"
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
@@ -139,7 +135,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					16
 	  	ScrollBarNobBorder.Outer 			"ScrollBarDark"
 		ScrollBarNobBorder.Inner 			"ScrollBarGrey"
 		ScrollBarNobBorderHover.Inner 			"ScrollBarGrey"
@@ -196,31 +192,15 @@ Scheme
 		WizardSubPanel.BgColor		"Blank"
 
 		// scheme-specific colors
-		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$X360]
-		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$X360]
+		MainMenu.TextColor			"White"
+		MainMenu.ArmedTextColor		"200 200 200 255"
 		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"30"				[$WIN32]
-		MainMenu.MenuItemHeight			"22"				[$X360]
-		MainMenu.MenuItemHeight_hidef	"32"				[$X360]
+		MainMenu.MenuItemHeight		"30"
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
 		Console.TextColor			"OffWhite"
 		Console.DevTextColor		"White"
-
-		NewGame.TextColor			"White"
-		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"Orange"			[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"			[$X360]
-		NewGame.DisabledColor		"128 128 128 196"
-
-		MessageDialog.MatchmakingBG			"46 43 42 255"	[$X360]
-		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$X360]
-		
-		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$X360]
-		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -242,105 +222,77 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		// fonts are used in order that they are listed
-		"DebugFixed"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"10" [$WIN32]
-				"tall"		"16" [!$WIN32]
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
-		// fonts are used in order that they are listed
-		"DebugFixedSmall"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"7" [$WIN32]
-				"tall"		"14" [!$WIN32]
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
-		"DefaultFixedOutline"
-		{
-			"1"
-			{
-				"name"		"Lucida Console"
-				"tall"		"10" [$WIN32]
-				"tall"		"16" [!$WIN32]
-				"tall_lodef" "15"
-				"tall_hidef" "20"
-				"weight"	 "0"
-				"outline"	 "1"
-			}
-		}
+		
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Lexend Deca"
+				"tall"		"24"
 				"weight"	"500"
+				"antialias" "1"
 			}
 		}
 		"DefaultSmallish"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"15"
+				"name"		"Lexend Deca"
+				"tall"		"20"
 				"weight"	"500"
+				"antialias" "1"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Lexend Deca SemiBold"
+				"tall"		"24"
 				"weight"	"1000"
+				"antialias" "1"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Lexend Deca"
+				"tall"		"24"
 				"weight"	"500"
 				"underline" "1"
+				"antialias" "1"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Lexend Deca"
+				"tall"		"18"
 				"weight"	"0"
+				"antialias" "1"
 			}
 		}
 		"DefaultSmallDropShadow"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"14"
+				"name"		"Lexend Deca"
+				"tall"		"18"
 				"weight"	"0"
 				"dropshadow" "1"
+				"antialias" "1"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"12"
+				"name"		"Lexend Deca"
+				"tall"		"16"
 				"weight"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -348,9 +300,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"11"
+				"name"		"Lexend Deca"
+				"tall"		"12"
 				"weight"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -358,148 +311,53 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"18"
+				"name"		"Lexend Deca"
+				"tall"		"28"
 				"weight"	"0"
+				"antialias" "1"
 			}
 		}
+		
 		"UiBold"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"12"
-				"weight"	"1000"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Tahoma"
+				"name"		"Lexend Deca Bold"
 				"tall"		"24"
-				"weight"	"2000"
-				"outline"	"1"
+				"weight"	"0"
+				"antialias" "1"
 			}
 		}
-		"ChapterTitle"	[$X360]
-		{
-			"1"
-			{
-				"name"			"Tahoma"
-				"tall"			"20"
-				"tall_hidef"	"28"
-				"weight"		"2000"
-				"outline"		"1"
-			}
-		}
-		"ChapterTitleBlur"	[$X360]
-		{
-			"1"
-			{
-				"name"			"Tahoma"
-				"tall"			"20"
-				"tall_hidef"	"28"
-				"weight"		"2000"
-				"blur"			"3"
-				"blur_hidef"	"5"
-			}
-		}
+		
 		"MenuLarge"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"16"
+				"name"		"Lexend Deca"
+				"tall"		"28"
 				"weight"	"600"
 				"antialias" "1"
 			}
-			"1"	[$X360]
-			{
-				"name"		"Verdana"
-				"tall"			"20"
-				"tall_hidef"	"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-			}
 		}
+		
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
-				"name"		"verdana bold"
-				"tall"		"16"
+				"name"		"Lexend Deca SemiBold"
+				"tall"		"20"
 				"weight"	"600"
 				"antialias" "1"
 			}
-			"1"	[$X360]
-			{
-				"name"			"verdana bold"
-				"tall"			"20"
-				"tall_hidef"	"20"
-				"weight"		"2000"
-				"antialias" "1"
-				"outline" "1"
-			}
-		}
-		"AchievementTitleFont"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-			}
 		}
 		
-		"AchievementTitleFontSmaller"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"1200"
-				"antialias"	"1"
-			}
-		}
-		
-		"AchievementDescriptionFont"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"		"0 480"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
-			}
-		}
-		
-		GameUIButtons
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-			}
-		}
 		"ConsoleText"
 		{
 			"1"
 			{
-				"name" "Lucida Console"
-				"tall"		"14"
-				"weight"	"1000"
+				"name"		"Cascadia Mono"
+				"tall"		"16"
+				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -513,6 +371,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"symbol"	"1"
+				"antialias"	"1"
 			}
 		}
 
@@ -523,6 +382,7 @@ Scheme
 				"name"		"Trebuchet MS"
 				"tall"		"24"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 
@@ -533,6 +393,7 @@ Scheme
 				"name"		"Trebuchet MS"
 				"tall"		"20"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 
@@ -543,98 +404,65 @@ Scheme
 				"name"		"Trebuchet MS"
 				"tall"		"18"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
-
-		// HUD numbers
-		// We use multiple fonts to 'pulse' them in the HUD, hence the need for many of near size
-		"HUDNumber"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"40"
-				"weight"	"900"
-			}
-		}
-		"HUDNumber1"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"41"
-				"weight"	"900"
-			}
-		}
-		"HUDNumber2"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"42"
-				"weight"	"900"
-			}
-		}
-		"HUDNumber3"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"43"
-				"weight"	"900"
-			}
-		}
-		"HUDNumber4"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"44"
-				"weight"	"900"
-			}
-		}
-		"HUDNumber5"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"45"
-				"weight"	"900"
-			}
-		}
+		
 		"DefaultFixed"
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
-				"tall"		"10" [$WIN32]
-				"tall"		"12" [!$WIN32]
-				"weight"	"0"
+				"name"		"Cascadia Mono"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
 			}
-//			"1"
-//			{
-//				"name"		"FixedSys"
-//				"tall"		"20"
-//				"weight"	"0"
-//			}
 		}
 
 		"DefaultFixedDropShadow"
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
-				"tall"		"10" [$WIN32]
-				"tall"		"14" [!$WIN32]
-				"weight"	"0"
+				"name"		"Cascadia Mono"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
 				"dropshadow" "1"
 			}
-//			"1"
-//			{
-//				"name"		"FixedSys"
-//				"tall"		"20"
-//				"weight"	"0"
-//			}
+		}
+		
+		"DefaultFixedOutline"
+		{
+			"1"
+			{
+				"name"		"Cascadia Mono"
+				"tall"		"16"
+				"weight"	 "0"
+				"outline"	 "1"
+				"antialias" "1"
+			}
+		}
+		
+		"DebugFixed"
+		{
+			"1"
+			{
+				"name"		"Cascadia Mono"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"DebugFixedSmall"
+		{
+			"1"
+			{
+				"name"		"Cascadia Mono"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
 		}
 
 		"CloseCaption_Normal"
@@ -719,223 +547,6 @@ Scheme
 				"custom"	"1"
 			}
 		}
-
-		AppchooserGameTitleFont	[$X360]
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"16"
-				"tall_hidef"	"24"
-				"weight"		"900"
-				"antialias"		"1"
-			}
-		}
-
-		AppchooserGameTitleFontBlur	[$X360]
-		{
-			"1"
-			{
-				"name"			"Trebuchet MS"
-				"tall"			"16"
-				"tall_hidef"	"24"
-				"weight"		"900"
-				"blur"			"3"
-				"blur_hidef"	"5"
-				"antialias"		"1"
-			}
-		}
-		
-		StatsTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial"
-				"weight"		"2000"
-				"tall"			"20"
-				"antialias"		"1"
-			}
-		}
-		
-		StatsText	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial"
-				"weight"		"2000"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"weight"		"1500"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-
-		AchievementItemDate	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial"
-				"weight"		"1500"
-				"tall"			"16"
-				"antialias"		"1"
-			}
-		}
-
-		
-		StatsPageText
-		{
-			"1"
-			{
-				"name"		"Arial"
-				"weight"		"1500"
-				"tall"			"14"
-				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemTitleLarge	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial"
-				"weight"		"1500"
-				"tall"			"18"
-				"antialias"		"1"
-			}
-		}
-
-		AchievementItemDescription	[$WIN32]
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"weight"		"1000"
-				"tall"			"14"
-				"antialias"		"1"
-			}
-		}
-		"X360_Title_0"
-		{
-			"1"
-			{
-				"name"			"Impact"
-				"tall"			"45"
-				"tall_hidef"	"45"
-				"weight"		"100"
-				"antialias"		"1"
-			}			
-		}
-		"X360_Title_1"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"20"
-				"tall_hidef"	"20"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		"X360_Title_2"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"18"
-				"tall_hidef"	"18"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		"X360_Title_3"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"16"
-				"tall_hidef"	"16"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		"X360_Title_4"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"14"
-				"tall_hidef"	"14"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		"X360_Body_1"
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"tall"			"16"
-				"tall_hidef"	"16"
-				"weight"		"6000"
-				"antialias"		"1"
-			}			
-		}
-		"X360_Body_2"
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"tall"			"14"
-				"tall_hidef"	"14"
-				"weight"		"6000"
-				"antialias"		"1"
-			}			
-		}
-		"X360_Body_3"
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"tall"			"12"
-				"tall_hidef"	"12"
-				"weight"		"6000"
-				"antialias"		"1"
-			}			
-		}
-
-		"MissionSelect"
-		{
-			"1"
-			{
-				"name"			"Stratum2-Bold" [!$RUSSIAN]
-				"name"			"Arial"			[$RUSSIAN]
-				"tall"			"100"
-				"weight"		"1000"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}
-		"MissionSelectLarge"
-		{
-			"1"
-			{
-				"name"			"Stratum2-Bold" [!$RUSSIAN]
-				"name"			"Arial"			[$RUSSIAN]
-				"tall"			"130" 
-				"weight"		"1000"
-				"antialias"		"1"
-				"outline"		"1"
-			}
-		}	
 	}
 
 	//
@@ -1383,14 +994,21 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/HALFLIFE2.vfont"
-		"2"		"resource/HL2EP2.vfont"
-		"3"		"vgui/fonts/marlett.ttf"	[$OSX]
-		"4"		"resource/univercb.vfont"
-		"5"		"resource/univercb_t.vfont"
-		"6"		"resource/univercl.vfont"
-		"7"		"resource/univercl_t.vfont"
-		"8"		"resource/universc.vfont"
-		"9"		"resource/universc_t.vfont"
+		// Core
+		"1"		"resource/fonts/core/univercb.vfont"	[!$TURKISH]
+		"2"		"resource/fonts/core/univercl.vfont"	[!$TURKISH]
+		"3"		"resource/fonts/core/universc.vfont"	[!$TURKISH]
+		"1"		"resource/fonts/core/univercb_t.vfont"	[$TURKISH]
+		"2"		"resource/fonts/core/univercl_t.vfont"	[$TURKISH]
+		"3"		"resource/fonts/core/universc_t.vfont"	[$TURKISH]
+		"4"		"vgui/fonts/marlett.ttf"
+		
+		// HL2
+		"5"		"resource/fonts/hl2/HALFLIFE2.vfont"
+		"6"		"resource/fonts/hl2/HL2EP2.vfont"
+		
+		// Strata Fonts
+		"7"		"resource/fonts/strata/LexendDeca.vfont"
+		"8"		"resource/fonts/core/CascadiaMono-Regular.ttf"
 	}
 }

@@ -1,0 +1,159 @@
+"Action Manifest"
+{
+	"configurations"
+	{
+		"controller_steamcontroller_gordon"
+		{
+			"0"
+			{
+				"path"	"controller_steamcontroller_gordon.vdf"
+			}
+		}
+
+		"controller_neptune"
+		{
+			"0"
+			{
+				"path"	"controller_neptune.vdf"
+			}
+		}
+	}
+	"actions"
+	{
+		"GameControls"
+		{
+			"title"                                 "#Set_FPSControls"
+			"StickPadGyro"
+			{
+				"Move"
+				{
+					"title"		"#Move"
+					"input_mode"		"joystick_move"
+				}
+				"TouchPadMove"
+				{
+					"title"		"#TouchPadMove"
+					"input_mode"		"joystick_move"
+				}
+				"GyroCamera"
+				{
+					"title"		"#GyroCamera"
+					"input_mode"		"absolute_mouse"
+				}
+				"TouchPadCamera"
+				{
+					"title"		"#TouchPadCamera"
+					"input_mode"		"absolute_mouse"
+				}
+				"JoystickCamera"
+				{
+					"title"		"#JoystickCamera"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"AnalogTrigger"
+			{
+			}
+			"Button"
+			{
+				"attack"                        "#Action_BluePortal"
+				"attack2"                       "#Action_OrangePortal"
+				"quick_ping"            "#Action_QuickPing"
+				"zoom"                          "#Action_Zoom"
+				"remote_view"           "#Action_PartnerView"
+				"duck_notoggle"					"#Action_DuckNoToggle"
+				"toggle_duck"					"#Action_DuckToggle"
+				"jump"                          "#Action_Jump"
+				"use"                           "#Action_Use"
+				"mouse_menu_taunt"      "#Action_Gesture"
+				"mouse_menu"            "#Action_PingMenu"
+				"pause_menu"            "#Action_PauseMenu"
+				"invnext"				"#Action_InvNext"
+				"invprev"				"#Action_InvPrev"
+				"lastinv"				"#Action_LastInv"
+				"showscores"			"#Action_ShowScores"
+				"voicerecord"			"#Action_VoiceRecord"
+				"reload"				"#Action_Reload"
+				"speed"					"#Action_Speed"
+				"nextpaint"				"#Action_NextPaint"
+				"prevpaint"				"#Action_PrevPaint"
+			}
+		}
+		"MenuControls"
+		{
+			"title"         "#Set_MenuControls"
+			"StickPadGyro"
+			{
+			}
+			"AnalogTrigger"
+			{
+			}
+			"Button"
+			{
+				"menu_up"               "#Menu_Up"
+				"menu_down"             "#Menu_Down"
+				"menu_left"             "#Menu_Left"
+				"menu_right"    "#Menu_Right"
+				"menu_select"   "#Menu_Select"
+				"menu_cancel"   "#Menu_Cancel"
+				"menu_x"                "#Menu_X"
+				"menu_y"                "#Menu_Y"
+				"pause_menu"    "#Action_ReturnToGame"
+			}
+		}
+	}
+	"localization"
+	{
+		"english"
+		{
+			"Set_FPSControls"               "Game Controls"
+			"Set_MenuControls"              "Menu Controls"
+			"Set_RadialMenu"                "Radial Menu"
+
+			"Action_Mouse"                  "Mouse"
+			"Action_Camera"                 "Camera"
+			"Action_BluePortal"             "Blue Portal"
+			"Action_OrangePortal"   "Orange Portal"
+			"Action_QuickPing"              "Quick Ping"
+			"Action_Zoom"                   "Zoom"
+			"Action_PartnerView"    "Partner View"
+			"Action_Jump"                   "Jump"
+			"Action_Use"                    "Use"
+			"Action_Gesture"                "Gesture"
+			"Action_PingMenu"               "Ping Menu"
+			"Action_PauseMenu"              "Pause Menu"
+			"Action_RadialMenu"             "Radial Menu"
+			"Menu_Up"                      	"Up"
+			"Menu_Down"                     "Down"
+			"Menu_Left"                     "Left"
+			"Menu_Right"                    "Right"
+			"Menu_Select"                   "Select"
+			"Menu_Cancel"                   "Cancel"
+			"Menu_X"                                "Menu Function 1"
+			"Menu_Y"                                "Menu Function 2"
+			"Menu_ToggleGameView"   "ToggleGameView"
+			"Title_Motion"                  "P2:CE Mod Template Game Controls"
+			"Description_Motion"    "P2:CE Mod Template Steam Input configuration.  Uses a combination of right pad and motion controls for camera."
+			"Title_Standard"                "P2:CE Mod Template Standard Controls"
+			"Description_Standard"  "P2:CE Mod Template Steam Input configuration."
+			"Action_DuckToggle"		"Toggle Crouch"
+			"Action_DuckNoToggle"	"Crouch"
+			"Action_InvNext"		"Next Weapon"
+			"Action_InvPrev"		"Previous Weapon"
+			"Action_LastInv"		"Last Weapon"
+			"Action_ShowScores"		"Show Scoreboard"
+			"Action_VoiceRecord"	"In-game voice"
+			"Action_Reload"			"Reload"
+			"Action_Speed"			"Sprint"
+			"Action_NextPaint"		"Next Paint"
+			"Action_PrevPaint"		"Previous Paint"
+
+			"TouchPadMove"			"TouchPad Movement"
+			"Move"					"Movement"
+			"Camera"				"Camera"
+			"GyroCamera"			"GyroCamera"
+			"JoystickCamera"		"Joystick Camera"
+			"TouchPadCamera"		"TouchPad Camera"
+		}
+	}
+}
