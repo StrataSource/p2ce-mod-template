@@ -200,16 +200,6 @@ Scheme
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
-		"team0"			"204 204 204 255" // Spectators
-		"team1"			"255 64 64 255" // CT's
-		"team2"			"153 204 255 255" // T's
-
-		"MapDescriptionText"	"Orange" // the text used in the map description window
-		"CT_Blue"			"153 204 255 255"
-		"T_Red"				"255 64 64 255"
-		"Hostage_Yellow"	"Panel.FgColor"
-		"HudIcon_Green"		"0 160 0 255"
-		"HudIcon_Red"		"160 0 0 255"
 
 		// CHudMenu
 		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
@@ -229,21 +219,6 @@ Scheme
 
 		"ProgressBarFg"			"255 30 13 255"
 
-		// Top-left corner of the "Counter-Strike" on the main screen
-		"Main.Title1.X"		"32"
-		"Main.Title1.Y"		"180"
-		"Main.Title1.Color"	"255 255 255 255"
-
-		// Top-left corner of the "SOURCE" on the main screen
-		"Main.Title2.X"		"380"
-		"Main.Title2.Y"		"205"
-		"Main.Title2.Color"	"255 255 255 80"
-
-		// Top-left corner of the "BETA" on the main screen
-		"Main.Title3.X"		"460"
-		"Main.Title3.Y"		"-10"
-		"Main.Title3.Color"	"255 255 0 255"
-
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"		"32"
 		"Main.Menu.Y"		"248"
@@ -261,209 +236,15 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"Default"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"28"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"32"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 1599"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"Verdana"
-				"tall"		"36"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1600 1999"
-				"antialias"	"1"
-			}
-			"7"
-			{
-				"name"		"Verdana"
-				"tall"		"41"
-				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"2000 4096"
-				"antialias"	"1"
-			}
-		}
-		"DefaultBig"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"19"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"26"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"30"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 10000"
-				"antialias"	"1"
-			}
-		}
-		"DefaultLarge"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"23"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"31"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"36"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
-			}
-		}
 		
 		"DefaultLarger"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"19"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"31"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"41"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"48"
-				"weight"	"1100"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"		"Lexend Deca SemiBold"
+				"tall"		"32"
+				"weight"	"1000"
+				"antialias" "1"
 			}
 		}
 		
@@ -471,46 +252,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
-				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"28"
-				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
+				"name"		"Lexend Deca Bold"
 				"tall"		"36"
 				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"48"
-				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"56"
-				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
 			}
 		}
 		
@@ -518,44 +262,37 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Lexend Deca Bold"
+				"tall"		"42"
 				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"34"
+				"name"		"Lexend Deca Bold"
+				"tall"		"48"
 				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"42"
+				"name"		"Lexend Deca Bold"
+				"tall"		"54"
 				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"54"
-				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"		"Lexend Deca Bold"
+				"tall"		"60"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"64"
-				"weight"	"1300"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"		"Lexend Deca Bold"
+				"tall"		"68"
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -565,248 +302,126 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Lexend Deca Bold"
+				"tall"		"32"
 				"weight"	"700"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}			
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"12"
-				"weight"	"500"
-				"underline" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-		"DefaultSmall"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 10000"
 				"antialias"	"1"
 			}
 		}
-		"CSUnderline"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-				"underline" "1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-				"underline" "1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-				"underline" "1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-				"underline" "1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 10000"
-				"antialias"	"1"
-				"underline" "1"
-			}
-		}
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"15"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 10000"
-				"antialias"	"1"
-			}
-		}
+		
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
-		"DefaultVerySmallFallBack"
+		"DefaultVerySmallFallback"
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Lexend Deca"
+				"tall"		"16"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-				"antialias"	"1"
+				"antialias" "1"
 			}
-			"2"
+		}
+		
+		// Start of HL2 elements
+		// Some of this was brought over from hl2_complete/clientscheme.res
+		
+		WeaponIcons
+		{
+			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"HalfLife2"
+				"tall"		"64"
 				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 1199"
-				"antialias"	"1"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
 			}
-			"3"
+		}
+		WeaponIconsSelected
+		{
+			"1"
 			{
-				"name"		"Verdana"
+				"name"		"HalfLife2"
+				"tall"		"64"
+				"weight"	"0"
+				"antialias" "1"
+				"blur"		"5"
+				"scanlines"	"2"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		WeaponIconsSmall
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		WeaponIconsSmall_ABitSmaller
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"27"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		WeaponIconsSmallSecondary
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"25"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		
+		HudHintTextLarge
+		{
+			"1"
+			{
+				"name"		"GorDIN"
+				"tall"		"22"
 				"tall"		"15"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
-				"antialias"	"1"
+				"weight"	"700"
+				"antialias" "1"
+				"additive"	"1"
 			}
 		}
-		HudHintText
+		HudHintTextSmall
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
+				"name"		"GorDIN"
+				"tall"		"18"
 				"tall"		"13"
-				"weight"	"700"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
 			}
 		}
+		
 		HudNumbersSmall
 		{
 			"1"
 			{
-				"name"		"Arial"
+				"name"		"HalfLife2"
 				"tall"		"16"
 				"weight"	"1000"
 				"additive"	"1"
 				"antialias" "1"
-				"range"		"0x0000 0x017F"
+				"custom"	"1"
 			}
 		}
 
@@ -814,12 +429,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"GorDIN"
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
 				"additive"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -827,119 +441,47 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"11"
-				"weight"	"700"
+				"name"		"GorDIN"
+				"tall"		"12"
+				"weight"	"600"
 				"antialias" "1"
 				"yres"	"1 599"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"11"
-				"weight"	"700"
+				"name"		"GorDIN"
+				"tall"		"12"
+				"weight"	"600"
 				"antialias" "1"
 				"yres"	"600 767"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"900"
+				"name"		"GorDIN"
+				"tall"		"14"
+				"weight"	"600"
 				"antialias" "1"
 				"yres"	"768 1023"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"900"
+				"name"		"GorDIN"
+				"tall"		"17"
+				"weight"	"600"
 				"antialias" "1"
 				"yres"	"1024 1199"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"17"
-				"weight"	"1000"
+				"name"		"GorDIN"
+				"tall"		"7"
+				"weight"	"700"
 				"antialias" "1"
-				"yres"	"1200 10000"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-
-		BudgetLabel
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-		DebugOverlay
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-
-		"MenuLarge"
-		{
-			"1"	[$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"600"
-				"antialias" "1"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Verdana"
-				"tall"			"20"
-				"tall_hidef"	"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-			}
-		}	
-
-		ClientTitleFont
-		{
-			"1"
-			{
-				"name"  "Impact"
-				"tall"			"64"
-				"tall_hidef"	"72"
-				"weight" "0"
-				"additive" "0"
-				"antialias" "1"
-			}
-		}
-
-		"BetaFont"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"90"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
+				"additive"	"1"
 			}
 		}
 
@@ -947,23 +489,159 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "HalfLife2" // Pulled from P2, was originally cstrike shit
-				"tall"  "32"
-				"weight" "0"
-				"additive" "1"
+				"name"		"HalfLife2" // Pulled from P2, was originally cstrike shit
+				"tall"		"32"
+				"weight"	"0"
+				"additive"	"1"
 				"antialias" "1"
 				"custom"	"1"
 			}
+		}
 
+		QuickInfo
+		{
+			"1"
+			{
+				"name"		"HL2cross"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		
+		ClientTitleFont
+		{
+			"1"
+			{
+				"name" 			"HL2EP2"
+				"tall"			"32"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
+		CreditsLogo
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"34"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		
+		CreditsIcons
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"34"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		
+		CreditsText
+		{
+			"1"
+			{
+				"name"		"Lexend Deca"
+				"tall"		"28"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"1"
+				"yres"	"480 899"
+			}
 			"2"
 			{
-				"name"  "Verdana"
-				"tall"  "28"
-				"weight" "0"
-				"additive" "1"
+				"name"		"Trebuchet MS"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		
+		CreditsOutroLogos
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"34"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		
+		CreditsOutroValve
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
+		
+		CreditsOutroText
+		{
+			"1"
+			{
+				"name"		"Lexend Deca"
+				"tall"		"24"
+				"weight"	"900"
 				"antialias" "1"
 			}
 		}
+		
+		// End of HL2 elements
+
+		BudgetLabel
+		{
+			"1"
+			{
+				"name"		"Cascadia Mono"
+				"tall"		"16"
+				"weight"	"400"
+				"outline"	"1"
+				"antialias" "1"
+			}
+		}
+		DebugOverlay
+		{
+			"1"
+			{
+				"name"		"Cascadia Mono"
+				"tall"		"16"
+				"weight"	"400"
+				"outline"	"1"
+				"antialias" "1"
+			}
+		}
+
+		"MenuLarge"
+		{
+			"1"
+			{
+				"name"		"Lexend Deca"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+
 
 		"CloseCaption_Normal"
 		{
@@ -1023,29 +701,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-		// this is the symbol font
-		"Marlett"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"8"
-				"weight"	"0"
-				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-			}
-		}
-		"MenuTitle"
-		{
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"18"
-				"weight"	"500"
-				"antialias"	"1"
-			}
-		}
+		
 		"Trebuchet24"
 		{
 			"1"
@@ -1082,78 +738,8 @@ Scheme
 				"additive"	"1"
 			}
 		}
-		"TargetID"
-		{
-			"1" [$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
-				"dropshadow"	"0"
-			}
-			"2" [$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"	"600 767"
-				"dropshadow"	"0"
-			}
-			"3" [$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-				"dropshadow"	"0"
-			}
-			"4" [$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-				"dropshadow"	"0"
-			}
-			"5" [$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
-				"dropshadow"	"0"
-			}
-			"1" [$X360]
-			{
-				"name"			"Arial"
-				"tall"			"16"
-				"weight"		"700"
-				"dropshadow"	"0"
-			}
-		}
-		"MotdTitle"
-		{
-			"1"
-			{
-				"name"			"Stratum2-Bold" [!$RUSSIAN]
-				"name"			"Arial"			[$RUSSIAN]
-				"tall"			"18"
-				"weight"		"400"
-				"antialias"		"1"
-			}
-		}
-		"MotdAdText"
-		{
-			"1"
-			{
-				"name"			"Stratum2-Bold" [!$RUSSIAN]
-				"name"			"Arial"			[$RUSSIAN]
-				"tall"			"10"
-				"weight"		"100"
-				"antialias"		"1"
-			}
-		}
+		
+		// L4D2 Game Instructor
 		"InstructorTitle"
 		{
 			"1"
@@ -1234,323 +820,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		// End of L4D2 Game Instructor
+		
 		"ChatFont"
 		{
-			"1" [$WIN32]
+			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
-				"dropshadow"	"1"
-			}
-			"2" [$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"700"
-				"yres"	"600 767"
-				"dropshadow"	"1"
-			}
-			"3" [$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"700"
-				"yres"	"768 1023"
-				"dropshadow"	"1"
-			}
-			"4" [$WIN32]
-			{
-				"name"		"Verdana"
-				"tall"		"20"
-				"weight"	"700"
-				"yres"	"1024 1199"
-				"dropshadow"	"1"
-			}
-			"5" [$WIN32]
-			{
-				"name"		"Verdana"
+				"name"		"Lexend Deca"
 				"tall"		"24"
-				"weight"	"700"
-				"yres"	"1200 10000"
-				"dropshadow"	"1"
-			}
-			"1" [$X360]
-			{
-				"name"			"Arial"
-				"tall"			"16"
-				"weight"		"700"
-				"dropshadow"	"1"
-			}
-		}
-		
-		//Stolen from SourceScheme to make the fonts a little smaller
-		"AchievementTitleFont"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-			}
-		}
-		"AchievementDescriptionFont"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"		"0 480"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
-			}
-		}	
-		
-		
-		AchievementItemTitle	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial"
-				"weight"		"1200"
-				"tall"			"11"
+				"weight"	"500"
 				"antialias"		"1"
-			}
-		}
-		
-		AchievementItemDescription	[$WIN32]
-		{
-			"1"
-			{
-				"name"		"Arial"
-				"weight"		"800"
-				"tall"			"9"
-				"antialias"		"1"
-			}
-		}
-		
-		"FreezeSmall"
-		{		
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"9"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A			
-				"antialias"	"1"
-			}	
-		}
-		
-		"FreezeMedium"	// used by the freeze panel
-		{		
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"14"
-				"weight"	"600"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A				
-				"antialias"	"1"
-			}	
-		}
-		
-		"FreezeLarge"
-		{	
-			"1"
-			{
-				"name"		"Verdana Bold"
-				"tall"		"18"
-				"weight"	"600"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A				
-				"antialias"	"1"
-			}	
-		}
-
-		"HUDAchievementTiny"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"6"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 959"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"960 1023"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
-				"antialias"	"1"
-			}
-		}
-
-		"ScoreboardHeader"
-		{
-			"1"
-			{
-				"name"		"verdana bold"
-				"tall"		"8"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		"ScoreboardTeamName"
-		{
-			"1"
-			{
-				"name"		"verdana bold"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		"ScoreboardScore"
-		{
-			"1"
-			{
-				"name"		"verdana bold"
-				"tall"		"45"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		"ScoreboardColumns"
-		{
-			"1"
-			{
-				"name"		"verdana bold"
-				"tall"		"8"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-		
-		"ScoreboardPlayersAlive"
-		{
-			"1"
-			{
-				"name"		"verdana bold"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-		
-		"ScoreboardPlayersAliveSuffix"
-		{
-			"1"
-			{
-				"name"		"verdana bold"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		"ScoreboardBody_1"
-		{
-			"1"
-			{
-				"name"		"verdana" 
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		"ScoreboardBody_2"
-		{
-			"1"
-			{
-				"name"		"verdana" 
-				"tall"		"8"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		"ScoreboardBody_3"
-		{
-			"1"
-			{
-				"name"		"verdana" 
-				"tall"		"7"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
-			}
-		}
-
-		"ScoreboardMVP"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"10"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 
@@ -1573,193 +854,6 @@ Scheme
 				"name"		"Buttons"
 				"scalex"	"0.70"
 				"scaley"	"0.70"
-			}
-		}
-		
-		"X360_Title_0"
-		{
-			"1"
-			{
-				"name"			"Impact"
-				"tall"			"45"
-				"tall_hidef"	"45"
-				"weight"		"100"
-				"antialias"		"1"
-			}			
-		}
-		
-		"X360_Title_1"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"20"
-				"tall_hidef"	"20"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		
-		"X360_Title_2"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"18"
-				"tall_hidef"	"18"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		
-		"X360_Title_3"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"16"
-				"tall_hidef"	"16"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		
-		"X360_Title_4"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"14"
-				"tall_hidef"	"14"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		
-		"X360_Title_5"
-		{
-			"1"
-			{
-				"name"			"verdana bold"
-				"tall"			"12"
-				"tall_hidef"	"12"
-				"weight"		"20000"
-				"antialias"		"1"
-			}			
-		}
-		
-		"X360_Body_1"
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"tall"			"16"
-				"tall_hidef"	"16"
-				"weight"		"6000"
-				"antialias"		"1"
-			}			
-		}
-		
-		"X360_Body_2"
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"tall"			"14"
-				"tall_hidef"	"14"
-				"weight"		"6000"
-				"antialias"		"1"
-			}			
-		}
-		
-		"X360_Body_3"
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"tall"			"12"
-				"tall_hidef"	"12"
-				"weight"		"6000"
-				"antialias"		"1"
-			}			
-		}
-
-		"X360_Body_4"
-		{
-			"1"
-			{
-				"name"			"Arial"
-				"tall"			"10"
-				"tall_hidef"	"10"
-				"weight"		"6000"
-				"antialias"		"1"
-			}			
-		}
-
-		"ItemFontNameSmallest"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"6"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameSmall"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-				"weight"	"800"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameLarge"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontAttribSmallest"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"6"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"ItemFontAttribSmall"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"7"
-				"weight"	"800"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"ItemFontAttribLarge"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
 			}
 		}
 	}
@@ -2409,86 +1503,6 @@ Scheme
 				}
 			}
 		}
-
-		BuyPresetBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.BuyPreset"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.BuyPreset"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.BuyPreset"
-					"offset" "1 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.BuyPreset"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		BuyPresetButtonBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Blank"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Blank"
-					"offset" "0 0"
-				}
-			}
-		}
 		
 		BlackBorder
 		{
@@ -2529,320 +1543,6 @@ Scheme
 				}
 			}
 		}
-		LoadoutItemBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_item_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		LoadoutItemMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_item_bg_highlight"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		ItemSelectionBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_item_sel_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		ItemPickupBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_item_pickup_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		LoadoutItemPopupBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_preview_bg"
-		}
-		EconButtonDefault
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
-		}
-		EconButtonMouseOver
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		EconFooterButtonBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_bottom_bar_button_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
-		}
-		EconFooterButtonMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_bottom_bar_button_highlight_bg"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		EconDialogBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_default_dialog"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		BackpackItemBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		BackpackItemMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg_highlight"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		BackpackItemSelectedBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg_highlight"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		GrayDialogBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		OutlinedGreyBox
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		OutlinedDullGreyBox
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		StorePreviewTabSelected
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		StorePreviewTabUnselected
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"
-		}
-		StoreDiscountBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"			
-			"image"					"store/store_discount_corner"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		StorePreviewBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-		}
-		StoreIconPreviewBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_preview_bg"
-		}
-		StorePreviewTooltip
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_tooltip_bg"
-		}
-		ItemBaseBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"black"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
-		StoreTabActive
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_tab_selected"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		StoreTabNormal
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_tab_unselected"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		StoreBlueButton
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"btn_econ_blue"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-		StoreBlueOverButton
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/button_econ_blue_over"
-			"src_corner_height"		"16"				// pixels inside the image
-			"src_corner_width"		"16"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
-		}
-
-		StoreItemBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		StoreItemMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg_highlight"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
-		StoreItemSelectedBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"store/store_backpack_bg_highlight"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
-		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -2850,13 +1550,28 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/univercb.vfont"
-		"2"		"resource/univercb_t.vfont"
-		"3"		"resource/univercl.vfont"
-		"4"		"resource/univercl_t.vfont"
-		"5"		"resource/universc.vfont"
-		"6"		"resource/universc_t.vfont"
-		//RUSSIAN
+		// Core
+		"1"		"resource/fonts/core/univercb.vfont"	[!$TURKISH]
+		"2"		"resource/fonts/core/univercl.vfont"	[!$TURKISH]
+		"3"		"resource/fonts/core/universc.vfont"	[!$TURKISH]
+		"1"		"resource/fonts/core/univercb_t.vfont"	[$TURKISH]
+		"2"		"resource/fonts/core/univercl_t.vfont"	[$TURKISH]
+		"3"		"resource/fonts/core/universc_t.vfont"	[$TURKISH]
+		
+		// HL2
+		"4"		"resource/fonts/hl2/HALFLIFE2.vfont"
+		"5"		"resource/fonts/hl2/HL2crosshairs.vfont"
+		"6"		"resource/fonts/hl2/HL2EP2.vfont"
+		
+		// Borrowed from hl2_complete/clientscheme.res
+		"7"		"resource/fonts/hl2/GorDIN-Regular.ttf"
+		"8"		"resource/fonts/hl2/GorDIN-Bold.ttf"
+		"9"		"resource/fonts/hl2/GorDIN-Semibold.ttf"
+		"10"	"resource/fonts/hl2/GorDIN-Black.ttf"
+		"11"	"resource/fonts/hl2/GorDIN-Light.ttf"
+		
+		// Strata Fonts
+		"12"	"resource/fonts/core/CascadiaMono-Regular.ttf"
+		"13"	"resource/fonts/strata/LexendDeca.vfont"
 	}
-
 }

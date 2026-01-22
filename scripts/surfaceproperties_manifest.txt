@@ -14,6 +14,7 @@ surfaceproperties_manifest
 	"file"		"scripts/surfaceproperties_portal.txt"
 	"file"		"scripts/surfaceproperties_portal2.txt"
 	"file"		"scripts/surfaceproperties_p2ce.txt"
+	"file"		"scripts/surfaceproperties_hl2.txt"
 	"file"		"scripts/surfaceproperties_ep2.txt"
 }
 
