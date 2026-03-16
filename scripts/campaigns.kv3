@@ -106,8 +106,8 @@
 						// Should either the background map or video fail to load, background_image is displayed by the UI as a last resort.
 						
 						background_map = "p2ce_background_laser_intro"
-						background_music = "UIPanorama.Music.P2.Menu1"
-						background_image = "{campaign_art}/template/campaign_cover.png"
+						background_music = "UIPanorama.Music.P2CE.Menu3"
+						background_image = "{campaign_art}/template/campaign_bg.png"
 						
 						// Background images as displayed by the loading screen UI. This can be overridden by maps.
 						loading_screen = "{campaign_art}/template/loading/loadingscreen_sample_ch1.png"
@@ -163,7 +163,7 @@
 					meta = {
 						thumbnail = "{campaign_art}/template/chapters/chapter1.png"
 						background_map = "p2ce_background_laser_intro"
-						background_image = "{campaign_art}/template/campaign_cover.png"
+						background_image = "{campaign_art}/template/campaign_bg.png"
 					}
 					
 					// This is the list of maps associated with the chapter. Map-specific overrides (like the one specified in SDK_VEHICLES) can influence how the UI appears to the player.
