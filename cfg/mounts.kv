@@ -29,22 +29,28 @@
 	// For example:
 	//   "enabled" "1"
 
-	// Counter-Strike: Global Offensive - Legacy Source 1 Branch (AppID 730)
+	// Counter-Strike: Global Offensive - Legacy Source 1 Branch (AppID 4465480; Formerly AppID 730)
+	//
     // Only mount this if you are opted into the legacy CS:GO Source 1 compat build.
-	// Does not work with Counter-Strike 2 as Source 2 model/texture formats are vastly
-	// different compared to Source 1.
-	730
+	// Does not work with Counter-Strike 2 as Source 2 asset formats are vastly different
+	// compared to Source 1.
+	4465480
 	{
 		"enabled" "0"	// Set to "1" to enable this game
 
 		"csgo"
 		{
 			"vpk"	"pak01"
+			
+			// Uncomment to enable Steam China/Perfect World-exclusive zombie/blood decal censorship and region-exclusive voiceovers
+			// "vpk"	"pakxv_perfectworld"
+			// "vpk"	"pakxv_audiochinese"
+			
 			"dir"	"download"
 		}
 	}
 
-	// Half-Life 2: Episode Two (AppID 220 (legacy id 420))
+	// Half-Life 2: Episode Two (AppID 220; Formerly AppID 420)
 	220
 	{
 		"enabled" "0"	// Set to "1" to enable this game
@@ -66,7 +72,7 @@
 		}
 	}
 	
-	// Half-Life 2: Episode One (AppID 220 (legacy id 380))
+	// Half-Life 2: Episode One (AppID 220; Formerly AppID 380)
 	// Refer to the above if you have Ep2 installed
 	220
 	{
@@ -127,7 +133,8 @@
 	}
 	
 	// Source SDK Base 2013 SP (AppID 243730)
-	// Only uncomment the below if you do not own Half-Life 2 or its episodes.
+	// Only enable the below appid if you do not own Half-Life 2 or its episodes. Note that this does not accurately
+	// reflect the 20th Anniversary build, and is a snapshot of HL2 assets that date back to mid-2015!
 	243730
 	{
 		"enabled" "0"	// Set to "1" to enable this game
@@ -227,8 +234,11 @@
 	}
 
 	// Source SDK Base 2013 MP (AppID 243750)
-	// Only uncomment the below if you do not own Half-Life 2: Deathmatch or base HL2.
+	// Only uncomment the below if you do not own Half-Life 2: Deathmatch or base Half-Life 2.
 	// See above appid for side effects.
+	// 
+	// This is merely a subset of core MP game assets from the Team Fortress 2 SDK with some changes
+	// from HL20 merged in; it does not accurately reflect all changes present in live TF2 or HL2(DM) for that matter.
 	243750
 	{
 		"enabled" "0"	// Set to "1" to enable this game
