@@ -1,0 +1,20 @@
+globalactors
+{
+	"player"			"female" // chell
+	"ballbot"			"male" // atlas
+	"eggbot"			"female" // p-body
+	"personality_sphere"		"male" // wheatley
+	"personality_sphere_50percent"	"nonbinary" // corrupted spheres
+	"personality_sphere_skins"	"nonbinary" // corrupted spheres
+	"glados_animation"		"female" // glados a2
+	"glados_wheatley_newbody"	"male" // wheatley a2
+	"glados_wheatley_boss"		"male" // wheatley sp_a4_finale4
+	"glados_wheatley_boss_screen"	"male" // wheatley a4 generic
+	"potatos_wmodel"		"female" // potatos wmodel
+	"w_portalgun"			"female" // potatos wmodel
+	"v_portalgun"			"female" // potatos vmodel
+	"turret"			"female"
+	"turretwife"			"female"
+	"turret_skeleton"		"male" // defective turrets
+	"turret_backwards"		"male" // defective turrets
+}

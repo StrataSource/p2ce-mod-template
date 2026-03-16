@@ -46,3 +46,227 @@
 
 	"wave"	    "ui/menu_invalid.wav"
 }
+
+// Portal 2
+
+"UIPanorama.Music.P2.Menu1"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/mainmenu/portal2_background01.wav"
+}
+
+"UIPanorama.Music.P2.Menu2"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/mainmenu/portal2_background02.wav"
+}
+
+"UIPanorama.Music.P2.Menu3"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/mainmenu/portal2_background03.wav"
+}
+
+"UIPanorama.Music.P2.Menu4"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/mainmenu/portal2_background04.wav"
+}
+
+"UIPanorama.Music.P2.Menu5"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/mainmenu/portal2_background05.wav"
+}
+
+"UIPanorama.Music.P2.MenuWS"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"		"*#music/ctc_b1_001.wav"
+		"wave"		"*#music/ctc_b1_002.wav"
+		"wave"		"*#music/ctc_b1_003.wav"
+		"wave"		"*#music/ctc_b1_004.wav"
+		"wave"		"*#music/ctc_b1_005.wav"
+		"wave"		"*#music/ctc_b1_006.wav"
+		"wave"		"*#music/mp_coop_lobby_2_c1.wav"
+		"wave"		"*#music/mp_coop_lobby_2_c2.wav"
+		"wave"		"*#music/mp_coop_lobby_2_c6.wav"
+		"wave"		"*#music/mp_coop_lobby_2_c7.wav"
+	}
+}
+
+// P2CE
+
+"UIPanorama.Music.P2CE.Menu1"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/mainmenu/p2ce_01.wav"
+}
+
+"UIPanorama.Music.P2CE.Menu2"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.9"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/mainmenu/p2ce_02.wav"
+}
+
+"UIPanorama.Music.P2CE.Menu3"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.85"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/amb/liquids.wav"
+}
+
+"UIPanorama.Music.P2CE.Menu3_LOAD"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/amb/liquids.wav"
+}
+
+"UIPanorama.Music.P2CE.Menu4"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/amb/olapse.wav"
+}
+
+"UIPanorama.Music.P2CE.Menu5"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.8"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/amb/zer0.wav"	// olapse, but grainier
+}
+
+"UIPanorama.Music.P2CE.Menu6"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.9"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/amb/vitals.wav"
+}
+
+"UIPanorama.Music.P2CE.Menu7"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.9"
+	"pitch"	    "PITCH_NORM"
+
+	"wave"	    "*#music/amb/eternal.wav"
+}
+
+"UIPanorama.Music.StopAll"
+{
+	"channel"               "CHAN_STATIC"
+	"volume"                "0.0"
+	"soundlevel"            "SNDLVL_NONE"
+
+	"wave"                  "common/null.wav"
+
+	"soundentry_version"    "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"stop_dialogue"
+			{
+				"operator"          "sys_stop_entries"
+
+				"match_entry"       "UIPanorama.Music"
+				"match_substring"   "true"
+				"input_max_entries" "0.0"
+			}
+		}
+	}
+}
+
+"UIPanorama.P2CE.MenuBack"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"ui/p2ce_back.wav"
+}
+
+"UIPanorama.P2CE.MenuClick"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"ui/p2ce_click.wav"
+}
+
+"UIPanorama.P2CE.MenuAccept"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"ui/p2ce_enter.wav"
+}
+
+"UIPanorama.P2CE.MenuError"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.5"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"ui/p2ce_error.wav"
+}
+
+"UIPanorama.P2CE.MenuFocus"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.15"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"ui/p2ce_hover.wav"
+}
+
+"UIPanorama.P2CE.MenuLoad"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.5"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"ui/p2ce_load.wav"
+}
+
+"UIPanorama.P2CE.MenuSelect"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.15"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"ui/p2ce_select.wav"
+}
+

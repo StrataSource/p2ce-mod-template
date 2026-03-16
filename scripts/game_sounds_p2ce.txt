@@ -107,3 +107,11 @@
 	"volume"                "1.0"
 	"wave"			"&world/laser_node_power_off.wav"
 }
+
+"SchrodingerCube.Music"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"common/null.wav"
+	"volume"		"1.0"
+}

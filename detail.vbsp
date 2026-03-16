@@ -1,0 +1,4145 @@
+// Pivot (19/02/2026): Portal 2 doesn't ship with any detail.vbsp by default, so we're including
+// a merged detail.vbsp containing everything for hl2, episodic, lostcoast and TF here.
+
+detail
+{
+	// Apparently a portal2-related detailsprites thing-a-roo that's included as part of Dino D-Day, which is odd given the above.
+	// I'm adding this here in case...
+	
+	portal2_overgrown //Set detail material file for map to detailsprites_overgrown.vtf to use.
+	{
+		"density" "2000" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0" //dirt
+
+			Model3 //Sage 02
+			{
+				"sprite"			"148 128 132 128 512"
+				"spritesize"		"0.35 0.06 14 14"
+				"spriterandomscale"	"0.3"
+				"amount" 			"0.06"
+				"detailOrientation" "2"
+			}
+			Model4 //California Poppy
+			{
+				"sprite"			"280 128 80 128 512"
+				"spritesize"		"0.5 0.0 13 20"
+				"spriterandomscale"	"0.2"
+				"amount" 			"0.06"
+				"detailOrientation"	"2"
+			}
+			//Model9 //Yellow Weed
+			//{
+
+				//"sprite"			"167 256 99 256 512"
+				//"spritesize"		"0.53 0.02 7.7 20"
+				//"spriterandomscale"	"0.2"
+				//"amount"			"0.01"
+				//"detailOrientation"	"2"
+			//}
+			Model6 //Grass 02
+			{
+				"sprite"			"360 160 152 96 512"
+				"spritesize"		"0.44 0.04 25 16"
+				"spriterandomscale"	"0.2"
+				"amount" 			"0.02"
+				"detailOrientation" "2"
+			}
+		}
+		
+		Group2
+		{
+			"alpha" "0.1" // forest edge
+			
+			Model1 //PineappleSage
+			{
+				"sprite" 			"0 0 148 256 512" //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.63 0.01 16.7 29" //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3" //randomness of sprite sizes
+				"amount" 			"0.05" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation" "2" //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model6 //Grass 02
+			{
+				"sprite"			"360 160 152 96 512"
+				"spritesize"		"0.44 0.04 28.5 18"
+				"spriterandomscale"	"0.1"
+				"amount" 			"0.15"
+				"detailOrientation" "2"
+			}
+			//Model9 //Yellow Weed
+			//{
+			//	"sprite"			"167 256 99 256 512"
+			//	"spritesize"		"0.4 0.02 14.7 38"
+			//	"spriterandomscale"	"0.3"
+			//	"amount"			"0.15"
+			//	"detailOrientation"	"2"
+			//}
+			Model10 //Lavendar
+			{
+				"sprite"			"265 256 248 256 512"
+				"spritesize"		"0.52 0.04 34 36"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			
+		}
+		
+		Group3
+		{
+			"alpha" "0.0" //leaves
+			
+			Model2 //Sapling
+			{
+
+				"sprite"			"148 0 132 128 512"
+				"spritesize"		"0.49 0.1 26 26"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model7 //Sapling 02
+			{
+
+				"sprite"			"0 256 120 256 512"
+				"spritesize"		"0.43 0.03 16.8 36"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model5 //Fern
+			{
+				"sprite" 			"344 0 168 160 512" 
+				"spritesize"		"0.52 0.08 29.4 28"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.3"
+				"detailOrientation"	"2"
+			}
+			Model8 //Slim Leafy Weed
+			{
+				"sprite"			"120 384 47 128 512"
+				"spritesize"		"0.48 0.02 10 20"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+
+	// Start of HL2 Detail Props
+	
+	swamp_land_001
+	{
+		"density" "800.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/grass_swamp_001a.mdl"
+				"amount" "0.3"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/grass_swamp_001b.mdl"
+				"amount" "0.3"
+			}
+
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/perftest/Grass_tuft_003a.mdl"
+				"amount" "0.05"
+			}
+
+			Model2
+			{
+				"model" "models/perftest/Grass_tuft_004b.mdl"
+				"amount" "0.05"
+			}
+		}
+	}
+
+	swamp_land_002
+	{
+		"density" "800.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/grass_swamp_001a.mdl"
+				"amount" "0.3"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/grass_swamp_001b.mdl"
+				"amount" "0.3"
+			}
+
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/Grass_tuft_001a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/Grass_tuft_001b.mdl"
+				"amount" "0.1"
+			}
+		}
+	}
+
+	swamp_water_001
+	{
+		"density" "200.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/perftest/Grass_tuft_001a.mdl"
+				"amount" "0.3"
+			}
+
+			Model2
+			{
+				"model" "models/perftest/Grass_tuft_001b.mdl"
+				"amount" "0.3"
+			}
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/perftest/Grass_tuft_003a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/perftest/Grass_tuft_004b.mdl"
+				"amount" "0.3"
+			}
+		}
+	}
+			
+	grassland1
+	{
+		"density" "500.0"
+
+
+		Group1
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/perftest/Grass_tuft_004a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/perftest/Grass_tuft_004b.mdl"
+				"amount" "0.1"
+			}
+			Model3
+			{
+				"model" "models/perftest/Grass_tuft_004c.mdl"
+				"amount" "0.1"
+			}
+			Model4
+			{
+				"model" "models/perftest/Grass_tuft_004d.mdl"
+				"amount" "0.1"
+			}
+		}
+		Group2
+		{
+			"alpha" "0.3"
+
+			Model1
+			{
+				"model" "models/perftest/Grass_tuft_001a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "modelsperftest/Grass_tuft_001b.mdl"
+				"amount" "0.1"
+			}
+	
+		}
+		Group3
+		{
+			"alpha" "0.7"
+
+		}
+		Group4
+		{
+			"alpha" "1.0"
+
+		}
+		
+		
+	}
+
+	rocks1
+	{
+		"density" "500.0"
+
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/perftest/rocksground01a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/perftest/rocksground01b.mdl"
+				"amount" "0.1"
+			}
+			Model3
+			{
+				"model" "models/perftest/rocksground01c.mdl"
+				"amount" "0.1"
+			}
+			Model4
+			{
+				"model" "models/perftest/rocksground01d.mdl"
+				"amount" "0.1"
+			}
+	                Model5
+			{
+				"model" "models/perftest/rocksground01e.mdl"
+				"amount" "0.1"
+			}
+			Model6
+			{
+				"model" "models/perftest/rocksground02a.mdl"
+				"amount" "0.1"
+			}
+			Model7
+			{
+				"model" "models/perftest/rocksground02b.mdl"
+				"amount" "0.1"
+			}
+			Model8
+			{
+				"model" "models/perftest/rocksground02c.mdl"
+				"amount" "0.1"
+			}
+
+		}
+		Group2
+		{
+			"alpha" "0.8"
+
+			Model1
+			{
+				"model" "models/perftest/rocksground01a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/perftest/rocksground01b.mdl"
+				"amount" "0.1"
+			}
+			Model3
+			{
+				"model" "models/perftest/rocksground01c.mdl"
+				"amount" "0.1"
+			}
+			Model4
+			{
+				"model" "models/perftest/rocksground01d.mdl"
+				"amount" "0.1"
+			}
+	                Model5
+			{
+				"model" "models/perftest/rocksground01e.mdl"
+				"amount" "0.1"
+			}
+			Model6
+			{
+				"model" "models/perftest/rocksground02a.mdl"
+				"amount" "0.1"
+			}
+			Model7
+			{
+				"model" "models/perftest/rocksground02b.mdl"
+				"amount" "0.1"
+			}
+			Model8
+			{
+				"model" "models/perftest/rocksground02c.mdl"
+				"amount" "0.1"
+			}
+
+		}
+		Group3
+		{
+			"alpha" "0.3"
+
+		}
+		Group4
+		{
+			"alpha" "0.0"
+
+		}
+		
+		
+	}
+
+	grassland3
+	{
+		"density" "1500.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/shrub_01a.mdl"
+				"amount" "0.2"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/shrub_03a.mdl"
+				"amount" "0.1"
+			}
+			Model4
+			{
+				"model" "models/props_foliage/shrub_03c.mdl"
+				"amount" "0.1"
+			}
+		}
+
+
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/perftest/grass_tuft_001.mdl"
+				"amount" "0.2"
+			}
+		}
+	}
+
+	test
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/perftest/Grass_tuft_001a.mdl"
+				"amount" "0.3"
+			}
+
+			Model2
+			{
+				"model" "models/perftest/Grass_tuft_001b.mdl"
+				"amount" "0.3"
+			}
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"model" "models/perftest/Grass_tuft_003a.mdl"
+				"amount" "0.1"
+			}
+
+			Model2
+			{
+				"model" "models/perftest/Grass_tuft_004b.mdl"
+				"amount" "0.3"
+			}
+			Model3
+			{
+				"model" "models/perftest/Grass_tuft_004a.mdl"
+				"amount" "0.05"
+			}
+			Model4
+			{
+				"model" "models/perftest/Grass_tuft_004c.mdl"
+				"amount" "0.05"
+			}
+		}
+	}
+
+	grass01
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 25 33"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 40 50"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 23 28"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model4
+			{
+				"sprite" "288 144 128 128 512" 
+				"spritesize" "0.5 0.0 50 50"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+			"alpha" "0.5"
+		Model1
+			{
+				"sprite" "0 144 128 128 512" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group4
+		{
+			"alpha" "0.3"
+
+		}
+
+		Group5
+		{
+			"alpha" "0.0"
+
+		}
+	}
+
+	grass02
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 25 33"
+				"spriterandomscale" "0.2"
+				"amount" "0.6"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 30 40"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group3
+		{
+			"alpha" "0.5"
+		}
+
+		Group4
+		{
+			"alpha" "0.3"
+
+		}
+
+		Group5
+		{
+			"alpha" "0.0"
+
+		}
+	}
+
+	// reduced size to 0.75
+	// density was 600 until 7/7/04. Reduced for global coast perf reasons - Sawyer
+	coastline_grass01
+	{
+		"density" "300.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 30 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model4
+			{
+				"sprite" "288 144 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+	// Should be the same as coastline_grass01, but with less density for large areas.
+	//reduced size by 0.75
+	coastline_grass02
+	{
+		"density" "50.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 30 37.5"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model4
+			{
+				"sprite" "288 144 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+	
+	//reduced size by 0.75
+	coastline_redgrass01
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 42 42"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+	//reduced size by 0.75
+	coastline_redgrass02
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "0"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 42 42"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "1"
+		}
+	}
+
+	//reduced size by 0.75
+	coastline_redgrass03
+	{
+		"density" "300.0"
+
+		Group1
+		{
+			"alpha" "0"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 42 42"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "1"
+		}
+	}
+
+	// Bog-standard HL2 citygrass
+	citygrass01
+	{
+		"density" "3000.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 25 33"
+				"spriterandomscale" "0.2"
+				"amount" "0.6"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 30 40"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group3
+		{
+			"alpha" "0.5"
+		}
+
+		Group4
+		{
+			"alpha" "0.3"
+
+		}
+
+		Group5
+		{
+			"alpha" "0.0"
+
+		}
+	}
+	
+	// reduced size by 0.75
+	redgrass
+	{
+		"density" "2000.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 29 29"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+	// reduced size by 0.75
+	redgrass_light
+	{
+		"density" "700.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 29 29"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+	
+	short_redgrass
+	{
+		"density" "2000.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 10 13"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 12 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 8 8"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 9 11"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 19 19"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 12 12"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+
+	PerfTest1
+	{
+		"density" "9000.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/PerfTest/Grass_tuft_004a.mdl"
+				"amount" "0.25"
+			}
+
+			Model2
+			{
+				"model" "models/PerfTest/Grass_tuft_004b.mdl"
+				"amount" "0.25"
+			}
+			Model3
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 25 33"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 40 50"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 20"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 23 28"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+
+		}
+		Group2
+		{
+			"alpha" "1.0"
+	
+		}
+		Group3
+		{
+			"alpha" "1.0"
+
+		}
+		Group4
+		{
+			"alpha" "0.5"
+		}
+	}
+	
+	canal_reeds
+	{
+		"density" "750.0"
+
+
+		Group1
+		{
+	
+			"alpha" "0.0"
+		}
+		Group2
+		{
+	
+			"alpha" "0.2"
+		}
+		Group2a
+		{
+	
+			"alpha" "0.35"
+			Model1
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.8"
+				"detailOrientation" "2"
+			}
+		}
+		Group3
+		{
+	
+			"alpha" "0.75"
+			Model1
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 35"
+				"spriterandomscale" "0.2"
+				"amount" "0.8"
+				"detailOrientation" "2"
+			}
+		}
+		Group4
+		{
+			"alpha" "1.0"
+			Model1
+			{
+				"upright" "1.0"
+				"model" "models/props_foliage/cattails.mdl"
+				"amount" "0.2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 40 65"
+				"spriterandomscale" "0.1"
+				"amount" "0.8"
+				"detailOrientation" "2"
+			}
+		}
+	}
+	
+	// rocks in red grass
+	rocks_redgrass
+	{
+		"density" "2000.0"
+
+		Group1
+		{
+			"alpha" "1"
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 19 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 23 30"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "144 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 15"
+				"spriterandomscale" "0.2"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 18 21"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			//shrub
+			Model5
+			{
+				"sprite" "144 288 128 128 512" 
+				"spritesize" "0.5 0.0 38 38"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "0 288 128 128 512" 
+				"spritesize" "0.5 0.0 23 23"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "288 288 128 128 512" 
+				"spritesize" "0.5 0.0 29 29"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model8
+			{
+				"model" "models/props_foliage/detail_rocks01a.mdl"
+				"amount" "0.05"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "0.0"
+		}
+	}
+	
+	// trash on streets
+	street_junk
+	{
+		"density" "60.0"
+
+
+		Group1
+		{
+	
+			"alpha" "0.0"
+		}
+		Group2
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_junk/detail_junk01.mdl"
+				"amount" "0.33"
+			}
+			Model2
+			{
+				"model" "models/props_junk/detail_junk02.mdl"
+				"amount" "0.33"
+			}
+			Model3
+			{
+				"model" "models/props_junk/detail_junk03.mdl"
+				"amount" "0.33"
+			}
+		}
+	}
+	
+	// End of HL2 Detail Props
+	
+	// Start of Episodic Detail Props
+	
+	// Ep2
+	forest_floor_01
+	{
+		"density" "450.0"
+
+		Group1
+		{
+			"alpha" "0"
+			Model1
+			// Position 5 in sheet
+			{
+				"sprite" "187 176 151 151 1024" 
+				"spritesize" "0.5 0.0 14 14"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model2
+			// Position 1 in sheet
+			{
+				"sprite" "21 15 151 150 1024" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+
+			Model3
+			// Position 2 in sheet
+			{
+				"sprite" "186 16 150 151 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model4
+			// Position 4 in sheet
+			{
+				"sprite" "22 178 148 147 1024" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model5
+			// Position 3 in sheet
+			{
+				"sprite" "350 14 148 151 1024" 
+				"spritesize" "0.5 0.0 17 17"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			Model6
+			// Position 6 in sheet
+			{
+				"sprite" "348 176 148 146 1024" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			Model7
+			// Position 7 in sheet
+			{
+				"sprite" "21 337 150 170 1024" 
+				"spritesize" "0.5 0.0 12 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+
+			Model8
+			// Position 8 in sheet
+			{
+				"sprite" "185 337 152 152 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+
+			Model9
+			// Position 9 in the sheet
+			{
+				"sprite" "347 364 143 115 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.4"
+				"detailOrientation" "2"
+			}
+
+
+
+		}
+
+		Group2
+		{
+	
+			"alpha" "1"
+		}
+	}
+
+	// alt version for ep2
+	redgrass_alt
+	{
+		"density" "500.0"
+
+		Group1
+		{
+			"alpha" "0"
+			
+			Model1
+			// Position 1 in sheet
+			{
+				"sprite" "21 15 151 150 1024" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model2
+			// Position 3 in sheet
+			{
+				"sprite" "350 14 148 151 1024" 
+				"spritesize" "0.5 0.0 17 17"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model3
+			// Position 6 in sheet
+			{
+				"sprite" "348 176 148 146 1024" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model4
+			// Position 7 in sheet
+			{
+				"sprite" "21 337 150 170 1024" 
+				"spritesize" "0.5 0.0 12 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model5
+			// Position 8 in sheet
+			{
+				"sprite" "185 337 152 152 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+
+			Model6
+			// Position 9 in the sheet
+			{
+				"sprite" "347 364 143 115 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.4"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group2
+		{
+	
+			"alpha" "1"
+		}
+	}
+	
+	// Variant of hl2 citygrass_light intended for Ep1 City 17 maps
+	citygrass_light
+	{
+		"density" "400.0"
+
+		Group1
+		{
+			"alpha" "1"
+
+			Model1
+			// Position 9 in the sheet
+			{
+				"sprite" "347 364 143 115 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.6"
+				"detailOrientation" "2"
+			}
+
+			Model2
+			// Position 1 in sheet
+			{
+				"sprite" "21 15 151 150 1024" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+
+			Model3
+			// Position 3 in sheet
+			{
+				"sprite" "350 14 148 151 1024" 
+				"spritesize" "0.5 0.0 17 17"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+
+			Model4
+			// Position 6 in sheet
+			{
+				"sprite" "348 176 148 146 1024" 
+				"spritesize" "0.5 0.0 18 18"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model5
+			// Position 8 in sheet
+			{
+				"sprite" "185 337 152 152 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+			Model6
+			// Position 7 in sheet
+			{
+				"sprite" "21 337 150 170 1024" 
+				"spritesize" "0.5 0.0 12 18"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+
+		}
+
+		Group3
+		{
+			"alpha" "0.5"
+		}
+
+		Group4
+		{
+			"alpha" "0.3"
+
+		}
+
+		Group5
+		{
+			"alpha" "0.0"
+
+		}
+	}
+	
+	// End of Episodic Detail Props
+	
+	// Start of LostCoast/SourceTest detail props
+	
+	// pebbles in ati coast map
+	coast_pebbles
+	{
+		"density" "400.0"
+		Group1
+		{
+			"alpha" "0"
+		}
+		Group2
+		{
+				"alpha" "1.0"
+			Model1
+			{
+				"model" "models/ati_2004/props_wasteland/rock_detail01a.mdl"
+				"amount" "1"
+			}
+		}
+	}
+	
+	lostcoast_grass
+	{
+		"density" "3000"
+
+		Group1
+		{
+			"alpha" "0"
+
+			Model1
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+		}
+
+
+		Group2
+		{
+	
+			"alpha" "0.25"
+
+			Model1
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "0 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+		Group3
+		{
+	
+			"alpha" "0.5"
+
+			Model1
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "0 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "256 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+		}
+		Group4
+		{
+	
+			"alpha" "0.75"
+			Model1
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+		}
+		Group5
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "0 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "256 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model7
+			{
+				"sprite" "512 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model8
+			{
+				"sprite" "768 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+		}
+	}
+
+	lostcoast_grass2
+	{
+		"density" "3000"
+
+		Group1
+		{
+			"alpha" "0"
+
+			Model1
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 16 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.01"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "0 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+		}
+		Group2
+		{
+	
+			"alpha" "0.5"
+
+			Model5
+			{
+				"sprite" "0 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model6
+			{
+				"sprite" "256 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+		}
+		Group3
+		{
+	
+			"alpha" "1"
+
+			Model7
+			{
+				"sprite" "512 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+			Model8
+			{
+				"sprite" "768 512 256 512 1024" 
+				"spritesize" "0.5 0.0 16 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.3"
+				"detailOrientation" "2"
+			}
+		}
+	}
+	
+	// End of LostCoast/SourceTest Detail Props
+	
+	// Start of TF Detail Props
+	
+	// detail/detail_2fort
+	tf_grass
+	{
+		"density" "8000"
+		Group1
+		{
+			"alpha" "0"
+
+		}
+		Group2
+		{
+			"alpha" ".25"
+			Model2
+			{
+				"sprite" "200 85 94 172 512" 
+				"spritesize" "0.5 0.0 16 37"
+				"spriterandomscale" "0.1"
+				"amount" "0.025"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "376 0 112 256 512" 
+				"spritesize" "0.5 0.0 12 18"
+				"spriterandomscale" "0.1"
+				"amount" "0.015"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 10 14"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 12 12"
+				"spriterandomscale" "0.4"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group3
+		{
+			"alpha" ".5"
+			Model2
+			{
+				"sprite" "200 85 94 172 512" 
+				"spritesize" "0.5 0.0 16 37"
+				"spriterandomscale" "0.1"
+				"amount" "0.025"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "376 0 112 256 512" 
+				"spritesize" "0.5 0.0 12 18"
+				"spriterandomscale" "0.1"
+				"amount" "0.025"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 10 14"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 12 12"
+				"spriterandomscale" "0.4"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+		}
+		Group4
+		{
+			"alpha" "1"
+
+			Model1
+			{
+				"sprite" "0 0 164 256 512" 
+				"spritesize" "0.5 0.0 24 37"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "200 85 94 172 512" 
+				"spritesize" "0.5 0.0 12 32"
+				"spriterandomscale" "0.25"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "376 0 112 256 512" 
+				"spritesize" "0.5 0.0 12 18"
+				"spriterandomscale" "0.1"
+				"amount" "0.25"
+				"detailOrientation" "2"
+			}
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 10 14"
+				"spriterandomscale" "0.25"
+				"amount" "0.05"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 12 12"
+				"spriterandomscale" "0.25"
+				"amount" "0.15"
+				"detailOrientation" "2"
+			}
+		}
+	}
+	
+	// detail_granary
+	tf_granary_grass
+	{
+		"density" "3000.0"
+
+		Group1
+		{
+	
+			"alpha" "1.0"
+		}
+		Group2
+		{
+	
+			"alpha" "0.1"
+
+		}
+		Group3
+		{
+			"alpha" "0.0"
+			Model1
+			{
+				"sprite" "0 0 164 256 512" 
+				"spritesize" "0.5 0.0 18 27"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "197 77 151 180 512" 
+				"spritesize" "0.5 0.0 28 36"
+				"spriterandomscale" "0.3"
+				"amount" "0.8"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "376 0 112 256 512" 
+				"spritesize" "0.5 0.0 16 22"
+				"amount" "0.4"
+				"detailOrientation" "2"
+			}
+			"alpha" "1.0"
+			Model14
+			{
+				"upright" "1.0"
+				"model" "models/props_foliage/grass_02_detailmodel.mdl"
+				"amount" "0.025"
+			}
+		}
+	}
+	
+	// detail_island
+	// this corresponds to cp_mercenarypark
+	tf_island_grass
+	{
+		"density" "3000.0"
+
+		Group1
+		{
+	
+			"alpha" "0.0"
+		}
+		Group2
+		{
+	
+			"alpha" "0.8"
+
+		}
+		Group3
+		{
+			"alpha" "1.0"
+			Model1
+			{
+				"sprite" "0 0 164 256 512" 
+				"spritesize" "0.5 0.0 18 27"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model2
+			{
+				"sprite" "197 77 151 180 512" 
+				"spritesize" "0.5 0.0 28 36"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model3
+			{
+				"sprite" "376 0 112 256 512" 
+				"spritesize" "0.5 0.0 16 22"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			"alpha" "1.0"
+			Model14
+			{
+				"upright" "1.0"
+				"model" "models/props_foliage/island_plant_detailmodel01.mdl"
+				"amount" "0.005"
+			}
+			"alpha" "1.0"
+			Model15
+			{
+				"upright" "1.0"
+				"model" "models/props_foliage/island_plant_detailmodel02.mdl"
+				"amount" "0.0025"
+			}
+			"alpha" "1.0"
+			Model16
+			{
+				"upright" "1.0"
+				"model" "models/props_foliage/island_plant_detailmodel03.mdl"
+				"amount" "0.0025"
+			}
+		}
+	}
+	
+	tf_island_rockcover
+	{
+		"density" "5000.0"
+
+		Group1
+		{
+	
+			"alpha" "0.0"
+		}
+		Group2
+		{
+	
+			"alpha" "0.8"
+
+		}
+		Group3
+		{
+			"alpha" "1.0"
+			Model1
+			{
+				"upright" "1.0"
+				"model" "models/props_foliage/island_plant_detailmodel04.mdl"
+				"amount" "0.05"
+			}
+		}
+	}
+	
+	tf_island_thatchroof
+	{
+		"density" "500.0"
+
+		Group1
+		{
+	
+			"alpha" "1.0"
+		}
+		Group2
+		{
+	
+			"alpha" "0.8"
+
+		}
+		Group3
+		{
+			"alpha" "0.0"
+			Model1
+			{
+				"upright" "1.0"
+				"model" "models/props_foliage/island_thatch_detailmodel01.mdl"
+				"amount" "0.005"
+			}
+			Model2
+			{
+				"upright" "1.0"
+				"model" "models/props_foliage/island_thatch_detailmodel02.mdl"
+				"amount" "0.05"
+			}
+		}
+	}
+	
+	// detail_lakeside, detail_sawmill, detail_trainyard
+	tf_forest_grass
+	{
+		"density" "3000.0"
+		Group1
+		{
+	
+			"alpha" "1.0"
+			Model1
+			{
+				"sprite" "0 0 164 256 512" 
+				"spritesize" "0.5 0.0 21 48"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+			Model2
+			{
+				"sprite" "200 85 94 172 512" 
+				"spritesize" "0.5 0.0 16 37"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+			Model3
+			{
+				"sprite" "354 161 148 96 512" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 12 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.4"
+				"detailOrientation" "0"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 18 12"
+				"spriterandomscale" "0.2"
+				"amount" "0.75"
+				"detailOrientation" "0"
+			}
+			Model6
+			{
+				"sprite" "418 424 43 88 512" 
+				"spritesize" "0.5 0.0 11 22"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+		}
+		Group2
+		{
+			"alpha" "0.5"
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 12 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 18 12"
+				"spriterandomscale" "0.2"
+				"amount" "0.5"
+				"detailOrientation" "2"
+			}
+		}
+		Group3
+		{
+			"alpha" "0.25"
+		}
+		Group4
+		{
+			"alpha" "0.0"
+		}
+	}
+
+	tf_forest_grass_lowdensity
+	{
+		"density" "1500.0"
+		Group1
+		{
+	
+			"alpha" "1.0"
+			Model1
+			{
+				"sprite" "0 0 164 256 512" 
+				"spritesize" "0.5 0.0 21 48"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+			Model2
+			{
+				"sprite" "200 85 94 172 512" 
+				"spritesize" "0.5 0.0 16 37"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+			Model3
+			{
+				"sprite" "354 161 148 96 512" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 12 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.4"
+				"detailOrientation" "0"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 18 12"
+				"spriterandomscale" "0.2"
+				"amount" "0.75"
+				"detailOrientation" "0"
+			}
+			Model6
+			{
+				"sprite" "418 424 43 88 512" 
+				"spritesize" "0.5 0.0 11 22"
+				"spriterandomscale" "0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+		}
+		Group2
+		{
+			"alpha" "0.5"
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 12 16"
+				"spriterandomscale" "0.2"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 18 12"
+				"spriterandomscale" "0.2"
+				"amount" "0.5"
+				"detailOrientation" "2"
+			}
+		}
+		Group3
+		{
+			"alpha" "0.25"
+		}
+		Group4
+		{
+			"alpha" "0.0"
+		}
+	}
+
+	tf_forest_grass_temp
+	{
+		"density" "3000.0"
+		Group1
+		{
+	
+			"alpha" "1.0"
+			Model1
+			{
+				"sprite" "0 0 164 256 512" 
+				"spritesize" "0.5 0.0 21 48"
+				"spriterandomscale" "0.2"
+				"amount" "0.04"
+				"detailOrientation" "0"
+			}
+			Model2
+			{
+				"sprite" "200 85 94 172 512" 
+				"spritesize" "0.5 0.0 16 37"
+				"spriterandomscale" "0.4"
+				"amount" "0.05"
+				"detailOrientation" "0"
+			}
+			Model3
+			{
+				"sprite" "354 161 148 96 512" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.4"
+				"amount" "0.2"
+				"detailOrientation" "0"
+			}
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 12 16"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 18 12"
+				"spriterandomscale" "0.4"
+				"amount" "0.25"
+				"detailOrientation" "0"
+			}
+			Model6
+			{
+				"sprite" "418 424 43 88 512" 
+				"spritesize" "0.5 0.0 11 22"
+				"spriterandomscale" "0.05"
+				"amount" "0.1"
+				"detailOrientation" "0"
+			}
+		}
+		Group2
+		{
+			"alpha" "0.5"
+			Model4
+			{
+				"sprite" "32 416 64 96 512" 
+				"spritesize" "0.5 0.0 12 16"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+				"detailOrientation" "2"
+			}
+			Model5
+			{
+				"sprite" "217 472 68 40 512" 
+				"spritesize" "0.5 0.0 18 12"
+				"spriterandomscale" "0.4"
+				"amount" "0.25"
+				"detailOrientation" "2"
+			}
+		}
+		Group3
+		{
+			"alpha" "0.0"
+		}
+	}
+	
+	// End of TF2 Detail Props
+	
+	// Start of CSGO Detail Props
+
+	prodgrasses
+	{
+		"density" "1000.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props/de_prodigy/prodgrassa.mdl"
+				"amount" "1"
+			}
+
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+		}
+	}
+	
+	survival_grass
+	{
+		"associated_material" "detail\detailsprites_overgrown_massive9"
+	
+		"density" "5000"
+	
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.8" 
+		}
+		Group3
+		{
+			"alpha" ".28"
+			
+			A
+			{
+				"sprite"			"768 0 128 512 1024"	//(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 22 75"			//x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3"					//randomness of sprite sizes
+				"amount"			"0.1"					//relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"
+			}
+			B
+			{
+				"sprite"			"768 512 256 128 1024"
+				"spritesize"		"0.5 0 49 25"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.08"
+				"detailOrientation"	"2"
+			}
+			C
+			{
+				"sprite"			"768 640 256 128 1024"
+				"spritesize"		"0.5 0 43 25"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.12"
+				"detailOrientation"	"2"
+			}
+		}
+		Group4
+		{
+			"alpha" ".1"
+			
+			D
+			{
+				"sprite"			"0 0 256 512 1024"
+				"spritesize"		"0.5 0 37.5 50"
+				"spriterandomscale"	"0.4"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+			E
+			{
+				"sprite"			"0 0 256 512 1024"
+				"spritesize"		"0.5 0 17.5 25"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.2"
+				"detailOrientation"	"2"
+			}
+			F
+			{
+				"sprite"			"256 0 256 512 1024"
+				"spritesize"		"0.5 0 40 55"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.2"
+				"detailOrientation"	"2"
+			}
+			G
+			{
+				"sprite"			"512 0 256 256 1024"
+				"spritesize"		"0.5 0 20 40"
+				"spriterandomscale"	"0.35"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			H
+			{
+				"sprite"			"768 0 128 512 1024"
+				"spritesize"		"0.5 0 37 100"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.5"
+				"detailOrientation"	"2"
+			}
+			I
+			{
+				"sprite"			"0 512 256 512 1024"
+				"spritesize"		"0.5 0 62 90"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.09"
+				"detailOrientation"	"2"
+			}
+			J
+			{
+				"sprite"			"512 768 256 256 1024"
+				"spritesize"		"0.5 0 57 55"
+				"spriterandomscale"	"0.4"
+				"amount"			"0.25"
+				"detailOrientation"	"2"
+			}
+			K
+			{
+				"sprite"			"768 512 256 128 1024"
+				"spritesize"		"0.5 0 55 30"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.08"
+				"detailOrientation"	"2"
+			}
+			L
+			{
+				"sprite"			"768 640 256 128 1024"
+				"spritesize"		"0.5 0 55 30"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.12"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+	
+	survival_grass_2
+	{
+		"associated_material" "detail\detailsprites_survival"
+	
+		"density" "4800"
+
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+
+		Group2
+		{
+			"alpha" ".65"
+		}
+
+		Group3
+		{
+			"alpha" ".55"
+			A
+			{
+				"sprite"		"0 0 320 448 1024" 	
+				"spritesize"		"0.5 0 20 30" 		
+				"spriterandomscale"	"0.05"			
+				"amount"		"0.01"		
+				"detailOrientation"	"2"			
+			}
+			B
+			{
+				"sprite"		"320 0 256 448 1024"
+				"spritesize"		"0.5 0 19 34"
+				"spriterandomscale"	"0.05"
+				"amount"		"0.02"
+				"detailOrientation"	"2"
+			}
+			E
+			{
+				"sprite"		"320 448 256 576 1024"
+				"spritesize"		"0.5 0 17 38"
+				"spriterandomscale"	"0.05"
+				"amount"		"0.02"
+				"detailOrientation"	"2"
+			}
+			D
+			{
+				"sprite"		"0 448 320 576 1024"
+				"spritesize"		"0.5 0 18 36"
+				"spriterandomscale"	"0.05"
+				"amount"		"0.03"
+				"detailOrientation"	"2"
+			}
+			F
+			{
+				"sprite"		"576 512 448 512 1024"
+				"spritesize"		"0.5 0 34 36"
+				"spriterandomscale"	"0.05"
+				"amount"		"0.15"
+				"detailOrientation"	"2"
+			}
+			I
+			{
+				"sprite"		"576 0 256 256 1024"
+				"spritesize"		"0.5 0 18 18"
+				"spriterandomscale"	"0.05"
+				"amount"		"0.07"
+				"detailOrientation"	"2"
+			}
+			J
+			{
+				"sprite"		"832 0 192 256 1024"
+				"spritesize"		"0.5 0 12 16"
+				"spriterandomscale"	"0.05"
+				"amount"		"0.07"
+				"detailOrientation"	"2"
+			}
+		}
+
+		Group4
+		{
+			"alpha" ".4"
+			
+			A
+			{
+				"sprite"		"0 0 320 448 1024" 	//(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 20 30" 		//x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.1"			//randomness of sprite sizes
+				"amount"		"0.01"		//relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"			//1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			B
+			{
+				"sprite"		"320 0 256 448 1024"
+				"spritesize"		"0.5 0 18 35"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.02"
+				"detailOrientation"	"2"
+			}
+			D
+			{
+				"sprite"		"0 448 320 576 1024"
+				"spritesize"		"0.5 0 18 36"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.03"
+				"detailOrientation"	"2"
+			}
+
+			E
+			{
+				"sprite"		"320 448 256 576 1024"
+				"spritesize"		"0.5 0 16 34"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.02"
+				"detailOrientation"	"2"
+			}
+			F
+			{
+				"sprite"		"576 512 448 512 1024"
+				"spritesize"		"0.5 0 34 36"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.15"
+				"detailOrientation"	"2"
+			}
+			G
+			{
+				"sprite"		"576 256 448 256 1024"
+				"spritesize"		"0.5 0 13 13"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.3"
+				"detailOrientation"	"2"
+			}
+
+			I
+			{
+				"sprite"		"576 0 256 256 1024"
+				"spritesize"		"0.5 0 18 18"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.2"
+				"detailOrientation"	"2"
+			}
+			J
+			{
+				"sprite"		"832 0 192 256 1024"
+				"spritesize"		"0.5 0 12 16"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.2"
+				"detailOrientation"	"2"
+			}
+		}
+
+		Group5
+		{
+			"alpha" ".25"
+			
+			A
+			{
+				"sprite"		"0 0 320 448 1024" 	//(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 20 30" 		//x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.1"			//randomness of sprite sizes
+				"amount"		"0.02"		//relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"			//1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			B
+			{
+				"sprite"		"320 0 256 448 1024"
+				"spritesize"		"0.5 0 20 38"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.04"
+				"detailOrientation"	"2"
+			}
+			D
+			{
+				"sprite"		"0 448 320 576 1024"
+				"spritesize"		"0.5 0 22 36"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.03"
+				"detailOrientation"	"2"
+			}
+			E
+			{
+				"sprite"		"320 448 256 576 1024"
+				"spritesize"		"0.5 0 20 38"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.02"
+				"detailOrientation"	"2"
+			}
+			F
+			{
+				"sprite"		"576 512 448 512 1024"
+				"spritesize"		"0.5 0 32 38"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.2"
+				"detailOrientation"	"2"
+			}
+			G
+			{
+				"sprite"		"576 256 448 256 1024"
+				"spritesize"		"0.5 0 13 13"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.22"
+				"detailOrientation"	"2"
+			}
+
+			I
+			{
+				"sprite"		"576 0 256 256 1024"
+				"spritesize"		"0.5 0 18 18"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.2"
+				"detailOrientation"	"2"
+			}
+			J
+			{
+				"sprite"		"832 0 192 256 1024"
+				"spritesize"		"0.5 0 12 16"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.2"
+				"detailOrientation"	"2"
+			}
+		}
+
+		Group6
+		{
+			"alpha" ".15"
+			
+			A
+			{
+				"sprite"		"0 0 320 448 1024" 	//(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 20 30" 		//x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.1"			//randomness of sprite sizes
+				"amount"		"0.02"		//relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"			//1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			B
+			{
+				"sprite"		"320 0 256 448 1024"
+				"spritesize"		"0.5 0 20 38"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.05"
+				"detailOrientation"	"2"
+			}
+			D
+			{
+				"sprite"		"0 448 320 576 1024"
+				"spritesize"		"0.5 0 22 40"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.06"
+				"detailOrientation"	"2"
+			}
+			E
+			{
+				"sprite"		"320 448 256 576 1024"
+				"spritesize"		"0.5 0 20 38"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.04"
+				"detailOrientation"	"2"
+			}
+			F
+			{
+				"sprite"		"576 512 448 512 1024"
+				"spritesize"		"0.5 0 32 38"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.3"
+				"detailOrientation"	"2"
+			}
+			G
+			{
+				"sprite"		"576 256 448 256 1024"
+				"spritesize"		"0.5 0 13 13"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.2"
+				"detailOrientation"	"2"
+			}
+
+			I
+			{
+				"sprite"		"576 0 256 256 1024"
+				"spritesize"		"0.5 0 18 18"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.2"
+				"detailOrientation"	"2"
+			}
+			J
+			{
+				"sprite"		"832 0 192 256 1024"
+				"spritesize"		"0.5 0 12 16"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.2"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+
+	dry_grass_forestfloor //Set detail material file for map to detailsprites_overgrown.vtf to use.
+	{
+		"density" "5000" //how often they appear inside material
+	
+		Group1
+		{
+			"alpha" "1.0" //dark dirt
+		}
+		Group2
+		{
+			"alpha" "0.8" 
+		}
+		Group3
+		{
+			"alpha" ".28" //grass
+			
+			Model7 //Weed01
+			{
+				"sprite"			"696 176 125 336 1024"
+				"spritesize"		"0.5 0 4.4 15"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model9 //Grass no clover
+			{
+				"sprite"			"800 532 223 130 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 9.8 5"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.2"  //randomness of sprite sizes
+				"amount"			"0.08"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model9 //Clover 01
+			{
+				"sprite"			"800 682 224 128 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 8.6 5"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.1"  //randomness of sprite sizes
+				"amount"			"0.12"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+		}
+		Group4
+		{
+			"alpha" ".1" //grass
+			
+			Model1 //Long grass 01
+			{
+				"sprite"			"0 0 256 512 1024"
+				"spritesize"		"0.5 0 7.5 10"
+				"spriterandomscale"	"0.4"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+			Model1 //Long grass 01
+			{
+				"sprite"			"0 0 256 512 1024"
+				"spritesize"		"0.5 0 3.5 5"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.2"
+				"detailOrientation"	"2"
+			}
+			Model1 //Long dry weed grass 01
+			{
+				"sprite"			"252 0 206 512 1024"
+				"spritesize"		"0.5 0 8 11"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.2"
+				"detailOrientation"	"2"
+			}
+			Model2 //Dry grass 01
+			{
+				"sprite"			"480 0 208 272 1024"
+				"spritesize"		"0.5 0 4 8"
+				"spriterandomscale"	"0.35"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model7 //Weed01
+			{
+				"sprite"			"696 176 125 336 1024"
+				"spritesize"		"0.5 0 7.4 20"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.5"
+				"detailOrientation"	"2"
+			}
+			Model11 //Bush 01
+			{
+				"sprite"			"0 610 256 414 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 12.4 18"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3"  //randomness of sprite sizes
+				"amount"			"0.09"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model12 //Grass 03
+			{
+				"sprite"			"512 778 210 245 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 11.4 11"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.4"  //randomness of sprite sizes
+				"amount"			"0.25"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model9 //Grass no clover
+			{
+				"sprite"			"800 532 223 130 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 11 6"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.2"  //randomness of sprite sizes
+				"amount"			"0.08"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model9 //Clover 01
+			{
+				"sprite"			"800 682 224 128 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 11 6"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.1"  //randomness of sprite sizes
+				"amount"			"0.12"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+		}
+	}
+
+	urban_grass_overgrown //Set detail material file for map to detailsprites_overgrown.vtf to use.
+	{
+		"density" "7000" //how often they appear inside material
+	
+		Group1
+		{
+			"alpha" "1.0" //dark dirt
+		}
+		Group2
+		{
+			"alpha" "0.8" 
+		}
+		Group3
+		{
+			"alpha" ".22" //grass
+			
+			Model7 //Weed01
+			{
+				"sprite"			"696 176 125 336 1024"
+				"spritesize"		"0.5 0 4.4 15"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+			Model9 //Grass no clover
+			{
+				"sprite"			"800 532 223 130 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 9.8 5"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.2"  //randomness of sprite sizes
+				"amount"			"0.05"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model9 //Clover 01
+			{
+				"sprite"			"800 682 224 128 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 8.6 5"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.1"  //randomness of sprite sizes
+				"amount"			"0.1"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+		}
+		Group4
+		{
+			"alpha" ".1" //grass
+			
+			Model1 //Long grass 01
+			{
+				"sprite"			"0 0 256 512 1024"
+				"spritesize"		"0.5 0 12.5 19"
+				"spriterandomscale"	"0.4"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+			Model1 //Long grass 01
+			{
+				"sprite"			"0 0 256 512 1024"
+				"spritesize"		"0.5 0 6.5 8"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.2"
+				"detailOrientation"	"2"
+			}
+			Model1 //Long dry weed grass 01
+			{
+				"sprite"			"252 0 206 512 1024"
+				"spritesize"		"0.5 0 12.5 20"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.2"
+				"detailOrientation"	"2"
+			}
+			Model2 //Dry grass 01
+			{
+				"sprite"			"480 0 208 272 1024"
+				"spritesize"		"0.5 0 7.5 11"
+				"spriterandomscale"	"0.35"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model7 //Weed01
+			{
+				"sprite"			"696 176 125 336 1024"
+				"spritesize"		"0.5 0 7.4 20"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.5"
+				"detailOrientation"	"2"
+			}
+			Model9 //Grass no clover
+			{
+				"sprite"			"800 532 223 130 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 15.8 10"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.35"  //randomness of sprite sizes
+				"amount"			"0.03"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model11 //Bush 01
+			{
+				"sprite"			"0 610 256 414 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 12.4 18"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3"  //randomness of sprite sizes
+				"amount"			"0.02"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model12 //Grass 03
+			{
+				"sprite"			"512 778 210 245 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 11.4 11"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.4"  //randomness of sprite sizes
+				"amount"			"0.25"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+		}
+	}
+	
+	urban_grass_overgrown_lowdensity //Set detail material file for map to detailsprites_overgrown.vtf to use.
+	{
+		"density" "1000" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0" //dark dirt
+		}
+		Group2
+		{
+			"alpha" "0.9" 
+		}
+		Group3
+		{
+			"alpha" ".1" //grass
+			
+			Model1 //Long grass 01
+			{
+				"sprite"			"0 0 256 512 1024"
+				"spritesize"		"0.5 0 15.5 26"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.25"
+				"detailOrientation"	"2"
+			}
+			Model7 //Weed01
+			{
+				"sprite"			"696 176 125 336 1024"
+				"spritesize"		"0.5 0 7.4 20"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model9 //Grass no clover
+			{
+				"sprite"			"800 535 224 130 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 13.8 8"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.2"  //randomness of sprite sizes
+				"amount"			"0.15"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model9 //Clover 01
+			{
+				"sprite"			"802 682 222 134 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 13.2 8"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.2"  //randomness of sprite sizes
+				"amount"			"0.25"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model9 //Bush 01
+			{
+				"sprite"			"0 610 256 414 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 12.4 20"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3"  //randomness of sprite sizes
+				"amount"			"0.1"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model9 //Grass 02
+			{
+				"sprite"			"485 545 210 203 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 10.3 10"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3"  //randomness of sprite sizes
+				"amount"			"0.1"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model9 //Grass 03
+			{
+				"sprite"			"512 778 210 183 1024"  //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 11.4 10"  //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3"  //randomness of sprite sizes
+				"amount"			"0.05"  //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2"  //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+		}
+	}
+
+
+	swamp_ground01 //Set detail material file for map to ruraldetailsprites.vtf to use.
+	{
+		"density" "2000" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0" //dirt
+
+			Model3 //Sage 02
+			{
+				"sprite"			"148 128 132 128 512"
+				"spritesize"		"0.35 0.06 10 10"
+				"spriterandomscale"	"0.3"
+				"amount" 			"0.1"
+				"detailOrientation" "2"
+			}
+			Model4 //California Poppy
+			{
+				"sprite"			"280 128 80 128 512"
+				"spritesize"		"0.5 0.0 9.75 15"
+				"spriterandomscale"	"0.2"
+				"amount" 			"0.02"
+				"detailOrientation"	"2"
+			}
+			Model9 //Yellow Weed
+			{
+
+				"sprite"			"167 256 99 256 512"
+				"spritesize"		"0.53 0.02 5.7 15"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model6 //Grass 02
+			{
+				"sprite"			"360 160 152 96 512"
+				"spritesize"		"0.44 0.04 18.75 12"
+				"spriterandomscale"	"0.2"
+				"amount" 			"0.06"
+				"detailOrientation" "2"
+			}
+		}
+		
+		Group2
+		{
+			"alpha" "0.1" // forest edge
+			
+			Model1 //PineappleSage
+			{
+				"sprite" 			"0 0 148 256 512" //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.63 0.01 12.5 21.75" //x & y of rotational center of sprite (approx .5 0), x y world size of sprite
+				"spriterandomscale"	"0.3" //randomness of sprite sizes
+				"amount" 			"0.05" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation" "2" //1 faces player. 0 would not rotate. 2 faces camera.
+			}
+			Model6 //Grass 02
+			{
+				"sprite"			"360 160 152 96 512"
+				"spritesize"		"0.44 0.04 21.38 13.5"
+				"spriterandomscale"	"0.1"
+				"amount" 			"0.1475"
+				"detailOrientation" "2"
+			}
+			Model9 //Yellow Weed
+			{
+				"sprite"			"167 256 99 256 512"
+				"spritesize"		"0.4 0.02 11 28.5"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.1475"
+				"detailOrientation"	"2"
+			}
+			Model10 //Lavendar
+			{
+				"sprite"			"265 256 248 256 512"
+				"spritesize"		"0.52 0.04 25.5 27"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			
+		}
+		
+		Group3
+		{
+			"alpha" "0.0" //leaves
+			
+			
+			Model2 //Sapling
+			{
+
+				"sprite"			"148 0 132 128 512"
+				"spritesize"		"0.49 0.1 26 26"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+
+			Model8 //Slim Leafy Weed
+			{
+				"sprite"			"120 384 47 128 512"
+				"spritesize"		"0.48 0.02 7.5 15"
+				"spriterandomscale"	"0.3"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+
+		}
+
+	}
+	
+	house_dirt_leaves //Set detail material file for map to detailsprites_house.vtf to use.
+	{
+	"density" "1500" //how often they appear inside material
+		Group1
+		{
+			"alpha" "1.0" //dirt
+		}
+		Group2
+		{
+			"alpha" "0.7" //
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 23 30"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model4 // Dense, green, small leaved weed
+			{
+				"sprite"			"394 0 118 190 512"
+				"spritesize"		"0.5 0 22.4 36"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.005"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 0 28.3 28"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.225"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 0.01 31 38"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.245"
+				"detailOrientation"	"2"
+			}
+			Model7 // Tapered base leafy weed
+			{
+				"sprite"			"288 190 116 162 512"
+				"spritesize"		"0.5 0.01 17 24"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+		}
+		Group3
+		{
+			"alpha" "0.0" //leaves
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 .01 15.2 15"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .01 28.8 34"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 .01 28.9 31"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+	
+	house_leaves_dirt //Set detail material file for map to detailsprites_house.vtf to use.
+	{
+	"density" "1500" //how often they appear inside material
+		Group1
+		{
+			"alpha" "0.0" //dirt
+		}
+		Group2
+		{
+			"alpha" "0.3" //
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 23 30"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model4 // Dense, green, small leaved weed
+			{
+				"sprite"			"394 0 118 190 512"
+				"spritesize"		"0.5 0 22.4 36"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.005"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 0 28.3 28"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.225"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 0.01 31 38"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.245"
+				"detailOrientation"	"2"
+			}
+			Model7 // Tapered base leafy weed
+			{
+				"sprite"			"288 190 116 162 512"
+				"spritesize"		"0.5 0.01 17 24"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+		}
+		Group3
+		{
+			"alpha" "1.0" //leaves
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 .01 15.2 15"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .01 28.8 34"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 .01 28.9 31"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+	
+	house_leaves_grass //Set detail material file for map to detailsprites_house.vtf to use.
+	{
+	"density" "1300" //how often they appear inside material
+		Group1
+		{
+			"alpha" "0.0" //leaves
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 13 20"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.05"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .01 22.8 28"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.05"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 0 22.9 25"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.05"
+				"detailOrientation"	"2"
+			}
+		}
+		Group3
+		{
+			"alpha" "1.0" //grass
+			Model2 // Tall, skinny, seedy grass clump
+			{
+				"sprite"			"156 0 120 190 512"
+				"spritesize"		"0.4 0 23 29"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.175"
+				"detailOrientation"	"2"
+			}
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 19 26"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.225"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 0 24.3 24"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.275"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .01 22.8 28"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.175"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+	
+	house_dirt_grass //Set detail material file for map to detailsprites_house.vtf to use.
+	{
+	"density" "2000" //how often they appear inside material
+		Group1
+		{
+			"alpha" "0.0" //dirt
+		}
+		Group2
+		{
+			"alpha" "0.2" // mostly dirt
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 10 14"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 0 10.6 10.5"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+		}
+		Group3
+		{
+			"alpha" "1.0" //long grass
+			Model1 // Wide base leafy weed
+			{
+				"sprite"			"0 0 156 194 512" //(X, Y) coord. of upper left corner, w & h of sprite, size of the detailsprite.vtf texture in pixels.
+				"spritesize"		"0.5 0 20 24.9" //(X, Y) of rotational center of sprite (approx .5 0), (X, Y) world size of sprite
+				"spriterandomscale"	"0.2" //randomness of sprite sizes
+				"amount"			"0.025" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation"	"2" //1 faces player. 0 would not rotate. 2 faces camera.m
+			}
+			Model2 // Tall, skinny, seedy grass clump
+			{
+				"sprite"			"156 0 120 190 512"
+				"spritesize"		"0.4 0 12 19"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 13 20"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model4 // Dense, green, small leaved weed
+			{
+				"sprite"			"394 0 118 190 512"
+				"spritesize"		"0.5 0 14.9 24"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.025"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 0 28.3 28"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1625"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .01 22.8 28"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model7 // Tapered base leafy weed
+			{
+				"sprite"			"288 190 116 162 512"
+				"spritesize"		"0.5 .01 20 24.9"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.0125"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 0 22.9 25"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 0 28.8 34"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+	
+	house_leaves_pavement //Set detail material file for map to detailsprites_house.vtf to use.
+	{
+	"density" "1000" //how often they appear inside material
+		Group1
+		{
+			"alpha" "1.0" //pavement
+		}
+		Group2
+		{
+			"alpha"	"0.3"
+		}
+		Group3
+		{
+			"alpha" "0.0" //
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 17 22"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.225"
+				"detailOrientation"	"2"
+			}
+			Model7 // Tapered base leafy weed
+			{
+				"sprite"			"288 190 116 162 512"
+				"spritesize"		"0.5 0.01 17 24"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 .01 15.2 15"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .02 18 21.25"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.3"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 .02 16 17"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.3"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+	
+	house_pavement_leaves //Set detail material file for map to detailsprites_house.vtf to use.
+	{
+	"density" "1000" //how often they appear inside material
+		Group1
+		{
+			"alpha" "0.0" //pavement
+		}
+		Group2
+		{
+			"alpha"	"0.7"
+		}
+		Group3
+		{
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 17 22"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.225"
+				"detailOrientation"	"2"
+			}
+			Model7 // Tapered base leafy weed
+			{
+				"sprite"			"288 190 116 162 512"
+				"spritesize"		"0.5 0.01 17 24"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 .01 15.2 15"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .02 18 21.25"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.3"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 .02 16 17"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.3"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+
+	house_grass //Set detail material file for map to detailsprites_house.vtf to use.
+	{
+	"density" "2000" //how often they appear inside material
+		Group1
+		{
+			"alpha"	"0.0" // grass
+			Model2 // Tall, skinny, seedy grass clump
+			{
+				"sprite"			"156 0 120 190 512"
+				"spritesize"		"0.4 0 12 19"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 13 20"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model4 // Dense, green, small leaved weed
+			{
+				"sprite"			"394 0 118 190 512"
+				"spritesize"		"0.5 0 14.9 24"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.05"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 0 28.3 28"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1625"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .01 22.8 28"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 0 22.9 25"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.1625"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 0 28.8 34"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+		}
+		Group2
+		{
+			"alpha" "1.0" //
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 17 22"
+				"spriterandomscale"	"0.25"
+				"amount"			"0.225"
+				"detailOrientation"	"2"
+			}
+			Model7 // Tapered base leafy weed
+			{
+				"sprite"			"288 190 116 162 512"
+				"spritesize"		"0.5 0.01 17 24"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 .01 15.2 15"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .02 28.8 34"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.3"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 .02 28.9 31"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.3"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+	
+	house_grass_leaves //Set detail material file for map to detailsprites_house.vtf to use.
+	{
+	"density" "2000" //how often they appear inside material
+		Group1
+		{
+			Model2 // Tall, skinny, seedy grass clump
+			{
+				"sprite"			"156 0 120 190 512"
+				"spritesize"		"0.4 0 12 19"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.15"
+				"detailOrientation"	"2"
+			}
+			Model3 // Seed set, small leaved weed
+			{
+				"sprite"			"276 0 118 190 512"
+				"spritesize"		"0.4 0 13 20"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.1"
+				"detailOrientation"	"2"
+			}
+			Model4 // Dense, green, small leaved weed
+			{
+				"sprite"			"394 0 118 190 512"
+				"spritesize"		"0.5 0 14.9 24"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.05"
+				"detailOrientation"	"2"
+			}
+			Model5 // Mixed leaves and sticks weed
+			{
+				"sprite"			"0 194 156 154 512"
+				"spritesize"		"0.3 0 28.3 28"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.1625"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 .01 22.8 28"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.125"
+				"detailOrientation"	"2"
+			}
+			Model8 // Sparse, curved dead sticks
+			{
+				"sprite"			"0 348 150 164 512"
+				"spritesize"		"0.33 0 22.9 25"
+				"spriterandomscale"	"0.1"
+				"amount"			"0.1625"
+				"detailOrientation"	"2"
+			}
+			Model6 // Dense, straight sticks, grassy base
+			{
+				"sprite"			"156 190 132 162 512"
+				"spritesize"		"0.5 0 28.8 34"
+				"spriterandomscale"	"0.2"
+				"amount"			"0.075"
+				"detailOrientation"	"2"
+			}
+		}
+	}
+	
+	// End of CSGO Detail Props
+}
+

@@ -1,0 +1,1399 @@
+"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{
+		// Moved from p2ce_english.txt
+		
+		///////////////////////////////////////////////////////////////////////////////////////////////
+		// XLAST STRINGS
+		///////////////////////////////////////////////////////////////////////////////////////////////
+
+		// cfg_xboxlive_builtin_strings.cfg 
+		"X_STRINGID_TITLENAME"					"Portal 2"
+
+		// cfg_xboxlive_presence_strings.cfg 
+		"RICHPRESENCE_IDLE" 					"Idle"
+		"RICHPRESENCE_MAINMENU" 				"Main Menu"
+		"RICHPRESENCE_SP" 						"{c0}"
+		"RICHPRESENCE_COOPMENU" 				"Playing Co-op\n{c1}"
+		"RICHPRESENCE_COOPGAME" 				"{c2}\n{c3}"
+		"RICHPRESENCE_COOPGAME_TRACK" 			"{c2}\n{c3} {p0x10000023}/{p0x10000024}"
+
+		"SP_PRESENCE_TEXT_DEFAULT"				"Playing Single Player"
+		"SP_PRESENCE_TEXT_CH1"					"Chapter 1\nThe Courtesy Call"
+		"SP_PRESENCE_TEXT_CH2"					"Chapter 2\nThe Cold Boot"
+		"SP_PRESENCE_TEXT_CH3"					"Chapter 3\nThe Return"
+		"SP_PRESENCE_TEXT_CH4"					"Chapter 4\nThe Surprise"
+		"SP_PRESENCE_TEXT_CH5"					"Chapter 5\nThe Escape"
+		"SP_PRESENCE_TEXT_CH6"					"Chapter 6\nThe Fall"
+		"SP_PRESENCE_TEXT_CH7"					"Chapter 7\nThe Reunion"
+		"SP_PRESENCE_TEXT_CH8"					"Chapter 8\nThe Itch"
+		"SP_PRESENCE_TEXT_CH9"					"Chapter 9\nThe Part Where He Kills You"
+		"SP_PRESENCE_TEXT_CH10"					"Chapter 10\nThe Credits"
+
+		"COOP_PRESENCE_WAITING_DEFAULT"			"Waiting for Partner"
+		"COOP_PRESENCE_WAITING_SPLITSCREEN"		"Splitscreen"
+		"COOP_PRESENCE_WAITING_FRIEND"			"Waiting for Partner"
+		"COOP_PRESENCE_WAITING_QUICKMATCH"		"Waiting for Stranger"
+
+		"COOP_PRESENCE_TAGLINE_DEFAULT"			"Playing Co-op"
+		"COOP_PRESENCE_TAGLINE_SPLITSCREEN"		"Co-op Splitscreen"
+		"COOP_PRESENCE_TAGLINE_FRIEND"			"Co-op with Friend"
+		"COOP_PRESENCE_TAGLINE_QUICKMATCH"		"Co-op with Stranger"
+
+		"COOP_PRESENCE_TRACK_DEFAULT"			"Co-op Track"
+		"COOP_PRESENCE_TRACK_CALIBRATION"		"Calibration Course"
+		"COOP_PRESENCE_TRACK_HUB"				"Enjoying the Hub"
+		"COOP_PRESENCE_TRACK_TRACK1"			"Team Building"
+		"COOP_PRESENCE_TRACK_TRACK2"			"Mass and Velocity"
+		"COOP_PRESENCE_TRACK_TRACK3"			"Hard Light"
+		"COOP_PRESENCE_TRACK_TRACK4"			"Excursion Funnels"
+		"COOP_PRESENCE_TRACK_TRACK5"			"Mobility Gels"
+		"COOP_PRESENCE_TRACK_CREDITS"			"Credits"
+
+		// cfg_xboxlive_gamemode_strings.cfg 
+		"GAME_MODE_SP"							"Single Player"
+		"GAME_MODE_COOP"						"Cooperative"
+
+		///////////////////////////////////////////////////////////////////////////////////////////////
+		// END OF XLAST STRINGS
+		///////////////////////////////////////////////////////////////////////////////////////////////
+		
+		"P2Controller_Taunt"				"Gesture"
+		"P2Controller_Signal"				"Ping Menu"
+		"P2Controller_RemoteView"			"Partner View"
+		"P2Controller_PortalBlue"			"Blue Portal"
+		"P2Controller_PortalOrange"			"Orange Portal"
+		"P2Controller_QuickPing"			"Quick Ping"
+		"P2Controller_Zoom"					"Zoom"
+
+		"HL2_GameOver_Object"				"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: FAILURE TO PRESERVE MISSION-CRITICAL RESOURCES"
+		"HL2_GameOver_Ally"					"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: FAILURE TO PRESERVE MISSION-CRITICAL PERSONNEL"
+		"HL2_GameOver_Timer"				"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: FAILURE TO PREVENT TIME-CRITICAL SEQUENCE"
+		"HL2_GameOver_Stuck"				"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: DEMONSTRATION OF EXCEEDINGLY POOR JUDGMENT"
+		
+		"Episodic_GameOver_AlyxDead"		"Alyx Died"
+
+		// figure out a way to override these strings in episodic
+		"HL2_GameOver_Object_ep2"			"IT ENDS HERE\nTHE FREEMAN HAS FAILED TO PRESERVE RESOURCES\nDEEMED CRITICAL TO VICTORY\nINESCAPABLE GLIMPSES OF DOOM CLOUD THE VORTESSENCE"
+		"HL2_GameOver_Ally_ep2"				"SO IT ENDS\nTHE FREEMAN HAS FAILED TO PRESERVE A LIFE REQUIRED FOR VICTORY\nSUCH ARE THE SHAPES WE SEE IN THE VORTESSENCE"
+		"HL2_GameOver_Timer_ep2"			"ALL IS DONE\nTHE FREEMAN'S FAILURE TO SEIZE A SWIFT VICTORY\nLEADS TO OUR TOTAL DEFEAT"
+		"HL2_GameOver_Stuck_ep2"			"ASSIGNMENT: TERMINATED\nSUBJECT: FREEMAN\nREASON: DEMONSTRATION OF EXCEEDINGLY POOR JUDGMENT"
+
+		"Portal_Portalgun"					"Aperture Science Handheld Portal Device\n(Portal Gun)"
+		
+		"HL2_Crowbar"						"Crowbar"
+		"HL2_GravityGun"					"Zero-Point Energy Field Manipulator\n(Gravity Gun)"
+		"HL2_Pistol"						"9mm Pistol"
+		"HL2_357Handgun"					"9x33mm Revolver\n(.357 Magnum)"
+		"HL2_SMG1"							"SMG\n(Sub-Machine Gun)"
+		"HL2_Pulse_Rifle"					"Overwatch Standard-Issue\n(Pulse Rifle)"
+		"HL2_Shotgun"						"SPAS-12\n(Shotgun)"
+		"HL2_Crossbow"						"Rebar Crossbow"
+		"HL2_Grenade"						"Fragmentation Grenade"
+		"HL2_RPG"							"RPG\n(Rocket-Propelled Grenade)"
+		"HL2_Bugbait"						"Pheropod\n(Bugbait)"
+
+		"HL2_SAVING"						"Saving..."
+		"HL2_Saved"							"Saved."
+		
+		"HL2_SetupMicrophone"				"Configure Advanced Microphone Settings"
+		"HL2_SetupMicrophoneSteam"			"The Steam Overlay is currently disabled.\nPlease enable the Steam Overlay or configure your microphone settings through the Steam client."
+
+		"HL2_Enable_Commentary"				"Enable commentary track"
+
+		"portal2_Chapter1"					"Chapter 1\nThe Courtesy Call"
+		"portal2_Chapter1_Title"			"Chapter 1"
+		"portal2_Chapter1_Subtitle"			"The Courtesy Call"
+
+		"portal2_Chapter2"					"Chapter 2\nThe Cold Boot"
+		"portal2_Chapter2_Title"			"Chapter 2"
+		"portal2_Chapter2_Subtitle"			"The Cold Boot"
+
+		"portal2_Chapter3"					"Chapter 3\nThe Return"
+		"portal2_Chapter3_Title"			"Chapter 3"
+		"portal2_Chapter3_Subtitle"			"The Return"
+
+		"portal2_Chapter4"					"Chapter 4\nThe Surprise"
+		"portal2_Chapter4_Title"			"Chapter 4"
+		"portal2_Chapter4_Subtitle"			"The Surprise"
+
+		"portal2_Chapter5"					"Chapter 5\nThe Escape"
+		"portal2_Chapter5_Title"			"Chapter 5"
+		"portal2_Chapter5_Subtitle"			"The Escape"
+
+		"portal2_Chapter6"					"Chapter 6\nThe Fall"
+		"portal2_Chapter6_Title"			"Chapter 6"
+		"portal2_Chapter6_Subtitle"			"The Fall"
+		
+		"portal2_Chapter7"					"Chapter 7\nThe Reunion"
+		"portal2_Chapter7_Title"			"Chapter 7"
+		"portal2_Chapter7_Subtitle"			"The Reunion"
+
+		"portal2_Chapter8"					"Chapter 8\nThe Itch"
+		"portal2_Chapter8_Title"			"Chapter 8"
+		"portal2_Chapter8_Subtitle"			"The Itch"
+
+		"portal2_Chapter9"					"Chapter 9\nThe Part Where He Kills You"
+		"portal2_Chapter9_Title"			"Chapter 9"
+		"portal2_Chapter9_Subtitle"			"The Part Where He Kills You"
+
+		"portal2_Chapter10"					"Chapter 10\nThe Credits"
+		"portal2_Chapter10_Title"			"Chapter 10"
+		"portal2_Chapter10_Subtitle"		"The Credits"
+
+		// hl2/episodic compat
+		// base game hl2
+		"HL2_Chapter1_Title"				"Chapter 1\nPoint Insertion"
+		"HL2_Chapter2_Title"				"Chapter 2\n\"A Red Letter Day\""
+		"HL2_Chapter3_Title"				"Chapter 3\nRoute Kanal"
+		"HL2_Chapter4_Title"				"Chapter 4\nWater Hazard"
+		"HL2_Chapter5_Title"				"Chapter 5\nBlack Mesa East"
+		"HL2_Chapter6_Title"				"Chapter 6\n\"We Don't Go To Ravenholm...\""
+		"HL2_Chapter7_Title"				"Chapter 7\nHighway 17"
+		"HL2_Chapter8_Title"				"Chapter 8\nSandtraps"
+		"HL2_Chapter9_Title"				"Chapter 9\nNova Prospekt"
+		"HL2_Chapter9a_Title"				"Chapter 9a\nEntanglement"
+		"HL2_Chapter10_Title"				"Chapter 10\nAnticitizen One"
+		"HL2_Chapter11_Title"				"Chapter 11\n\"Follow Freeman!\""
+		"HL2_Chapter12_Title"				"Chapter 12\nOur Benefactors"
+		"HL2_Chapter13_Title"				"Chapter 13\nDark Energy"
+		"HL2_Chapter14_Title"				"Chapter 14\nCredits"
+
+		// episodic
+		"episodic_Chapter1_Title"			"Chapter 1\nUndue Alarm"
+		"episodic_Chapter2_Title"			"Chapter 2\nDirect Intervention"
+		"episodic_Chapter3_Title"			"Chapter 3\nLowlife"
+		"episodic_Chapter4_Title"			"Chapter 4\nUrban Flight"
+		"episodic_Chapter5_Title"			"Chapter 5\nExit 17"
+
+		// ep2
+		"ep2_Chapter1_Title"				"Chapter 1\nTo The White Forest"
+		"ep2_Chapter2_Title"				"Chapter 2\nThis Vortal Coil"
+		"ep2_Chapter3_Title"				"Chapter 3\nFreeman Pontifex"
+		"ep2_Chapter4_Title"				"Chapter 4\nRiding Shotgun"
+		"ep2_Chapter5_Title"				"Chapter 5\nUnder the Radar"
+		"ep2_Chapter6_Title"				"Chapter 6\nOur Mutual Friend"
+		"ep2_Chapter7_Title"				"Chapter 7\nT-Minus One"
+		
+		// portal
+		"Portal_Chapter1_Title"				"Test Chamber 00"
+		"Portal_Chapter2_Title"				"Test Chamber 04"
+		"Portal_Chapter3_Title"				"Test Chamber 08"
+		"Portal_Chapter4_Title"				"Test Chamber 10"
+		"Portal_Chapter5_Title"				"Test Chamber 13"
+		"Portal_Chapter6_Title"				"Test Chamber 14"
+		"Portal_Chapter7_Title"				"Test Chamber 15"
+		"Portal_Chapter8_Title"				"Test Chamber 16"
+		"Portal_Chapter9_Title"				"Test Chamber 17"
+		"Portal_Chapter10_Title"			"Test Chamber 18"
+		"Portal_Chapter11_Title"			"Test Chamber 19"
+		"Portal_Chapter12_Title"			"Testing Complete"
+
+		"PORTAL2_CoopCommentary_Title1"		"Co-op\nConfidence Building"
+		"PORTAL2_CoopCommentary_Title2"		"Co-op\nThe Hub"
+		"PORTAL2_CoopCommentary_Title3"		"Co-op\nSecurity Room"
+
+		"P2_Actions_Title"					"ACTIONS"
+		"P2_Coop_Title"						"CO-OP"
+		"P2_Primary_Attack"					"Fire Blue Portal"
+		"P2_Secondary_Attack"				"Fire Orange Portal"
+		"P2_Zoom"							"Toggle Zoom"
+		"P2_Zoom_In"						"Zoom In"
+		"P2_Zoom_Out"						"Zoom Out"
+		"P2_Romote_View"					"Partner Remote View"
+		"P2_Mouse_Menu"						"Communication Menu"
+		"P2_Taunt"							"Gesture Menu"
+
+		"P2_Taunt_Earned"					"Gesture Deciphered"
+
+		"P2_Scoreboard_Ping"				"Ping"
+		"P2_Scoreboard_Dead"				"Dead"
+		"P2_Team_Red"						"P-body"
+		"P2_Team_Blue"						"Atlas"
+		"P2_Team_RedUpper"					"P-BODY"
+		"P2_Team_BlueUpper"					"ATLAS"
+
+		"P2_ScoreBoard_Player"				"%s2 - %s1"
+		"P2_ScoreBoard_Players"				"%s2 - %s1s"
+
+		"Valve_Hint_Sprint"					"Sprint"
+		"Valve_Hint_GravGun"				"Punt and Pull Objects"
+
+		"Valve_Hint_Look_Up"				"Look Up"
+		"Valve_Hint_Look_Down"				"Look Down"
+		"Valve_Hint_Use_Bed"				"Sleep"
+		"Valve_Hint_Movement_Keys"			"Walk"
+		"Valve_Hint_Say_Apple"				"Say \"Apple\""
+		"Valve_Hint_Talk"					"Yes"
+
+		"Valve_Hint_Crouch"					"Duck"
+		"Valve_Hint_Uncrouch"				"Stand Up"
+		"Valve_Hint_PushButton"				"Push Button"
+		"Valve_Hint_Interact"				"Interact"
+		"Valve_Hint_Jump"					"Jump"
+		"Valve_Hint_Door"					"Open Door"
+		"Valve_Hint_Lever"					"Pull Lever"
+		"Valve_Hint_Zoom"					"Zoom"
+		"Valve_Hint_Pickup_Glados"			"Pick Up GLaDOS"
+		"Valve_Hint_Socket"					"Activate Socket"
+
+		"Valve_Hint_USEPickup"				"Pick up object"
+
+		"Valve_Hint_CarryTurret"			"or use Gravity Gun to pick up Turret"
+		"Valve_Hint_CROSSBOW"				"Crossbow Zoom"
+
+		// PORTAL 2 INSTRUCTOR HINTS
+		"PORTAL2_HINT_GESTURE"				"Gesture"
+		"PORTAL2_HINT_BUTTON_GESTURE"		"Do a gesture"
+		"PORTAL2_HINT_SEE_NEW_GESTURE"		"Check out your new gesture!"
+		"PORTAL2_HINT_PING"					"Use your Ping Tool"
+		"PORTAL2_HINT_PING_WAIT"			"Wait for your partner's choice"
+
+		// Instructor
+		"Instructor_Air_Taunt"				"Air Gesture"
+		"Instructor_New_Taunt_Earned"		"Gesture"
+		"Instructor_Partner_View"			"Hold for Partner View"
+		"Instructor_Start_Countdown"		"Hold for Countdown"
+		"Instructor_Return_To_Hub"			"Go to Hub"
+		"Instructor_Create_Blue_Portal"		"Create Blue Portal"
+		"Instructor_Create_Purple_Portal"	"Create Purple Portal"
+		"Instructor_Create_Orange_Portal"	"Create Orange Portal"
+		"Instructor_Create_Red_Portal"		"Create Red Portal"
+		"Instructor_Walk"					"Walk"
+		"Instructor_Push_Button"			"Activate"
+		"Instructor_Pick_Up"				"Pick Up"
+		"Instructor_Drop"					"Drop"
+		"Instructor_Jump"					"Jump"
+		"Instructor_Unzoom"					"Unzoom"
+		"Instructor_Zoom"					"Zoom"
+		"Instructor_SS_Control"				"Press to Control Other Player"
+
+		"Paint_Instructor_teach_bounce_suppression"				"Hold to prevent bouncing"
+		
+		// Invites
+		"P2COOP_Invite_Title"						"Portal 2 Invite"
+		"P2COOP_Invite_Body"						"You have been invited to play a Portal 2 cooperative game!"
+
+		// COOP
+		"P2COOP_TrackName_1"						"Team Building"
+		"P2COOP_TrackName_2"						"Mass and Velocity"
+		"P2COOP_TrackName_3"						"Hard-Light Surfaces"
+		"P2COOP_TrackName_4"						"Excursion Funnels"
+		"P2COOP_TrackName_5"						"Mobility Gels"
+		"P2COOP_TrackName_6"						"Advanced Chambers"
+
+		"P2COOP_WAITINGFORPARTNER"					"Waiting for Partner"
+
+		"P2COOP_SelectScreen_SelectNoOption"		"Please proceed to the disassembly\nchambers."
+		"P2COOP_SelectScreen_Select"				"Please select a level, then\nproceed to the disassembly chambers."
+		"P2COOP_SelectScreen_CourseNum"				"Course {s:coop_course_name}"
+		"P2COOP_SelectScreen_PercentComplete"		"{i:coop_completion_percentage}% COMPLETED"
+		
+		// CSGO Pano
+		"UI_Submit"									"Submit"
+		"UI_Select"									"Select"
+		"UI_Inspect"								"Inspect"
+		"UI_LeftStick_Short"						"LS"
+		"UI_RightStick_Short"						"RS"
+		"UI_LeftTrigger_Short"						"LT"
+		"UI_RightTrigger_Short"						"RT"
+		"UI_LeftBumper_Short"						"LB"
+		"UI_RightBumper_Short"						"RB"
+		"UI_LeftBack_Short"							"LP"
+		"UI_RightBack_Short"						"RP"
+		"UI_AButton"								"A"
+		"UI_BButton"								"B"
+		"UI_XButton"								"X"
+		"UI_YButton"								"Y"
+		"UI_Cancel"									"Cancel"
+		"UI_Dismiss" 								"DISMISS"
+		"UI_OK"										"OK"
+		"UI_Done"									"DONE"
+		"UI_Yes"									"YES"
+		"UI_No"										"NO"
+		"UI_Unknown"								"UNKNOWN"
+		"UI_Always"									"ALWAYS"
+		"UI_Select_Footer"							"SELECT"
+		"UI_Cancel_Footer"							"Cancel"
+		"UI_Back_Footer" 							"BACK"
+		"UI_Alert"									"Alert"
+		"UI_Help" 									"Help"
+
+		"UI_Backspace"								"BACKSPACE"
+		"UI_Spacebar"								"SPACE"
+		"UI_MoveCaret"								"MOVE CURSOR"
+		"UI_MoveCaretLeft"							"뿯½ CURSOR"
+		"UI_MoveCaretRight"							"CURSOR 뿯½"
+		"UI_InputDone"								"DONE"
+		"UI_MoreOptions"							"MORE OPTIONS"
+		"UI_SendMessage"							"SEND"
+		"UI_Languages"								"LANGUAGES"
+		"UI_Next" 									"NEXT"
+
+		"UI_CurrentItemInGroup"						"{d:current_item} / {d:total_items}"
+
+		"UI_Today"									"Today"
+		"UI_Yesterday"								"Yesterday"
+		"UI_Tomorrow"								"Tomorrow"
+		"UI_Hours"									"hours"
+		"UI_Minutes"								"minutes"
+		"UI_Seconds"								"seconds"
+		"UI_Hour"									"hour"
+		"UI_Minute"									"minute"
+		"UI_Second"									"second"
+		"UI_UnknownTime"							"Unknown"
+
+		"UI_Label_CopySelected"						"Copy selected text"
+		"UI_Label_OpenLinkInBrowser"				"Open URL in browser"
+		"UI_Label_CopyURLToClipboard" 				"Copy URL to clipboard"
+
+		"UI_TextEntry_CutToClipboard"				"Cut"
+		"UI_TextEntry_CopyToClipboard"				"Copy"
+		"UI_TextEntry_PasteClipboard"				"Paste"
+
+		"UI_Agreements"								"Agreements"
+		"UI_ViewAgreements"							"VIEW SSA & PRIVACY POLICY"
+		"UI_I_Agree"								"I agree"
+
+		"UI_ConfirmExitTitle"						"Confirm Exit"
+		"UI_ConfirmExitMessage"						"Are you sure you want to quit?"
+		"UI_Quit"									"QUIT"
+		"UI_Return"									"RETURN"
+		"UI_Continue"								"Continue"
+
+		"Month_January"								"January"
+		"Month_February"							"February"
+		"Month_March"								"March"
+		"Month_April"								"April"
+		"Month_May"									"May"
+		"Month_June"								"June"
+		"Month_July"								"July"
+		"Month_August"								"August"
+		"Month_September"							"September"
+		"Month_October"								"October"
+		"Month_November"							"November"
+		"Month_December"							"December"
+
+		"Panorama_Lang_English"						"English"
+		"Panorama_Lang_Spanish"						"Spanish"
+		"Panorama_Lang_French"						"French"
+		"Panorama_Lang_Italian"						"Italian"
+		"Panorama_Lang_German"						"German"
+		"Panorama_Lang_Greek"						"Greek"
+		"Panorama_Lang_Korean"						"Korean"
+		"Panorama_Lang_Simplified_Chinese"			"Simplified Chinese"
+		"Panorama_Lang_Traditional_Chinese"			"Traditional Chinese"
+		"Panorama_Lang_Russian"						"Russian"
+		"Panorama_Lang_Thai"						"Thai"
+		"Panorama_Lang_Japanese"					"Japanese"
+		"Panorama_Lang_Portuguese"					"Portuguese"
+		"Panorama_Lang_Brazilian"				 	"Brazilian Portuguese"
+		"Panorama_Lang_Polish"						"Polish"
+		"Panorama_Lang_Danish"						"Danish"
+		"Panorama_Lang_Dutch"						"Dutch"
+		"Panorama_Lang_Finnish"						"Finnish"
+		"Panorama_Lang_Norwegian"					"Norwegian"
+		"Panorama_Lang_Swedish"						"Swedish"
+		"Panorama_Lang_Czech"						"Czech"
+		"Panorama_Lang_Hungarian"					"Hungarian"
+		"Panorama_Lang_Romanian"					"Romanian"
+		"Panorama_Lang_Bulgarian"					"Bulgarian"
+		"Panorama_Lang_Turkish"						"Turkish"
+		"Panorama_Lang_Arabic"						"Arabic"
+		"Panorama_Lang_Ukrainian"					"Ukrainian"
+
+		"Panorama_Lang_Footer_English"				"ENGLISH"
+		"Panorama_Lang_Footer_Spanish"				"SPANISH"
+		"Panorama_Lang_Footer_French"				"FRENCH"
+		"Panorama_Lang_Footer_Italian"				"ITALIAN"
+		"Panorama_Lang_Footer_German"				"GERMAN"
+		"Panorama_Lang_Footer_Greek"				"GREEK"
+		"Panorama_Lang_Footer_Korean"				"KOREAN"
+		"Panorama_Lang_Footer_Simplified_Chinese"	"SIM. CHINESE"
+		"Panorama_Lang_Footer_Traditional_Chinese"	"TRAD. CHINESE"
+		"Panorama_Lang_Footer_Russian"				"RUSSIAN"
+		"Panorama_Lang_Footer_Thai"					"THAI"
+		"Panorama_Lang_Footer_Japanese"				"JAPANESE"
+		"Panorama_Lang_Footer_Portuguese"			"PORTUGUESE"
+		"Panorama_Lang_Footer_Brazilian"	 		"BR-PORTUGUESE"
+		"Panorama_Lang_Footer_Polish"				"POLISH"
+		"Panorama_Lang_Footer_Danish"				"DANISH"
+		"Panorama_Lang_Footer_Dutch"				"DUTCH"
+		"Panorama_Lang_Footer_Finnish"				"FINNISH"
+		"Panorama_Lang_Footer_Norwegian"			"NORWEGIAN"
+		"Panorama_Lang_Footer_Swedish"				"SWEDISH"
+		"Panorama_Lang_Footer_Czech"				"CZECH"
+		"Panorama_Lang_Footer_Hungarian"			"HUNGARIAN"
+		"Panorama_Lang_Footer_Romanian"				"ROMANIAN"
+		"Panorama_Lang_Footer_Bulgarian"			"BULGARIAN"
+		"Panorama_Lang_Footer_Turkish"				"TURKISH"
+		"Panorama_Lang_Footer_Ukrainian"			"UKRAINIAN"
+
+		"Panorama_MoviePlaybackError"				"An error ocurred during video playback"
+
+		"Debugger_PaintInfo"						"Show Paint Info"
+		"Debugger_Style"							"Style"
+		"Debugger_Computed"							"Computed"
+		"Debugger_Measurements"						"Measurements:"
+		"Debugger_Misc"								"Misc:"
+		"Debugger_Properties"						"Properties:"
+		"Debugger_StyleFileLink"					"{s:stylefile}"
+		"Debugger_LayoutFileLink"					"{s:layoutfile}"
+		"Debugger_LayoutFileLink_Code"				"From XML/Code"	
+		"Debugger_InheritedStyleHeader"				"Inherited from "
+		"Debugger_Save"								"Save All Changes"
+		"Debugger_Revert"							"Revert All Changes"
+		"Debugger_PanelStyleInvalid"				"Styles changed while editing! Hit F5 to reload displayed styles"
+		"Debugger_AnimationHeader"					"Animation Keyframes"
+		"Debugger_ToggleTheme"						"Toggle Theme"
+		"Debugger_DevInfo"							"Show Dev Info"
+		"Debugger_Smaller"							"뿯▽ Smaller"
+		"Debugger_Larger"							"뿯▽ Larger"
+		"Debugger_ResetSize"						"Reset Size"
+
+		"Console_Title"								"Console"
+
+		// For Pano Loc
+		// Settings UI
+		"Settings_Title"								"Settings"
+		"Settings_General_Title"						"Settings"
+		"Settings_General_Apply"						"Apply"
+		"Settings_General_Discard"						"Discard"
+		"Settings_General_Reset"						"Reset"
+		"Settings_General_Confirm"						"Confirm"
+		"Settings_General_ResetControls"				"Reset"
+		"Settings_General_ResetSomething"				"Reset"
+		"Settings_General_Enabled"						"Enabled"
+		"Settings_General_Disabled"						"Disabled"
+		"Settings_General_Autodetect"					"Auto-Detect"
+		"Settings_General_EngineersToast"				"The Engineer's Toaster"	// YEAH, TOAST!!!!!!
+		"Settings_General_VeryLow"						"Very Low"
+		"Settings_General_Low"							"Low"
+		"Settings_General_Medium"						"Medium"
+		"Settings_General_High"							"High"
+		"Settings_General_VeryHigh"						"Very High"
+		"Settings_General_StupidlyLudricous"			"Enable Server Explosion Mode"	// SERVER EXPLOSION IMMINENT
+		"Settings_General_ViewDocs"						"View Documentation Page"
+		"Settings_General_MapReload"					"A map reload is required for this setting change to take effect."
+		"Settings_General_Command"						"Command"
+		"Settings_General_Convar"						"Console Variable"
+		"Settings_General_OutOfBounds"					"The current value for this setting is outside of its specified range. It may or may not work correctly."
+		"Settings_General_Search_Prompt" 				"Search settings..."
+		"Settings_General_Search_Results"				"Search Results"
+		"Settings_General_Search_EmptyHeader"			"No Results Found"
+		"Settings_General_Search_EmptyNoResults"		"Your search query did not match any results in the Settings menu."
+		"Settings_General_Search_MatchedEnglishTag"		"Matches "
+		
+		// Settings - Import/Export
+		"Settings_ImportExport_Title"					"Import/Export %thing% Settings"
+		"Settings_ImportExport_Import"					"Import"
+		"Settings_ImportExport_Export"					"Export"
+		"Settings_ImportExport_ImportExport"			"Import/Export"
+		"Settings_ImportExport_ImportSettings"			"Import Settings"
+		"Settings_ImportExport_Success"					"Import successful!"
+		"Settings_ImportExport_Success_Excluded"		"Some invalid cvars were excluded."
+		"Settings_ImportExport_Failure"					"Import failed!"
+		"Settings_ImportExport_Failed"					"Settings import parser failed!"
+		"Settings_ImportExport_Invalid"					"Invalid"
+		"Settings_ImportExport_B64Mode"					"Base64 Mode"
+		"Settings_ImportExport_B64Warning"				"Note: Base64 strings may be broken by updates. Use regular mode if you want it to last!"
+		"Settings_ImportExport_Error_NoCvars"			"Input contains no cvars. Are you trying to convert Base64?"
+		"Settings_ImportExport_Error_NoSettings"		"No settings input!"
+		"Settings_ImportExport_Error_Outdated"			"Code is likely outdated."
+
+		// Settings - Audio
+		"Settings_Audio"									"Audio"
+		"Settings_Volume_Title"								"Volume"
+		"Settings_Volume_Game"								"Game Volume"
+		"Settings_Volume_Game_info"							"Controls volume for all in-game sound effects."
+		"Settings_Volume_Ambient"							"Ambient Volume"
+		"Settings_Volume_Ambient_info"						"Determines how loud are miscellaneous ambient noises (birds, wind, machinery, et al)."
+		"Settings_Volume_Music"								"Music Volume"
+		"Settings_Volume_Music_info"						"Determines how loud music should play at."
+		"Settings_Volume_UI"								"UI Volume"
+		"Settings_Volume_UI_info"							"Sets volume for menu sounds."
+		"Settings_Volume_Physics"							"Physics Volume"
+		"Settings_Volume_Physics_info"						"Sets volume for physics interactions (damage, impacts, etc.)"
+		"Settings_Volume_Footsteps"							"Footsteps Volume"
+		"Settings_Volume_Footsteps_info"					"Sets volume for player and NPC footsteps."
+		"Settings_Volume_PlayerWeapon"						"Player Weapon Volume"
+		"Settings_Volume_PlayerWeapon_info"					"Sets volume for the player's combat interactions."
+		"Settings_Volume_OverallWeapon"						"Overall Weapon Volume"
+		"Settings_Volume_OverallWeapon_info"				"Sets volume for all combat interactions in the world."
+		"Settings_Volume_Background"						"Unfocused Volume"
+		"Settings_Volume_Background_info"					"Sets the overall volume of the game while the window is out of focus."
+		
+		"Settings_ClosedCaptions_Title"						"Closed Captions and Subtitles"
+		"Settings_ClosedCaptions_Enable"					"Closed Captions"
+		"Settings_ClosedCaptions_Enable_info"				"Turns on captions for hearing-impaired users. Noises and spoken dialog will be displayed on-screen for a period of time."
+		"Settings_ClosedCaptions_Subtitles"					"Subtitles"
+		"Settings_ClosedCaptions_Subtitles_info"			"Enabling this option will cause dialog to only be displayed on-screen. Requires the Closed Captions setting to be enabled."
+		
+		"Settings_Audio_HRTF_Async_Title"					"Threaded Audio"
+		"Settings_Audio_HRTF_Async_Desc"					"Splits individual audio channels into multiple CPU threads to improve performance."
+		
+		"Settings_AudioDevices_Title"						"Audio Device Configuration"
+		"Settings_AudioDevices_Device"						"Audio Playback Device"
+		"Settings_AudioDevices_Device_info"					"Determines which sound device the game's audio should be coming from."
+		"Settings_AudioDevices_Speaker_StereoHeadphones"	"Stereo Headphones"
+		"Settings_AudioDevices_Speaker_StereoSpeakers"		"Stereo Speakers"
+		"Settings_AudioDevices_Speaker_Quad"				"Quad Surround Sound"
+		"Settings_AudioDevices_Speaker_51"					"5.1 Surround Sound"
+		// "Settings_AudioDevices_Speaker_71"				"7.1 Surround Sound"	// Unsupported by CSGO and Strata?
+		"Settings_AudioDevices_Speaker"						"Audio Output Configuration"
+		"Settings_AudioDevices_Speaker_info"				"Alters audio playback behavior by allocating specific sound channels to individual speakers based on a specific device configuration."
+		
+		// Settings - Video
+		"Settings_Video"								"Video"
+		"Settings_Video_Title"							"Video Settings"
+
+		"Settings_Render_Title"							"Rendering"
+		
+		"Settings_Video_Presets"						"Quality Presets"
+		"Settings_Video_Presets_info"					"Video settings will be set based on a pre-determined set of variables in this list, from low to high."
+
+		"Settings_Video_AspectRatio"					"Aspect Ratio"
+		"Settings_Video_AspectRatio_Normal"				"Standard (4:3)"
+		"Settings_Video_AspectRatio_16x9"				"Widescreen (16:9)"
+		"Settings_Video_AspectRatio_16x10"				"Widescreen (16:10)"
+		
+		"Settings_Video_Resolution"						"Video Resolution"
+		"Settings_Video_DisplayMode"					"Display Mode"
+		"Settings_Video_DisplayMode_Fullscreen"			"Fullscreen"
+		"Settings_Video_DisplayMode_FullscreenWindowed"	"Fullscreen (Windowed)"		// temp until we can get this changed to SW_NoBorder below
+		"Settings_Video_DisplayMode_SW_NoBorder"		"Fullscreen (Windowed)"
+		"Settings_Video_DisplayMode_Windowed"			"Windowed"
+		
+		"Settings_Video_FOV"							"Field of View (FOV)"
+		"Settings_Video_FOV_Info"						"Controls the maximum viewing range of the player's eyes, in degrees."
+
+		"Settings_Video_MaxFPS"							"Maximum FPS"
+		"Settings_Video_MaxFPS_Info"					"FPS limiter. Set to 0 for no limit."
+		"Settings_Video_LaptopPower"					"Laptop Power Savings"
+		"Settings_Video_LaptopPower_Info"				"In Power Savings Mode, the game intentionally runs at a low frame rate in order to preserve battery power, extending the amount of time that you can play on battery power."
+
+		"Settings_Video_Brightness"						"Brightness"
+		"Settings_Video_Brightness_Info"				"Change the gamma correction of the display, adjusting overall brightness."
+
+		"Settings_Video_ColorMode"						"Color Mode"
+		"Settings_Video_ColorMode_Monitor"				"Computer Monitor"
+		"Settings_Video_ColorMode_TV"					"Television"
+
+		"Settings_Render_VSync"							"V-Sync"
+		"Settings_Render_VSync_Info"					"Vertical sync (V-sync) elimates screen tearing by ensuring each pixel of the frame is displayed at once.\n\nMay result in smoother rendering on some monitors, but causes minor input lag and is therefore not recommended.\n\nOnly applicable to fullscreen mode."
+		"Settings_Render_VSync_Double"					"Double-Buffered"
+		"Settings_Render_VSync_Triple"					"Triple-Buffered"
+		
+		"Settings_Render_FilteringMode"					"Texture Filtering Mode"
+		"Settings_Render_FilteringMode_Info"			"Increasing the texture filtering setting improves the appearance of textures in the game. Increasing filtering quality can degrade graphics performance."
+		"Settings_Render_FilteringMode_Bilinear"		"Bilinear"
+		"Settings_Render_FilteringMode_Trilinear"		"Trilinear"
+		"Settings_Render_FilteringMode_Aniso2X"			"Anisotropic (2x)"
+		"Settings_Render_FilteringMode_Aniso4X"			"Anisotropic (4x)"
+		"Settings_Render_FilteringMode_Aniso8X"			"Anisotropic (8x)"
+		"Settings_Render_FilteringMode_Aniso16X"		"Anisotropic (16x)"
+		
+		"Settings_Render_AntialiasingMode"				"Multisampling Anti-Aliasing (MSAA)"
+		"Settings_Render_AntialiasingMode_Info"			"Anti-aliasing provides a smooth appearance at the edges of geometry, eliminating jagged edges. Increasing anti-aliasing quality can degrade graphics performance."
+		"Settings_Render_AntialiasingMode_None"			"Disabled"
+		"Settings_Render_AntialiasingMode_2x_MSAA"		"2 Samples"
+		"Settings_Render_AntialiasingMode_4x_MSAA"		"4 Samples"
+		"Settings_Render_AntialiasingMode_8x_MSAA"		"8 Samples"
+
+		"Settings_Render_FXAA" 							"Fast Approximate Anti-Aliasing (FXAA)"
+		"Settings_Render_FXAA_Info"						"Anti-aliasing provides a smooth appearance at the edges of geometry, eliminating jagged edges. Enabling FXAA can degrade graphics performance."
+		
+		"Settings_Render_Bloom"							"Bloom"
+		"Settings_Render_Bloom_Info"					"HDR Bloom is the &quot;halo&quot; effect seen on very bright objects or the environment in general. This has no impact on graphics performance."
+
+		"Settings_Render_DynamicTonemapping"			"HDR Tonemapping"
+		"Settings_Render_DynamicTonemapping_Info"		"HDR tonemapping is the dynamic increase or decrease of exposure of the screen depending on the displayed content. This has no impact on graphics performance."
+
+		"Settings_Render_ColorCorrection"				"Color Correction"
+		"Settings_Render_ColorCorrection_Info"			"Color Correction is used in some maps to alter the color balance to achieve a certain aesthetic tone. This has no impact on graphics performance."
+
+		"Settings_Render_Multicore"						"Multicore Rendering"
+		"Settings_Render_Multicore_Info"				"Multicore rendering allows Portal 2: Community Edition to split rendering across multiple CPU and GPU cores present on your system. The Disabled setting may negatively impact overall framerate and visual quality."
+
+		"Settings_Render_ShaderDetail"					"Shader Detail"
+		"Settings_Render_ShaderDetail_Info"				"Shader detail controls the sophistication of the lighting and shading effects applied to surfaces in the game. Higher settings increase visual quality but can degrade graphics performance."
+
+		"Settings_Render_EffectDetail"					"Effect Detail"
+		"Settings_Render_EffectDetail_Info"				"Effect detail controls the complexity of certain visual effects in the game as well as the draw-distance. Decreasing the effect detail may improve performance but will also increase model pop-in artifacts."
+
+		"Settings_Render_Model"							"Model Detail"
+		"Settings_Render_Model_Info"					"The Model Detail setting controls the geometric complexity of models in the game. Decreasing this setting may improve performance on low-end systems, but will degrade image quality."
+
+		"Settings_Render_Texture"						"Texture Quality"
+		"Settings_Render_Texture_Info"					"The Texture Quality setting controls the resolution of textures in the game. Decreasing this setting may significantly improve performance on low-end systems, but will degrade image quality."
+
+		"Settings_Render_ShadowQuality"					"Global Shadow Quality"
+		"Settings_Render_ShadowQuality_Info"			"Global shadow quality controls the fidelity of the dynamic shadows cast onto surfaces in the game. Higher settings increase the visual quality but can degrade CPU and graphics performance."
+
+		"Settings_Render_MotionBlur"					"Motion Blur"
+		"Settings_Render_MotionBlur_Info"				"Motion blur is a fullscreen shader effect that selectively smooths the frame during rapid changes in the camera's angle or position. The Disabled setting may result in slightly improved graphics performance."
+
+		"Settings_Video_PStencilDepth" 					"Portal Recursion Depth"
+		"Settings_Video_PStencilDepth_Info"				"This setting determines how many times the portals will recurse before rendering a cheap 2D image in them. Lower values may cause distortion."
+
+		"Settings_Video_TripleMonitor"					"Triple-Monitor Mode"
+		"Settings_Video_TripleMonitor_Info"				"Restrict UI and HUD to the center third of the display. Useful for displays that span three monitors."
+
+		"Settings_TextureReplace_Title"					"Texture Loading"
+		"Settings_TextureReplace_Type"					"Default Error Texture Appearance"
+		"Settings_TextureReplace_Type_Info"				"What replacement texture to use for missing materials, for when certain games (e.g. HL2, CS:GO, TF2) are not installed and mounted.
+		<h2>Unshaded</h2>Unshaded purple and black error chekerboard textures seen in other Source Engine games. Not intended for gameplay, but makes it clear to map authors if a texture is missing.
+		<h2>Shaded</h2>Grey checkerboard textures, but with shading from map lighting, so should provide reasonably good visiblity ingame. Recommended for anyone playing with missing textures.
+		A map reload is required for this change to take effect."
+		"Settings_TextureReplace_0"						"Unshaded (Purple-Black)"
+		"Settings_TextureReplace_1"						"Shaded (Grey)"
+		"Settings_TextureReplace_TypeCubemap"			"Cubemap Error Texture Appearance"
+		"Settings_TextureReplace_TypeCubemap_Info"		"What replacement texture to use for missing cubemaps. Cubemaps are used to achieve reflective surfaces. They can be missing if a map didn't have them built as part of the compile process.
+		<h2>Unshaded (Purple-Black)</h2>Similar to identically-named default error texture.
+		<h2>Unshaded (Black)</h2>Black, non reflective texture, used when a map was not designed with cubemaps in mind. Recommended for gameplay.
+		<h2>Default Engine Cubemap</h2>Imitates reflection from preset surroundings. Does not take actual map geometry into account. Will not look convincing most of the time."
+		"Settings_TextureReplace_TypeCubemap_0"			"Unshaded (Purple-Black)"
+		"Settings_TextureReplace_TypeCubemap_1"			"Unshaded (Black)"
+		"Settings_TextureReplace_TypeCubemap_2"			"Default Engine Cubemap"
+		"Settings_TextureReplace_Advanced"				"Color-Accurate Error Texture Replacements"
+		"Settings_TextureReplace_Advanced_Info"			"Use a more gameplay-friendly approach for missing textures instead of default error textures.
+		<h2>Disabled</h2>Do not use this feature and use default error textures instead.
+		<h2>Colored</h2>Missing textures will be colored based on the surface's reflectivity data. This should be similar to the overall color of the missing texture. Use this on maps where the subsequent option falsely detects surfaces as water or the like.
+		<h2>Colored and Special Overrides</h2>Missing textures will be colored, like the above option, but will also detect transparent textures and provide meaningful replacements. Recommended unless you are mapping.
+		A map reload is required for this change to take effect."
+		"Settings_TextureReplace_Advanced_0"			"Disabled"
+		"Settings_TextureReplace_Advanced_1"			"Colored"
+		"Settings_TextureReplace_Advanced_2"			"Colored and Special Overrides"
+		"Settings_TextureReplace_ReplaceTexture"		"Replacement Base Texture"
+		"Settings_TextureReplace_ReplaceTexture_Info"	"What base texture to use when 'Color-accurate Error Texture Replacements' are enabled, previewable on the left. The approximated color will then get applied to it ingame.
+		Adds definition to textures, helpful for seeing depth and distance.
+		A map reload is required for this change to take effect."
+		"Settings_TextureReplace_Texture_None"			"None"
+		"Settings_TextureReplace_Texture_Noise"			"Noise"
+		"Settings_TextureReplace_Texture_Grid"			"Grid"
+		"Settings_TextureReplace_Texture_GridWithNoise"	"Grid with Noise"
+		"Settings_TextureReplace_Texture_Custom"		"Custom"
+		
+		"Settings_Portal_Coop_SS_SplitMode"				"Split-Screen Direction"
+		"Settings_Portal_Coop_SS_SplitMode_info"		"Determines which direction should both split-screen players' view be split into.\n<h2>Horizontal</h2>\nThe players' views will be split across a horizontal line with both views located at the top and bottom side of the screen, respectively.\n<h2>Vertical</h2>\nThe players' views will be split across a vertical line with both views located at the left- and right-hand side of the screen, respectively.\n<h2>Automatic</h2>\nThe game will automatically determine which mode to select, based off the monitor's screen resolution and aspect ratio."
+		"Settings_Portal_Coop_SS_SplitMode_auto"		"Automatic"
+		"Settings_Portal_Coop_SS_SplitMode_horiz"		"Horizontal"
+		"Settings_Portal_Coop_SS_SplitMode_vert"		"Vertical"
+
+		// Settings - Keyboard/Mouse
+		"Settings_Input"								"Input"
+		"Settings_Input_Title"							"Input"
+		"Settings_Mouse_Title"							"Mouse"
+
+		"Settings_Mouse_Filter"							"Mouse Filtering"
+		"Settings_Mouse_Filter_Info"					"Averages mouse movement over 2 frames."
+
+		"Settings_Mouse_Raw"							"Raw Input"
+		"Settings_Mouse_Raw_Info"						"Raw Input reads mouse data directly from the device, bypassing operating system settings and providing more accurate movement.\n<h2>On (Frame-aligned)</h2>\nThe original method used in other Source Engine games\n<h2>(Tick-aligned)</h2>\nAn improved method which is more precise and less dependent on the game frame rate"
+		"Settings_Mouse_Raw_On_Old"						"On (Frame-aligned)"
+		"Settings_Mouse_Raw_On_New"						"On (Tick-aligned)"
+
+		"Settings_Mouse_Reverse"						"Reverse Mouse"
+		"Settings_Mouse_Reverse_Info"					"Reverses the direction of mouse movement. A great way to ruin your day."
+
+		"Settings_Mouse_Sens"							"Mouse Sensitivity"
+
+		"Settings_Mouse_Accel"							"Mouse Acceleration"
+
+		"Settings_Keybinds_Title"						"Keybinds"
+		"Settings_Keybinds_Movement"					"Movement"
+		"Settings_Input_Keybinds_Movement"				"Movement"
+		
+		// KBM Mappings
+		"Keybind_Move_Forward"							"Move forward"
+		"Keybind_Move_Back"								"Move back"
+		"Keybind_Turn_Left"								"Turn left"
+		"Keybind_Turn_Right"							"Turn right"
+		"Keybind_Move_Left"								"Move left (strafe)"
+		"Keybind_Move_Right"							"Move right (strafe)"
+		"Keybind_Jump"									"Jump"
+		"Keybind_Duck"									"Crouch/Duck"
+		"Keybind_Sprint"								"Sprint (move quickly)"
+		"Keybind_Walk"									"Walk (move slowly)"
+		"Keybind_Toggle_Jump"							"Toggle Jump"
+		"Keybind_Toggle_Duck"							"Toggle Crouch/Duck"
+		"Keybind_Toggle_Sprint"							"Toggle Sprint"
+		"Keybind_Zoom_Toggle"							"Toggle Zoom"
+		"Keybind_Zoom_In"								"Zoom In"
+		"Keybind_Zoom_Out"								"Zoom Out"
+		
+		"Settings_Keybinds_Weapons"						"Weapons"
+		"Keybind_Attack_Primary"						"Primary attack"
+		"Keybind_Attack_Secondary"						"Secondary attack"
+		"Keybind_Weapon_Category_1"						"Weapon category 1"
+		"Keybind_Weapon_Category_2"						"Weapon category 2"
+		"Keybind_Weapon_Category_3"						"Weapon category 3"
+		"Keybind_Weapon_Category_4"						"Weapon category 4"
+		"Keybind_Weapon_Category_5"						"Weapon category 5"
+		"Keybind_Weapon_Category_6"						"Weapon category 6"		// hl2:weapon_bugbait
+		
+		"Settings_Keybinds_Utility"						"Utility"
+		"Keybind_Use_Items"								"Use object (buttons, machines, etc.)"
+		"Keybind_Flashlight"							"Flashlight"
+		
+		"Settings_Keybinds_MP_COOP"						"Multiplayer / Cooperative"
+		"Keybind_Chat_Message"							"Text chat"
+		"Keybind_Chat_Message_TeamOnly"					"Text chat (team only)"
+		"Keybind_Chat_Voice"							"Push-to-Talk button"
+		"Keybind_Coop_RemoteView"						"Remote View"
+		"Keybind_Coop_RemoteView_Info"					"Display your partner's point-of-view (PoV)."
+		"Keybind_Coop_PingTool"							"Ping Tool"
+		"Keybind_Coop_PingTool_Info"					"Opens a suggestion menu to communicate specific actions or locations to your co-op partner."
+		"Keybind_Coop_Taunt"							"Gesture/Taunt"
+		"Keybind_Coop_Taunt_Info"						"Perform gestures/taunts."
+		
+		"Settings_Input_Keybinds_Misc"					"Miscellaneous"
+		"Keybind_Console"								"Toggle developer console"
+		"Keybind_Screenshot"							"Take a screenshot"
+		"Keybind_Quit"									"Quit game"
+		"Keybind_Quit_Prompt"							"Quit with Prompt"
+		
+		// Settings - Controller
+		"Settings_Controller_Title"						"Controller"
+		"Settings_Controller_SteamInputButton"			"Open Steam Input Settings"
+
+		// Settings - UI
+		"Settings_Interface"							"Interface / HUD"
+		"Settings_Interface_Title"						"Interface Settings"
+		"Settings_Menu_Title"							"Menu Interface"
+		"Settings_Menu_Movie"							"Main Menu Video Background"
+		"Settings_Menu_Movie_Info"						"Enables the animated main menu background. May be a minor performance loss when the menu is open."
+
+		// Settings - Personalization
+		"Settings_Customization" 						"Customization"
+		
+		"Settings_Portal1_Title" 						"Portal 1"
+		"Settings_Portal1_compat" 						"Portal 1 Compatibility Mode"
+		"Settings_Portal1_compat_info" 					"Enables backwards compatibility with Portal 1 maps."
+		"Settings_Portal1_xhair" 						"Crosshair Style"
+		"Settings_Portal1_xhair_info" 					"Changes portal gun crosshair behavior.\n<h2>Portal 2 Style</h2>\nWill only display placed portals.\n<h2>Portal 1 Style</h2>\nWill display placed portals and a circular marker determining whether portals can be placed on a specific surface."
+		"Settings_Portal1_xhair_p2" 					"Portal 2 Style"
+		"Settings_portal1_xhair_p1" 					"Portal 1 Style"
+		
+		"Settings_Portals_Title" 						"Portals"
+		"Settings_Portals_PlayerFunnel"					"Portal Funneling"
+		"Settings_Portals_PlayerFunnel_info"			"When flinging into portals, the game will attempt to correct the player's position and trajectory to avoid collision with adjacent surfaces."
+		"Settings_Portals_dlight" 						"Portal Dynamic Lighting"
+		"Settings_Portals_dlight_info" 					"Allows portals to emit light."
+		"Settings_Portals_light_intensity" 				"Portal Lighting Intensity"
+		"Settings_Portals_light_intensity_info"			"Modifies the strength of the light given off by a portal. Requires \"Portal Dynamic Lighting\" to function."
+		"Settings_Portals_altcolors" 					"Alternate Portal Colors"
+		"Settings_Portals_altcolors_info" 				"Allows players to override pre-existing portal colors. This will also override any custom portal colors defined by the map maker."
+		"Settings_Portals_altcolors_primary" 			"Primary Alt. Portal Color"
+		"Settings_Portals_altcolors_primary_Info" 		"The alternate color to use for the blue portal (primary fire)."
+		"Settings_Portals_altcolors_secondary" 			"Secondary Alt. Portal Color"
+		"Settings_Portals_altcolors_secondary_Info" 	"The alternate color to use for the orange portal (secondary fire)."
+		"Settings_Turret_lights" 						"Turret Lights"
+		"Settings_Turret_lights_info" 					"Allows turrets to shine light at where they look."
+		"Settings_Ball_lights" 							"Energy Ball Lights"
+		"Settings_Ball_lights_info" 					"Allows high-energy pellets to shine light and cast shadows."
+		"Settings_Gels_Title"							"Gels"
+		"Settings_Gels_repulsion_color"					"Repulsion Gel Color (Bounce)"
+		"Settings_Gels_repulsion_color_Info"			"The alternate color to use for Repulsion Gel (bounce paint)."
+		"Settings_Gels_propulsion_color"				"Propulsion Gel Color (Speed)"
+		"Settings_Gels_propulsion_color_Info"			"The alternate color to use for Propulsion Gel (speed paint)."
+		"Settings_Gels_conversion_color"				"Conversion Gel Color (Portal)"
+		"Settings_Gels_conversion_color_Info"			"The alternate color to use for Conversion Gel (portal paint)."
+		"Settings_Gels_reflection_color"				"Reflection Gel Color (Reflect)"
+		"Settings_Gels_reflection_color_Info"			"The alternate color to use for Reflection Gel (reflect paint)."
+		"Settings_Gels_adhesion_color"					"Adhesion Gel Color (Stick)"
+		"Settings_Gels_adhesion_color_Info"				"The alternate color to use for Adhesion Gel (stick paint)."
+		
+		// Settings - Miscellaneous
+		"Settings_Misc_Title" 							"Miscellaneous"
+		"Settings_Misc_solenergy_refract"				"Solid Energy Refractions"
+		"Settings_Misc_solenergy_refract_info"			"Enables water-like refraction effects in fizzlers."
+		
+		"Settings_Video_PreventThreadSleep"				"Prevent Main Thread Sleep"
+		"Settings_Video_PreventThreadSleep_Info"		"Prevent the main game thread from sleeping when at maximum FPS limit. Enabling this option may result in smoother performance, but causes higher CPU usage."
+		
+		"Settings_Menu_Console"							"Enable Developer Console"
+		"Settings_Menu_Console_info"					"This setting determines the enablement state of the developer console, which allows users to send internal commands to the game engine.\nThe developer console is a powerful tool intended for advanced users (such as map makers), and is not required for normal play. Some of the commands present in the Source engine are dangerous and (if misused) can potentially crash the game, cause saved progress to be lost, and/or render certain gameplay elements inoperable."
+		"Settings_Menu_Sentry"							"Sentry Crash Reporting"
+		"Settings_Menu_Sentry_info"						"Controls submission of crash dumps, processed via Sentry.\nThe data used in crash reports contain a complete call stack containing the last few moments of the engine prior to the crash (including the last few lines of developer console log output), the current Steam build ID, and your Steam Community profile ID. No other data is sent to the P2:CE team.\nThis feature is optional and can be turned on or off at any time."
+		"Settings_Menu_DiscordIntegration"				"Discord Rich Presence"
+		"Settings_Menu_DiscordIntegration_info"			"Enables Discord rich presence integration with P2:CE by displaying the current game state as an activity.\n\nThis toggle does not alter Discord rich presence enablement in SDK tools such as Hammer."
+		
+		// Main Menu
+		"MainMenu_PH_Note"								"This page is a work-in-progress."
+		"MainMenu_ControllerUI_Note_Title"				"Controller Support Notice"
+		"MainMenu_ControllerUI_Note_Desc"				"Controller input support for the menu interface is experimental.\n\nPlease submit issues to the P2:CE issue tracker if you encounter bugs or have feedback about this mode."
+		
+		// Main Menu - Header Tabs
+		"MainMenu_Navigation_Developer"					"Developer"
+		"MainMenu_Navigation_Developer_Tagline"			"Reference library"
+		"MainMenu_Navigation_ControlsLibrary"			"[DEV] UI Controls Library"
+		"MainMenu_Navigation_SteamInputLibrary"			"[DEV] Steam Input Library"
+		"MainMenu_Navigation_Home"						"Home"
+		"MainMenu_Navigation_Play"						"Play"
+		"MainMenu_Navigation_Play_Tagline"				"Start a new experience"
+		"MainMenu_Navigation_Play_Modes"				"Select a singleplayer or multiplayer map"
+		"MainMenu_Navigation_Play_MapTypes"				"Select a P2:CE or Portal 2 Workshop map"
+		"MainMenu_Navigation_Featured"					"Featured Items"
+		"MainMenu_Navigation_Featured_Tagline"			"Explore popular items on the Steam Workshop"
+		"MainMenu_Navigation_Addons"					"Addons"
+		"MainMenu_Navigation_Addons_Tagline"			"Manage installed add-ons and mounted games"
+		"MainMenu_Navigation_Options"					"Settings"
+		"MainMenu_Navigation_Options_Tagline"			"Adjust keybinds, audio-visuals and compatibility settings"
+		"MainMenu_Navigation_QuitGame"					"Quit Game"
+		"MainMenu_Navigation_QuitGame_Tagline"			"Leave to test another day"
+		"MainMenu_Navigation_Disconnect"				"Exit"
+		"MainMenu_Navigation_Disconnect_Tagline"		"Return to the main menu or quit the game"
+		"MainMenu_Navigation_Disconnect_CM_Tagline"		"Leave the current campaign/map"
+		
+		// Main Menu - Home Page
+		"MainMenu_Home_Resume"							"Resume Game"
+		"MainMenu_Home_Resume_Tagline"					"Close this menu and unpause the game"
+		"MainMenu_Home_Continue"						"Continue Game"
+		"MainMenu_Home_BackgroundCredit"				"Background by:"
+		"MainMenu_Loading"								"Loading..."
+
+		// socials
+		"MainMenu_Home_Button_MainSite"					"P2:CE Website"
+		"MainMenu_Home_Button_Discord"					"P2:CE Discord Server"
+		"MainMenu_Home_Button_Github"					"Strata Source GitHub"
+		"MainMenu_Home_Button_Forums"					"Steam Community Forums"
+		"MainMenu_Home_Button_Workshop"					"Steam Workshop"
+		
+		// featured
+		"MainMenu_Featured_Title"						"Featured Item: {s:featured_item_name}"
+		"MainMenu_Featured_Title_PH"					"Querying Item Details"
+		"MainMenu_Featured_Author"						"By {s:featured_item_author}"
+		"MainMenu_Featured_Author_PH"					"Downloading information from the Steam Workshop..."
+		"MainMenu_Featured_Unavailable_Title"			"Featured Item Not Available"
+		"MainMenu_Featured_Unavailable_Description"		"The Steam Web API could not be reached or is experiencing a technical problem. Featured items are temporarily unavailable."
+		
+		// Main Menu - News
+		// temporarily removed for the time being
+		// "MainMenu_News_Unavailable_Title"				"News Not Available"
+		// "MainMenu_News_Unavailable_Description"			"The Steam Web API could not be reached or is experiencing a technical problem. News is temporarily unavailable."
+		
+		// Main Menu - Saverestore
+		"MainMenu_SaveRestore_Main"							"Save/Load Game"
+		"MainMenu_SaveRestore_Main_Tagline"					"Manage and load saved games"
+		"MainMenu_SaveRestore_LoadAuto"						"Load Last Save"
+		"MainMenu_SaveRestore_LoadAuto_Tagline"				"Continue from the most recent saved game"
+		"MainMenu_SaveRestore_LoadQuick"					"Load Quicksave"
+		"MainMenu_SaveRestore_NoSaves"						"No Save Available"
+		"MainMenu_SaveRestore_CreateSave"					"Create New Save"
+		"MainMenu_SaveRestore_Load"							"Load Saved Game"
+		"MainMenu_SaveRestore_Delete"						"Delete Saved Game"
+		"MainMenu_SaveRestore_Rename"						"Rename Saved Game"
+		
+		// Chapter Navigation
+		"MainMenu_ChapterNav_Back"							"< Back"
+		"MainMenu_ChapterNav_Next"							"Next >"
+
+		// SaveCreatePrompt
+		"Action_NewSave"									"Save Game"
+		"Action_NewSave_Confirm"							"Confirm Save"
+		"Action_NewSave_Confirm_Message"					"Do you want to create a new save game?"
+		
+		// SaveLoadPrompt
+		"Action_LoadGame"									"Load Game"
+		"Action_LoadGame_Confirm"							"Confirm Load"
+		"Action_LoadGame_Auto_Message"						"Do you want to load the most recent saved game?\n\nUnsaved progress may be lost."
+		"Action_LoadGame_Message"							"Do you want to load this saved game?\n\nUnsaved progress may be lost."
+		
+		// SaveDeletePrompt
+		"Action_DeleteGame"									"Delete Saved Game"
+		"Action_DeleteGame_Confirm"							"Confirm Delete"
+		"Action_DeleteGame_Confirm_Message"					"Do you want to delete this saved game?\n\nThis operation cannot be undone."
+		
+		// SaveOverwritePrompt
+		"Action_OverwriteGame"								"Overwrite Saved Game"
+		"Action_OverwriteGame_Confirm"						"Confirm Overwrite"
+		"Action_OverwriteGame_Confirm_Message"				"Do you want to overwrite this saved game?\n\nThis operation cannot be undone, and any previously saved progress may be lost."
+
+		// Autosave Handling
+		"MainMenu_SaveRestore_CannotOverwriteSave"					"This save file cannot be overwritten."
+		"MainMenu_SaveRestore_SaveType_Manual"						"Manual Save"
+		"MainMenu_SaveRestore_SaveType_quick"						"Quicksave"
+		"MainMenu_SaveRestore_SaveType_autosave"					"Autosave"
+		"MainMenu_SaveRestore_SaveType_autosavedangerous"			"Autosave (Critical)"
+		
+		// Bad SaveRestore
+		"MainMenu_SaveRestore_LoadFailed"							"Load Failed"
+		"MainMenu_SaveRestore_LoadFailed_Description"				"The save game failed to load. {s:failure_reason}"			// This will have a failure reason attached to it
+		"MainMenu_SaveRestore_SaveFailed"							"Save Failed"
+		"MainMenu_SaveRestore_SaveFailed_Description"				"Failed to save the current game. {s:failure_reason}"		// This will have a failure reason attached to it
+		
+		// Load Failure Reasons
+		// bad/malformed save data or incompatible strata map or engine version
+		"MainMenu_SaveRestore_LoadFailed_BadSave"					"It is likely corrupt, or the save file that is being loaded is not compatible with the current map or game version."
+		// target save file nonexistent
+		"MainMenu_SaveRestore_LoadFailed_NonExistent"				"The target save file does not exist on this device."
+		// no saves exist
+		"MainMenu_SaveRestore_LoadFailed_NoSavesExist"				"There are no available saved games to load from."
+		// cloud failed sync, or something
+		"MainMenu_SaveRestore_LoadFailed_SteamCloud"				"The Steam Cloud API could not be reached at this time."
+		
+		// Save Failure Reasons
+		// no space available on current storage partition
+		"MainMenu_SaveRestore_SaveFailed_NoSpace"					"There is not enough space on the storage device where P2:CE is installed to."
+		// this should only display if Windows NTFS perms (e.g.: readonly flag, account security ACLs) or linux FS permissions are wrong
+		"MainMenu_SaveRestore_SaveFailed_NoPerms"					"The game was not able to create a new save file because it does not have permission to access the saved games directory. Please change the permission settings of the \"SAVE\" directory in your P2:CE install."
+		// SOMEHOW, the game's running, but the disk isn't working right. possible disk failure or MFT corruption?
+		"MainMenu_SaveRestore_SaveFailed_DriveFail"					"The game was not able to create a new save file because the storage device where P2:CE is installed at is likely failing. Please back up all data on this device immediately."
+		// probably applies for steam cloud quota?
+		"MainMenu_SaveRestore_SaveFailed_NoMoreSlots"				"There are no more available saved game slots."
+		// map_wants_save_disable 1
+		"MainMenu_SaveRestore_SaveFailed_MapWantsSaveDisabled"		"The map you are playing on has disallowed creating saved games."
+		"MainMenu_SaveRestore_SaveFailed_NotPartOfCampaign"			"The map you are playing on is not part of the current campaign.\n\nSaving is temporarily disabled."
+		// maxplayers >= 2 and gamemode is either coop or mp; we're either on p2p/listen or dedicated
+		"MainMenu_SaveRestore_SaveFailed_IsInMultiplayer"			"Save games are not supported under multiplayer/co-op mode."
+		
+		// universal; only used if we don't know what the fuck is going on in saverestore
+		"MainMenu_SaveRestore_UnknownFailure"						"Unknown saverestore failure reason. Please check the developer console for details."
+		
+		// Main Menu - Campaigns
+		"MainMenu_Campaigns_Title"									"Campaigns"
+		"MainMenu_Campaigns_Tagline"								"Play specially-crafted experiences"
+		"MainMenu_Campaigns_MapList"								"{s:playerModeStr} Maps"
+		"MainMenu_Campaigns_MapList_Uncategorized"					"Uncategorized {s:playerModeStr} Maps"
+		"MainMenu_Campaigns_MapList_Campaigns"						"{s:playerModeStr} Campaigns"
+		"MainMenu_Campaigns_MapList_Campaigns_Tagline"				"Select a campaign to play"
+		"MainMenu_Campaigns_MapList_p2ce_Tagline"					"Select a map from the P2:CE Workshop"
+		"MainMenu_Campaigns_MapList_portal2_Tagline"				"Select a map from the Portal 2 Workshop"
+		"MainMenu_Campaigns_MapList_Uncategorized_Tagline"			"Select a locally installed map"
+		"MainMenu_Campaigns_MapList_Tagline_NewlySubbed"			"{i:num_newly_installed_maps} newly subscribed"
+		"MainMenu_Campaigns_MapList_Tagline_TotalMaps"				"{i:num_total_installed_maps} total maps"
+		"MainMenu_Campaigns_OpenWS"									"Open the Steam Workshop"
+		"MainMenu_Campaigns_OpenWS_Tagline"							"Download and manage content"
+		
+		// mode selection
+		"MainMenu_Campaigns_ModeSel_Solo_Title"						"Solo Maps"
+		"MainMenu_Campaigns_ModeSel_Solo_Tagline"					"Bite-sized experiences"
+		"MainMenu_Campaigns_ModeSel_ServerBrowser_Title"			"Custom Games"
+		"MainMenu_Campaigns_ModeSel_ServerBrowser_Tagline"			"Find or create a perfect game, unrestricted"
+		"MainMenu_Campaigns_CType_SP"								"Singleplayer"
+		"MainMenu_Campaigns_CType_MP"								"Multiplayer/Co-op"
+		"MainMenu_Campaigns_MapType_p2ce"							"P2:CE Maps"
+		"MainMenu_Campaigns_MapType_portal2"						"Portal 2 Maps"
+		
+		// Search
+		"MainMenu_Campaigns_Search_FillerText"						"Search for campaigns..."
+		"MainMenu_Campaigns_Search_SortBy_NewSubs"					"Recently added"
+		"MainMenu_Campaigns_Search_SortBy_AtoZ"						"Alphabetical (Descending)"
+		"MainMenu_Campaigns_Search_SortBy_ZtoA"						"Alphabetical (Ascending)"
+		"MainMenu_Campaigns_Search_SortBy_Last"						"Last played time"
+		"MainMenu_Campaigns_Search_SortBy_Completion"				"Overall completion"
+		"MainMenu_Campaigns_Search_SortBy_CampaignSrc"				"Campaign source"
+		
+		// this is used if a campaign requires an appid they don't have mounted
+		"MainMenu_Campaigns_MissingMount_Title"						"Unable to Load Campaign"
+		"MainMenu_Campaigns_MissingMount_Description"				"This campaign cannot be loaded because the following games are not mounted:
+{s:missing_mounts_list}
+Please install and mount the above games first to access this campaign."
+
+		// Warn the user if playing on map or server with no active campaign and attempting a save
+		"MainMenu_Campaigns_NoActiveCampaign_Warning_Title"			"Warning: Not in Content Group"
+		"MainMenu_Campaigns_NoActiveCampaign_Warning_Desc"			"You are currently not playing inside of a content group (e.g.: Campaigns or Workshop groups). This can happen if you launched a map via the developer console or through the Run Map dialog in the Hammer level editor.\n\nCreating and loading save files will still work in this state, but these files will not be displayed inside of the main menu.\n\nPlaying outside of a content group is intended for development purposes only; it is highly recommended that you return to the menu and play normally.\n\nThis warning will appear every time this menu is opened."
+
+		// Bad Campaign
+		"MainMenu_Campaigns_BgLoadFailed_Title"						"Failed to Load Content"
+		"MainMenu_Campaigns_BgLoadFailed_Description"				"The campaign you tried to run has specified a background map that could not be loaded. Ensure that the required content has been downloaded and mounted correctly."
+		"MainMenu_Campaigns_Error_Generic_Title"					"Error"
+		"MainMenu_Campaigns_Error_InvalidKV3_Title"					"Cannot Start Campaign"
+		"MainMenu_Campaigns_Error_InvalidKV3_Desc"					"This campaign cannot start because the data specified in its script file is invalid.\n\nPlease report this issue and the corresponding error log to the addon's author."
+		"MainMenu_Campaigns_Error_InvalidChapterMapData_Title"		"Cannot Start Chapter"
+		"MainMenu_Campaigns_Error_InvalidChapterMapData_Desc"		"The campaign cannot start because there are no maps defined in the chapter you have selected.\n\nPlease report this issue and the corresponding error log to the addon's author."
+		
+		// dependency game names
+		"MainMenu_Campaigns_Mounts_AppId_630"						"Alien Swarm (630)"
+		"MainMenu_Campaigns_Mounts_AppId_300"						"Day of Defeat: Source (300)"
+		"MainMenu_Campaigns_Mounts_AppId_220"						"Half-Life 2 (220)"
+		"MainMenu_Campaigns_Mounts_AppId_380"						"Half-Life 2: Episode One (380)"
+		"MainMenu_Campaigns_Mounts_AppId_420"						"Half-Life 2: Episode Two (420)"
+		"MainMenu_Campaigns_Mounts_AppId_280"						"Half-Life: Source (280)"
+		"MainMenu_Campaigns_Mounts_AppId_400"						"Portal (400)"
+		"MainMenu_Campaigns_Mounts_AppId_660"						"Portal 2 - Sixense MotionPack (660)"
+		"MainMenu_Campaigns_Mounts_AppId_247120"					"Portal 2 - Sixense Perceptual Pack (247120)"
+		"MainMenu_Campaigns_Mounts_AppId_440"						"Team Fortress 2 (440)"
+		"MainMenu_Campaigns_Mounts_AppId_500"						"Left 4 Dead (500)"
+		"MainMenu_Campaigns_Mounts_AppId_550"						"Left 4 Dead 2 (550)"
+		"MainMenu_Campaigns_Mounts_AppId_240"						"Counter-Strike: Source (240)"
+		"MainMenu_Campaigns_Mounts_AppId_730"						"Counter-Strike: Global Offensive - Legacy Source 1 Build (730)"
+		
+		// campaign details card
+		"MainMenu_Campaigns_DetailCard_CompletionPercentage"		"{i:campaign_completion}% completed"
+		"MainMenu_Campaigns_DetailCard_CompletationStat1"			"Current chapter: {i:current_chapter} of {i:max_chapters}"
+		"MainMenu_Campaigns_DetailCard_CompletationStat1_CName"		"{s:current_chapter_name}" 	// Chapter name here, if specified
+		"MainMenu_Campaigns_DetailCard_CompletationStat2"			"Total playtime: {t:d:total_played}"
+		"MainMenu_Campaigns_DetailCard_CompletationStat3"			"Achievements earned: {i:num_achievements_earned}/{i:total_campaign_achievements}"
+		"MainMenu_Campaigns_DetailCard_LastPlayDate"				"Last played on: {t:l:last_played_date}"
+		"MainMenu_Campaigns_DetailCard_InstallDate"					"Installed on: {t:l:installed_date}"
+		
+		// campaign main menu
+		"MainMenu_Campaigns_MM_LoadAuto"							"Continue"
+		"MainMenu_Campaigns_MM_Resume"								"Resume"
+		"MainMenu_Campaigns_MM_NewGame"								"New Game"
+		"MainMenu_Campaigns_MM_NewGame_Tagline"						"Configure and start a new game"
+		"MainMenu_Campaigns_MM_LoadGame"							"Load Game"
+		"MainMenu_Campaigns_MM_SaveGame"							"Save Game"
+		"MainMenu_Campaigns_MM_ReturnToCampaignMenu"				"Back to Campaign Selection"
+		"MainMenu_Campaigns_MM_ReturnToCampaignMenu_InGame"			"To switch to another campaign, please return to the main menu."
+		"MainMenu_Campaigns_MM_Back"								"Back"
+		"MainMenu_Campaigns_MM_CampaignName_placeholder"			"{s:campaign_name}"	// This string is for campaigns that don't have a logo
+		"MainMenu_Campaigns_MM_CampaignDescription_placeholder"		"{s:campaign_desc}"
+		"MainMenu_Campaigns_MM_CampaignAuthor"						"By {s:author}"
+		"MainMenu_Campaigns_MM_ChapterNum"							"Chapter {i:chapter_num}"
+		"MainMenu_Campaigns_MM_ChapterName"							"{s:chapter_name}"
+		"MainMenu_Campaigns_MM_ChapterDesc"							"{s:chapter_desc}"
+		"MainMenu_Campaigns_MM_ChapterMapName"						"{s:chapter_map_name}"
+		"MainMenu_Campaigns_MM_StartCustom"							"Start Custom Game"
+		"MainMenu_Campaigns_MM_StartVanilla"						"Start without Customizing"
+		"MainMenu_Campaigns_MM_Start_Title"							"Chapter Selection"
+		"MainMenu_Campaigns_MM_Start_Tagline"						"Configure and start a new game"
+		"MainMenu_Campaigns_MM_DEV_NoCampaignPH"					"No active campaign detected"
+		
+		// campaign setup
+		"MainMenu_Campaigns_Setup_ExitNote"							"To start this campaign, complete any remaining changes in this page and then return to the main setup area."
+		"MainMenu_Campaigns_Setup_Summary_NoChanges"				"No changes detected."
+		"MainMenu_Campaigns_Setup_ResetToDefaults"					"Reset to Defaults"
+		
+		// campaign setup - main panel
+		"MainMenu_Campaigns_Setup_Title"							"Campaign/Map Settings"
+		"MainMenu_Campaigns_Setup_Tagline"							"Customize and confirm game settings"
+		"MainMenu_Campaigns_Setup_AdvExpand"						"Advanced Game Settings and Custom Options"
+		"MainMenu_Campaigns_Setup_PanelButton_Presets_Title"		"Presets"
+		"MainMenu_Campaigns_Setup_PanelButton_Presets_Desc"			"Apply a pre-defined set of customizations"
+		"MainMenu_Campaigns_Setup_PanelButton_Admin_Title"			"Server settings"
+		"MainMenu_Campaigns_Setup_PanelButton_Admin_Desc"			"Administrative settings; player counts, lockdown, demo recording..."
+		"MainMenu_Campaigns_Setup_PanelButton_MapSelect_Title"		"Map selection"
+		"MainMenu_Campaigns_Setup_PanelButton_MapSelect_Desc"		"Start at a specific map within this chapter"
+		"MainMenu_Campaigns_Setup_PanelButton_BaseGameplay_Title"	"Basic Gameplay"
+		"MainMenu_Campaigns_Setup_PanelButton_BaseGameplay_Desc"	"Simple configurable constraints"
+		"MainMenu_Campaigns_Setup_PanelButton_Modifiers_Title"		"Gameplay Modifiers"
+		"MainMenu_Campaigns_Setup_PanelButton_Modifiers_Desc"		"Select custom features and scripts that change how the game behaves"
+		
+		// proto
+		"MainMenu_Campaigns_Setup_Proto_Title"						"This system is a prototype experiment and may be changed or removed in the future."
+		"MainMenu_Campaigns_Setup_Proto_Desc"						"Convars changed through this system will not persist in saves. They will also not be reverted upon exiting a campaign."
+		
+		// campaign setup - server settings
+		// GameplayBase
+		"MainMenu_Campaigns_Setup_Var_cl_mirror_world"				"Flip World"
+		"MainMenu_Campaigns_Setup_Var_cl_mirror_world_Description"	"Flips the world horizontally. A great way to ruin somebody's day.\n\nDefault: Off"
+		"MainMenu_Campaigns_Setup_Var_sv_gravity"					"World Gravity"
+		"MainMenu_Campaigns_Setup_Var_sv_gravity_Description"		"Controls downward gravitational force from the world. This is measured in Hammer units (HU), equivalent to a real-world inch (or 2.54 centimeters).\n\nThe default gravity is 600 HU/s."
+		"MainMenu_Campaigns_Setup_Var_skill"						"Game Difficulty"
+		"MainMenu_Campaigns_Setup_Var_skill_Description"			"Changes behavior of damage modifiers and pickups. Higher difficulties will have increasingly difficult enemies and more ammo scarcity.\n\nThis does not apply to Portal campaigns.\n\nDefault: Normal"
+		"MainMenu_Campaigns_Setup_Var_skill_1"						"Easy"
+		"MainMenu_Campaigns_Setup_Var_skill_2"						"Normal"
+		"MainMenu_Campaigns_Setup_Var_skill_3"						"Hard"
+		"MainMenu_Campaigns_Setup_Var_player_throwenable"					"Enable Throwing Objects"
+		"MainMenu_Campaigns_Setup_Var_player_throwenable_Description"		"Enables Half-Life 2-style pickup behavior, allowing objects to be thrown at will.\n\nDefault: Off"
+		"MainMenu_Campaigns_Setup_Var_player_throwforce"					"Object Throw Force"
+		"MainMenu_Campaigns_Setup_Var_player_throwforce_Description"		"The initial strength of throw objects, in Hammer units (HU). Requires \"Enable Throwing Objects\"."
+		"MainMenu_Campaigns_Setup_Var_mv_bhop"						"\"Bunny-hop\" Speed Boost Bug"
+		"MainMenu_Campaigns_Setup_Var_mv_bhop_Description"			"Enables a \"bunny-hopping\" bug that allows players to gain extra momentum by abusing broken movement behavior, as depicted in legacy versions of Source engine games.\n\nDefault: Off"
+		"MainMenu_Campaigns_Setup_Var_mv_duckjump"					"Allow Crouch Jumping"
+		"MainMenu_Campaigns_Setup_Var_mv_duckjump_Description"		"Allows the player to jump while crouched/ducked. This is a requirement for maps making use of specific Half-Life 2 movement behavior.\n\nDefault: Off"
+		"MainMenu_Campaigns_Setup_Var_sv_enableholdrotation"				"Enable Hold Rotation"
+		"MainMenu_Campaigns_Setup_Var_sv_enableholdrotation_Description"	"Allows the player to rotate held physics objects by pressing and holding +ATTACK2.\n\nDefault: Off"
+		"MainMenu_Campaigns_Setup_Var_sv_enablepreferredcarry"				"Enable Preferred Carry"
+		"MainMenu_Campaigns_Setup_Var_sv_enablepreferredcarry_Description"	"Keep held physics objects at their preferred carry angle.\n\nDefault: On"
+
+		// ServerSettings
+		"MainMenu_Campaigns_Setup_Var_hostname"						"Server Name"
+		"MainMenu_Campaigns_Setup_Var_hostname_Description"			"The searchable name of this server, as shown in the server browser. Not applicable for single-player games."
+		"MainMenu_Campaigns_Setup_Var_sv_tags"						"Server Tags"
+		"MainMenu_Campaigns_Setup_Var_sv_tags_Description"			"Keywords to use when searching for servers with specific customizations or gamemodes. Not applicable for single-player games.\n\nDefault: None"
+		"MainMenu_Campaigns_Setup_Var_maxplayers"					"Maximum Player Count"
+		"MainMenu_Campaigns_Setup_Var_maxplayers_Description"		"The maximum number of players that can connect to this server at once. Setting this to 1 forces single-player mode.\n\nDefault: 1"
+		"MainMenu_Campaigns_Setup_Var_sv_password"					"Server Password"
+		"MainMenu_Campaigns_Setup_Var_sv_password_Description"		"A password/code players can use to join this server. Ideal for hosting private sessions and LAN parties.\n\nDefault: None"
+		"MainMenu_Campaigns_Setup_Var_sv_lan"						"Host on LAN"
+		"MainMenu_Campaigns_Setup_Var_sv_lan_Description"			"Limits inbound connections to this server only those originating from the current local network. Recommended for private sessions and LAN parties."
+		"MainMenu_Campaigns_Setup_Var_sv_cheats"					"Enable Server Cheats"
+		"MainMenu_Campaigns_Setup_Var_sv_cheats_Description"		"Enables access to special commands flagged as \"cheats\", such as <pre>noclip</pre>, <pre>impulse</pre>, and <pre>ent_fire</pre>.\n\nDefault: Off"
+		"MainMenu_Campaigns_Setup_Var_p2p"							"Use Steam Networking"
+		"MainMenu_Campaigns_Setup_Var_p2p_Description"				"Uses the <a href="https://partner.steamgames.com/doc/features/multiplayer/steamdatagramrelay">Steam Datagram Relay</a> to enable hosting peer-to-peer (P2P) and dedicated servers over the Internet with minimal technical setup. Game traffic is sent to Valve relay servers to anonymize player information and protect the server host."
+		
+		// CampaignSetupDiscardDialog
+		"MainMenu_Campaigns_Setup_Discard_Title"					"Discard Changes"
+		"MainMenu_Campaigns_Setup_Discard_Description"				"Are you sure you want to leave campaign setup?\n\nAll settings made during setup will be lost."
+		
+		// NewGameWarningDialog
+		"Action_NewGame_Title"										"Start Game"
+		"Action_NewGame_Description"								"Are you sure you want to start a new game?\n\nPrevious progress will be lost."
+		"Action_NewGame_CampaignSetup_Description"					"Are you sure you want to start a new game with these settings?\n\nNote that previous progress will be lost and that any gameplay modifiers cannot be reverted once a new game has started."
+
+		// campaign list
+		
+		// p2ce-campaign
+		"MainMenu_Campaigns_P2CE"					"Portal 2: Community Edition"
+		"MainMenu_Campaigns_P2CE_Author"			"P2:CE Team"
+		"MainMenu_Campaigns_P2CE_Description"		"[DEV - REPLACE ME] Temporary P2:CE Campaign Description"
+		
+		// for valve campaigns
+		"MainMenu_Campaigns_Valve_Author"			"Valve Software"
+		
+		// portal2
+		"MainMenu_Campaigns_portal2"				"Portal 2"
+		"MainMenu_Campaigns_portal2_Description"	"Portal 2 introduces a cast of dynamic new characters, a host of fresh puzzle elements, and a much larger set of devious test chambers. Players will explore never-before-seen areas of the Aperture Science Labs and be reunited with GLaDOS, the occasionally murderous computer companion who guided them through the original game."
+		"MainMenu_Campaigns_portal2_MP"				"Portal 2 Co-op"
+		"MainMenu_Campaigns_portal2_MP_Description"	"Co-op features its own entirely separate campaign with a unique story, test chambers, and two new player characters. This new mode forces players to reconsider everything they thought they knew about portals. Success will require them to not just act cooperatively, but to think cooperatively."
+		
+		// portal
+		"MainMenu_Campaigns_portal"					"Portal"
+		"MainMenu_Campaigns_portal_Description"		"Set in the mysterious Aperture Science Laboratories, players must solve physical puzzles and challenges by opening portals to maneuvering objects, and themselves, through space."
+		
+		// hl2
+		"MainMenu_Campaigns_hl2"					"Half-Life 2"
+		"MainMenu_Campaigns_hl2_Description"		"The Seven Hour War is lost. Earth has surrendered. The Black Mesa incident is a distant memory. The player again picks up the crowbar of research scientist Dr. Gordon Freeman, who finds himself on an alien-infested Earth being picked to the bone, its resources depleted, its populace dwindling. Freeman is thrust into the unenviable role of rescuing the world from the wrong he unleashed back at Black Mesa. And a lot of people he cares about are counting on him."
+		
+		// episodic
+		"MainMenu_Campaigns_episodic"				"Half-Life 2: Episode One"
+		"MainMenu_Campaigns_episodic_Description"	"Picking up after the events of Half-Life 2, Dr. Gordon Freeman and Alyx Vance attempt to slow an unavoidable chain reaction that will destroy City 17. Facing heavy resistance, they must evacuate the city and save its residents before all is lost."
+		
+		// ep2
+		"MainMenu_Campaigns_ep2"					"Half-Life 2: Episode Two"
+		"MainMenu_Campaigns_ep2_Description"		"With humanity scattered, alien forces continue their fight for control over Earth. Physicist Gordon Freeman and Alyx Vance must work to intercept a Combine transmission and reunite with rebel forces before humanity is destroyed."
+		
+		// Main Menu - Addons
+		"MainMenu_Addons_Refresh"					"Refresh Addon List"
+		"MainMenu_Addons_Apply"						"Apply Changes"
+		"MainMenu_Addons_Discard"					"Discard"
+		"MainMenu_Addons_ToggleAll"					"Enable/Disable All Addons"
+		"MainMenu_Addons_ViewOnWS"					"View Workshop Page"			// DO NOT DISPLAY THIS IF IT IS A LOCAL ADDON
+		"MainMenu_Addons_Category_WS"				"P2:CE Addons"
+		"MainMenu_Addons_Category_WS_Tagline"		"Workshop subscriptions and locally-installed content"
+		"MainMenu_Addons_Category_Mounts"			"Mounted Games"
+		"MainMenu_Addons_Category_Mounts_Tagline"	"Content from other installed Source engine games"
+		
+		"MainMenu_Addons_ToggleAddon"				"Toggle addon's enablement state"
+		
+		// Main Menu - Mounts
+		"MainMenu_Mounts_MountGame"					"Mount"
+		"MainMenu_Mounts_UnmountGame"				"Unmount"
+		"MainMenu_Mounts_TooMany"					"Too Many Mounted Games"
+		"MainMenu_Mounts_TooMany_Desc"				"There are currently {i:num_mounted_games} games mounted on this P2:CE install. Only {i:max_mounts} games from your mounts file will be displayed due to technical limitations."
+		"MainMenu_Mounts_Game_MaxTagline"			"Maximum number of visible mounted games reached."
+		"MainMenu_Mounts_WIP_Title"					"Mount configuration is a work-in-progress and is currently unavailable."
+		"MainMenu_Mounts_WIP_Tagline"				"Click here to learn more about configuring mounts in Portal 2: Community Edition."
+
+		// for non-campaign addons with maps
+		"MainMenu_Addons_MapDropdown_Select"		"Select a map..."
+		"MainMenu_Addons_LaunchMap_Multi"			"Launch Selected Map"
+		"MainMenu_Addons_LaunchMap_Single"			"Play Map"
+		
+		// Filtering
+		// Filtering - Time
+		"MainMenu_Addons_SearchBox_FillerText"				"Search for addons..."
+		"MainMenu_Addons_Filtering_Title"					"Filtering and Sorting Options"
+		"MainMenu_Addons_Filtering_Edit_Tooltip"			"Change the way how addons are filtered and sorted by in the addon list."
+		"MainMenu_Addons_Filtering_EnableAddons_Tooltip"	"Enable or disable all addons in this list."
+		"MainMenu_Addons_Filtering_Sort_Title"				"Sort by:"
+		"MainMenu_Addons_Filtering_Sort_TimeInstalled"		"Time Subscribed/Added"
+		"MainMenu_Addons_Filtering_Sort_Alpha"				"Alphabetical"
+		"MainMenu_Addons_Filtering_Sort_TimePublished"		"Upload/Published Date"
+		"MainMenu_Addons_Filtering_Sort_TimeLastUpdate"		"Last Updated Date"
+		
+		// Filtering - Source Type
+		"MainMenu_Addons_Filtering_Sort_InstallSrc"			"Addon Source Type"
+		"MainMenu_Addons_Filtering_Sort_InstallSrc_Local"	"Local Install"
+		"MainMenu_Addons_Filtering_Sort_InstallSrc_UGC"		"Steam Workshop"
+		
+		// Filtering - Campaigns
+		// These are sourced from the internal tags in workshop.kv3
+		"MainMenu_Addons_Filtering_Sort_CampaignTags"			"Campaign/Map Tags"
+		"MainMenu_Addons_Filtering_Sort_CampaignTags_SP"		"Singleplayer"
+		"MainMenu_Addons_Filtering_Sort_CampaignTags_COOP"		"Co-op"
+		"MainMenu_Addons_Filtering_Sort_CampaignTags_CUSTOM"	"Custom Story"
+		"MainMenu_Addons_Filtering_Sort_CampaignTags_LSHORT"	"Short (1-3 maps)"
+		"MainMenu_Addons_Filtering_Sort_CampaignTags_LMED"		"Medium (4-7 maps)"
+		"MainMenu_Addons_Filtering_Sort_CampaignTags_LLONG"		"Long (8+ maps)"
+		
+		// Filtering - Addon Tags
+		// These are sourced from the internal tags in workshop.kv3
+		"MainMenu_Addons_Filtering_Sort_AddonTags"				"Addon Tags"
+		"MainMenu_Addons_Filtering_Sort_AddonTags_Model"		"Models"
+		"MainMenu_Addons_Filtering_Sort_AddonTags_Mats"			"Materials/Textures"
+		"MainMenu_Addons_Filtering_Sort_AddonTags_Scripts"		"Scripts"
+		"MainMenu_Addons_Filtering_Sort_AddonTags_Instance"		"Instances/Prefabs"
+		"MainMenu_Addons_Filtering_Sort_AddonTags_Theme"		"Theme"
+		"MainMenu_Addons_Filtering_Sort_AddonTags_Ported"		"Game Port"
+
+		// General Actions
+		"Common_On"									"On"
+		"Common_Off"								"Off"
+		"Common_Update"								"Update"
+		"Common_ComingSoon"							"Coming Soon!"
+		"Common_Gamemode"							"Gamemode"
+		"Common_Game"								"Game"
+		"Common_GameUpper"							"GAME"
+		"Common_Save"								"Save"
+		"Common_Close"								"Close"
+		"Common_Cancel"								"Cancel"
+		"Common_OK"									"OK"
+		"Common_DontShowAgain"						"Don't show this again"
+		"Common_SelectAll"							"Select All"
+		"Common_Delete"								"Delete"
+		"Common_Remove"								"Remove"
+		"Common_Create"								"Create"
+		"Common_Edit"								"Edit"
+		"Common_Refresh"							"Refresh"
+		"Common_Search"								"Search"
+		"Common_By"									"By"
+		"Common_SearchEllipsis"						"Search..."
+		"Common_Multiplayer"						"Multiplayer"
+		
+		"Action_Yes"								"Yes"
+		"Action_No"									"No"
+		"Action_Cancel"								"Cancel"
+		"Action_Confirm"							"Confirm"
+		"Action_Back"								"Back"
+		"Action_Return"								"Return"
+		"Action_ReturnToMenu"						"Exit to Menu"
+		"Action_Apply"								"Apply"
+		"Action_Discard"							"Discard"
+		
+		// Feature Unavailable
+		"MainMenu_Feature_Unavailable_Title"		"Feature Not Available"
+		"MainMenu_Feature_Unavailable_Description"	"This feature is a work-in-progress and cannot be accessed at this time."
+		
+		// QuitPrompt
+		"Action_Quit"								"Quit"
+		"Action_QuitToDesktop"						"Quit to Desktop"
+		"Action_Quit_Message" 						"Are you sure you want to quit?"
+		"Action_Quit_InGame_Message"				"Are you sure you want to quit?\n\nUnsaved progress may be lost."
+		// quit_prompt console command
+		"MainMenu_ExitGameConfirmation_Title"		"Quit Game"
+		"MainMenu_ExitGameConfirmation_Message"		"Are you sure you want to quit the game?\n\nUnsaved progress may be lost."
+		
+		// Loading Screen
+		"LoadingProgress_Connecting" 				"Connecting to server..."
+		"LoadingProgress_SpawningServer"			"Starting local game server..."
+		"LoadingProgress_BeginConnect" 				"Establishing connection to server..."
+		"LoadingProgress_Changelevel"				"Waiting for server to change maps"
+		"LoadingProgress_LoadMap"					"Loading BSP lump data..."
+		"LoadingProgress_PrecacheWorld"				"Initializing world..."
+		"LoadingProgress_LoadResources"				"Loading resources..."
+		"LoadingProgress_ProcessServerInfo"			"Querying current server state..."
+		"LoadingProgress_SignonLocal"				"Initializing resources..."
+		"LoadingProgress_SignonDataLocal"			"Finalizing initial world state..."
+		"LoadingProgress_SignonData"				"Retrieving game data..."
+		"LoadingProgress_SendClientInfo" 			"Spawning client..."
+		
+		// Temp Notices
+		// Unfinished Software Reminder
+		"MainMenu_PrereleaseNotice_Title"			"This is unstable, pre-release software"
+		"MainMenu_PrereleaseNotice_Description"		"Portal 2: Community Edition is a modding framework. As it currently stands, it is also unfinished software. This preview release is intended for content creators only; some key features may be absent or are being actively developed, and significant code refactors are being worked on across the underlying game engine that completely rewrite and/or remove outdated legacy code to pave way for larger quality-of-life improvements and new features. As a result, aspects of P2:CE and its SDK tools are potentially subject to bugs that may significantly impact your modding workflow.
+
+The P2:CE campaign is also not finished, and is therefore not included in this preview release.
+		
+We encourage you to file bug reports and feature requests on P2:CE's issue trackers at:
+
+	• https://github.com/StrataSource/Portal-2-Community-Edition
+	• https://github.com/StrataSource/Engine
+		
+By clicking on \"I Understand\", you acknowledge the risks involved in using this preview release. If you choose to decline these terms, P2:CE will exit.
+
+This message will only be displayed once, and will not be shown again upon acceptance."
+		
+		"MainMenu_PrereleaseNotice_Acknowledge"		"I Understand"
+		"MainMenu_PrereleaseNotice_Decline"			"Decline"
+		
+		// Playtest DOSA
+		"MainMenu_PlaytestDOSA_Title"				"Welcome to the Portal 2: Community Edition playtest!"
+		"MainMenu_PlaytestDOSA_Description"			"As a part of the playtest, the game will record a demo of your gameplay and some basic performance data. This data will be uploaded for our developers to review after the fact, allowing us to improve gameplay.\n\nNOTE: Consent can be given/revoked later in settings."
+		"MainMenu_PlaytestDOSA_Consent"				"Consent to Playtest Data Collection"
+		"MainMenu_PlaytestDOSA_Revoke"				"Revoke Consent"
+	
+		// Color Picker
+		"ColorPicker_Hue"							"H"
+		"ColorPicker_Saturation"					"S"
+		"ColorPicker_Value"							"V"
+		"ColorPicker_Red"							"R"
+		"ColorPicker_Green"							"G"
+		"ColorPicker_Blue"							"B"
+		"ColorPicker_Alpha"							"A"
+		
+		// Networking Stuff!!!!!
+		// Disconnect Dialog Main
+		"MainMenu_DisconnectDialog_Title"					"Disconnected from server"
+		"MainMenu_DisconnectDialog_Message"					"You were disconnected for the following reason:\n\n{s:disconnect_reason}"
+		
+		// generic disconnect reasons
+		"MainMenu_DisconnectDialog_Reason_TimeOut"			"The server has likely crashed or has lost network connectivity. Wait a few moments, and then try to connect again."
+		"MainMenu_DisconnectDialog_Reason_TimeOutConnect"	"Could not establish a connection to the server. The specified server IP address/host name is either invalid, or there is a problem with your network connection."
+		"MainMenu_DisconnectDialog_Reason_BuildTooOld"		"Portal 2: Community Edition may require an update to connect to this server. Please exit the game and check for any pending updates on the Steam client."
+		"MainMenu_DisconnectDialog_Reason_BuildTooNew"		"Your version of P2:CE is newer than the server's version. The server owner may need to update to the newest game version."
+		"MainMenu_DisconnectDialog_Reason_DSExit"			"Server shutdown initiated by owner/host."
+		"MainMenu_DisconnectDialog_Reason_Kicked"			"You have been kicked from this server."
+		"MainMenu_DisconnectDialog_Reason_KickedVote"		"You have been vote-kicked from this server."
+		"MainMenu_DisconnectDialog_Reason_Banned"			"You have been banned from this server."
+		"MainMenu_DisconnectDialog_Reason_BannedVote"		"You have been vote-banned from this server."
+		
+		// Disconnect Notices - ENetworkDisconnectionReason (per matchmaking dll and cross-ref with csgo_english + dota_english)
+		// These need to be shared on here and in panorama_english for DS host reasons
+		"GameUI_Disconnect_User"							"Player disconnected from server."						// NETWORK_DISCONNECT_DISCONNECT_BY_USER
+		"GameUI_Disconnect_Server"							"Player removed by server."								// NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
+		"GameUI_Disconnect_ConnectionLost"					"Lost connection to server."							// NETWORK_DISCONNECT_LOST, NETWORK_DISCONNECT_SNS_CONNECTION_LOST
+		"GameUI_Disconnect_ConnectionOverflow"				"Packet recieved by client is too large."				// NETWORK_DISCONNECT_OVERFLOW
+		"GameUI_Disconnect_ServerInfoOverflow"				"Server metadata packet is too large."					// NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
+		"GameUI_Disconnect_TickMessage"						"Tick data is too large."								// NETWORK_DISCONNECT_TICKMSG_OVERFLOW
+		"GameUI_Disconnect_StringTableMessage"				"StringTable data received by client is too large."		// NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
+		"GameUI_Disconnect_DeltaEntMessage"					"DeltaEnt data received by client is too large."		// NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW
+		"GameUI_Disconnect_TempEntMessage"					"TempEnt data received by client is too large."			// NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW
+		"GameUI_Disconnect_SoundsMessage"					"Too many sounds attempting to play at once."			// NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
+		"GameUI_Disconnect_ReliableOverflow"				"Reliable stream overflowed on serverside."				// NETWORK_DISCONNECT_RELIABLEOVERFLOW
+		"GameUI_Disconnect_BadClientDeltaTick"				"Bad interpolation tick received by client."			// NETWORK_DISCONNECT_BADDELTATICK
+		"GameUI_Disconnect_NoMoreSplits"					"No more split-screen slots available."					// NETWORK_DISCONNECT_NOMORESPLITS
+		"GameUI_Disconnect_TimedOut"						"Timed out while waiting for server."					// NETWORK_DISCONNECT_TIMEDOUT
+		"GameUI_Disconnect_Disconnected"					"You have been disconnected from the server."			// NETWORK_DISCONNECT_DISCONNECTED
+		"GameUI_Disconnect_LeavingSplit"					"Exiting split-screen mode."							// NETWORK_DISCONNECT_LEAVINGSPLIT
+		"GameUI_Disconnect_DifferentClassTables"			"Class table structures on server conflict with client."	// NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
+		"GameUI_Disconnect_NoSpectators"					"This server does not support spectator mode."			// NETWORK_DISCONNECT_NOSPECTATORS
+		"GameUI_Disconnect_Kicked"							"Kicked from server."									// NETWORK_DISCONNECT_KICKED
+		"GameUI_Disconnect_BanAdded"						"Banned from server."									// NETWORK_DISCONNECT_BANADDED
+		"GameUI_Disconnect_KickBanAdded"					"Banned from server."									// NETWORK_DISCONNECT_KICKBANADDED - Isn't this the same thing as BANADDED?
+		"GameUI_Disconnect_PureServer_ClientExtra"			"Content sanity check failed: Client has additional non-shared assets loaded."	// NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
+		"GameUI_Disconnect_PureServer_Mismatch"				"Content sanity check failed: Assets on client do not match with server's version."	// NETWORK_DISCONNECT_PURESERVER_MISMATCH
+		"GameUI_Disconnect_UserCmd"							"Error in parsing user commands."						// NETWORK_DISCONNECT_USERCMD
+		"GameUI_Disconnect_RejectedByGame"					"Connection rejected by server."						// NETWORK_DISCONNECT_REJECTED_BY_GAME
+		"GameUI_Disconnect_BadServerPassword"				"Invalid server password."								// NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
+		"GameUI_Disconnect_ConnectionFailure"				"Failed to connect to server."							// NETWORK_DISCONNECT_CONNECTION_FAILURE
+		"GameUI_Disconnect_ConnectionClosing"				"Connection closed by server."							// NETWORK_DISCONNECT_CONNECTION_CLOSING
+		"GameUI_Disconnect_SessionMigrated"					"Current match has moved to another server."			// NETWORK_DISCONNECT_SESSION_MIGRATED
+		"GameUI_Disconnect_PlayerRemovedFromHostSession"	"Player removed by host."								// NETWORK_DISCONNECT_PLAYER_REMOVED_FROM_HOST_SESSION
+		"GameUI_Disconnect_TooManyCommands"					"Issued too many commands to server."					// NETWORK_DISCONNECT_SERVER_DOS
+		"GameUI_Disconnect_SteamIDBanned"					"Account is banned from the Steam Community."			// NETWORK_DISCONNECT_STEAM_BANNED
+		"GameUI_Disconnect_SteamIDInUse"					"Steam account is currently being used elsewhere."		// NETWORK_DISCONNECT_STEAM_INUSE
+		"GameUI_Disconnect_SteamInUse"						"Steam account is currently being used elsewhere."		// NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE - Why the hell is this disconnect reason duped twice?
+		"GameUI_Disconnect_SteamTicket"						"Invalid Steam logon ticket."							// NETWORK_DISCONNECT_STEAM_TICKET
+		"GameUI_Disconnect_SteamLogon"						"Player is not logged onto the Steam network."			// NETWORK_DISCONNECT_STEAM_LOGON, NETWORK_DISCONNECT_STEAM_AUTHCANCELLED, NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED, NETWORK_DISCONNECT_STEAM_AUTHINVALID
+		"GameUI_Disconnect_SteamVAC"						"Player is banned from online play for cheating."		// NETWORK_DISCONNECT_STEAM_VACBANSTATE
+		"GameUI_Disconnect_SteamTimeOut"					"Failed to verify Valve Anti-Cheat (VAC) ban status."	// NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
+		"GameUI_Disconnect_SteamDropped"					"You are currently disconnected from the Steam network."	// NETWORK_DISCONNECT_STEAM_DROPPED
+		"GameUI_Disconnect_SteamOwnership"					"This Steam account does not own a license for Portal 2 and/or Portal 2: Community Edition."	// NETWORK_DISCONNECT_STEAM_OWNERSHIP
+		"GameUI_Disconnect_LocalProblem_ManyRelays"			"Failed to recover game state after multiple tries with Steam Datagram Relay (SDR) servers. There may be an issue with this computer's network connectivity."		// NETWORK_DISCONNECT_SNS_LOCAL_MANYRELAYS
+		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"		"Server lost connection to Steam Datagram Relay (SDR) servers."		// NETWORK_DISCONNECT_SNS_LOCAL_HOSTEDSERVERPRIMARYRELAY
+		"GameUI_Disconnect_LocalProblem_NetworkConfig"		"Failed to download Steam Datagram Relay (SDR) configuration data."		// NETWORK_DISCONNECT_SNS_LOCAL_NETWORKCONFIG
+		"GameUI_Disconnect_LocalProblem_Other"				"SDR relay communication failed."						// NETWORK_DISCONNECT_SNS_LOCAL_OTHER
+		"GameUI_Disconnect_RemoteProblem_TimeoutConnecting"	"Timed out waiting to connect to server."				// NETWORK_DISCONNECT_SNS_REMOTE_TIMEOUTCONNECTING
+		"GameUI_Disconnect_RemoteProblem_Timeout"			"Timed out waiting for server."							// NETWORK_DISCONNECT_SNS_REMOTE_TIMEOUT
+		"GameUI_Disconnect_RemoteProblem_BadCrypt"			"Invalid/misconfigured cryptography settings recieved from server."		// NETWORK_DISCONNECT_SNS_REMOTE_BADCRYPT
+		"GameUI_Disconnect_RemoteProblem_BadCert"			"Invalid encryption certificate presented by server."	// NETWORK_DISCONNECT_SNS_REMOTE_BADCERT
+		"GameUI_Disconnect_ClosedByPeer_Timeout"			"Timed out while waiting for peer response."			// NETWORK_DISCONNECT_SNS_CLOSEDBYPEER_TIMEOUT
+		"GameUI_Disconnect_ClosedByPeer"					"Connection closed by peer."							// NETWORK_DISCONNECT_SNS_CLOSEDBYPEER_OTHER
+		"GameUI_Disconnect_InternalError"					"Internal communication error. Check the developer console for details."	// NETWORK_DISCONNECT_SNS_INTERNALERROR
+		"GameUI_Disconnect_Unusual"							"Unspecified failure in client/server connection. Check the developer console for details."		// NETWORK_DISCONNECT_SNS_UNUSUAL
+		"GameUI_Disconnect_HLTVBadRelayPassword"			"Invalid SourceTV proxy password."						// NETWORK_DISCONNECT_HLTV_BADRELAYPASSWORD
+		"GameUI_Disconnect_HLTVBadSpectatorPassword"		"Invalid SourceTV spectator password."					// NETWORK_DISCONNECT_HLTV_BADSPECTATORPASSWORD
+		"GameUI_Disconnect_HLTVRestricted"					"Spectating is restricted to LAN clients."				// NETWORK_DISCONNECT_HLTV_RESTRICTED
+		"GameUI_Disconnect_HLTVUnavailable"					"SourceTV is not available for this server."			// NETWORK_DISCONNECT_HLTV_UNAVAILABLE
+		"GameUI_Disconnect_HLTVStop"						"SourceTV spectator host shutting down."				// NETWORK_DISCONNECT_HLTV_STOP
+		"GameUI_Disconnect_HLTVNoRelaysAvailable"			"No SourceTV proxy is available at this time."			// NETWORK_DISCONNECT_HLTV_NO_RELAYS_AVAILABLE
+		"GameUI_Disconnect_HLTVRestrictedToLocalSpectators"			"Spectating is restricted to LAN clients."		// NETWORK_DISCONNECT_HLTV_RESTRICTED_TO_LOCAL_SPECTATORS - Again???
+	}
+}

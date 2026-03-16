@@ -29,46 +29,90 @@
 //	group name				name substring		substring	chan			sndlvl_min	sndlvl_max	priority Is Ducked	Ducking	Percent	 Threshold
 //  ---------				------------------	---------	-----------		----------	----------	-------- --------	-------	-------	 ---------
 	
-	"voip"					"?VoiceSfx"			""			""				""			""			"60"	"0"		"0"		"100"	"40"
+	"voip"					"?VoiceSfx"			""			""				""			""			"60"		"0"		"0"		"100"	"40"
+	
+	"Vort_Dialog"			"/vort"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Alyx_Dialog"			"/alyx"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Alyx_Dialog"			"/al_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Citizen_Dialog"		"/citizen"			""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Citizen_Dialog"		"/female"			""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Citizen_Dialog"		"/male"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Monk_Dialog"			"/monk"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Eli_Dialog"			"/eli_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Kleiner_Dialog"		"/kl_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Breen_Dialog"			"/br_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Barney_Dialog"			"/ba_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Gman_Dialog"			"/gman_"			""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Metrocop_Dialog"		"/mcop"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Soldier_Dialog"		"/cs_"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
 
-	"UI"					"ui/"				""			""				""			""			"60"		"0"		"0"		"100"	"40"	"snd_volume_ui"
-	"commentary"             "commentary/"        ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"mstr"              "mstr/"        ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"noDSP"              "nodsp"        ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"potatosVO"              "vo/glados/potatos"        ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"gladosVO"              "vo/glados/"        ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"announcerVO"           "vo/announcer/"    ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"wheatleyVO"           "vo/wheatley/"    ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"caveVO"               "vo/cavejohnson/"    ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"coreVO"               "vo/core"    ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
+	"UI"					"ui/"				""			""				""			""			"60"		"0"		"0"		"100"	"40"		"snd_volume_ui"
+	"UI"					"common/"			""			""				""			""			"50"		"0"		"0"		"100"	"40"		"snd_volume_ui"
+	"commentary"			"commentary/"		""          ""				""		    ""			"60"		"0"     "0"		"100"	"40"
+	"mstr"					"mstr/"				""          ""				""		    ""			"60"		"0"     "0"		"100"	"40"
+	"noDSP"					"nodsp"				""          ""				""			""			"60"		"0"     "0"		"100"	"40"
+	"potatosVO"				"vo/glados/potatos"	""          ""				""		    ""			"60"		"0"     "0"		"100"	"40"
+	"gladosVO"				"vo/glados/"		""          ""				""		    ""			"60"		"0"     "0"		"100"	"40"
+	"announcerVO"			"vo/announcer/"		""          ""				""		    ""			"60"		"0"     "0"		"100"	"40"
+	"wheatleyVO"			"vo/wheatley/"		""          ""				""		    ""			"60"		"0"     "0"		"100"	"40"
+	"caveVO"				"vo/cavejohnson/"	""          ""				""		    ""			"60"		"0"     "0"		"100"	"40"
+	"coreVO"				"vo/core"			""          ""				""		    ""			"60"		"0"     "0"		"100"	"40"
 
-	"inTBeam"           "player_enter_tbeam_lp"    ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
-	"gelBounce"           "player_bounce_jump_paint"    ""          ""			""		    ""			"60"		"0"     "0"		"100"	"40"
+	"inTBeam"				"player_enter_tbeam_lp"			""				""			""		    ""			"60"	"0"     "0"		"100"	"40"
+	"gelBounce"				"player_bounce_jump_paint"		""				""			""		    ""			"60"	"0"     "0"		"100"	"40"
 
-	"epilogueMusic"			"music/sp_a5_x1"			""			""				""			""			"60"		"0"		"0"		"75"	"40"
-	"Music"					"music/"			""			""				""			""			"60"		"0"		"0"		"75"	"40"	"snd_volume_music"
+	"epilogueMusic"			"music/sp_a5_x1"	""			""				""			""			"60"		"0"		"0"		"75"	"40"
 	"beep"					"xray/beep"			""			""				""			""			"60"		"0"		"0"		"75"	"40"
 
 	"bullethit"				"impact_bullet"		""			""				""			""			"60"		"0"		"0"		"100"	"40"
 	"bulletmiss"			"nearmiss"			""			""				""			""			"60"		"0"		"0"		"100"	"40"
 	"Explosions"			"explo"				""			""				"120"		""			"60"		"0"		"0"		"100"	"40"
 
-	"Player_Fall"			"fall_whoosh"			""			""				""		""			"60"		"0"		"0"		"100"	"40"
-	"Portalgun"			"portalgun"			""			""				""		""			"60"		"0"		"0"		"100"	"40"	"snd_volume_weapon"
-	"Player_Weapons_Loud"	"weapon"			"Player"	""				"140"		""			"60"		"0"		"0"		"100"	"40"
-	"Player_Weapons"		"weapon"			"Player"	""				""			""			"60"		"0"		"0"		"100"	"40"
+	"Player_Fall"			"fall_whoosh"		""			""				""			""			"60"		"0"		"0"		"100"	"40"
+	"Portalgun"				"portalgun"			""			""				""			""			"60"		"0"		"0"		"100"	"40"	"snd_volume_weapon"
+	"Player_Suit"			"fvox/"				"Player"	""				""			""			"50"		"0"		"0"		"100"	"40"
+	"Player_Weapons_Loud"	"weapon"			"Player"	""				"140"		""			"60"		"0"		"0"		"100"	"40"	"snd_volume_weapon"
+	"Player_Weapons"		"weapon"			"Player"	""				""			""			"60"		"0"		"0"		"100"	"40"	"snd_volume_weapon"
 	"Player"				"player/"			"Player"	""				""			""			"60"		"0"		"0"		"100"	"40"
+	"Player"				"physics/"			"Player"	""				""			""			"50"		"0"		"0"		"100"	"40"
+	"Physgun"				"weapons/phys"		""			""				""			""			"50"		"0"		"0"		"100"	"40"	
 
-	"turrets"				"npc/turret"					""		    ""	""			""			"60"		"0"		"0"		"100"	"40"
-	"defective_turrets"		"vo/turret"					""		    ""	""			""			"60"		"0"		"0"		"100"	"40"
+	"turrets"				"npc/turret"		""		    ""				""			""			"60"		"0"		"0"		"100"	"40"
+	"defective_turrets"		"vo/turret"			""		    ""				""			""			"60"		"0"		"0"		"100"	"40"
+	
 	"NPC_Voice"				""					"NPC"		"CHAN_VOICE"	""			""			"60"		"0"		"0"		"100"	"40"
-	"NPC_Weapons_Loud"		""					"NPC"		"CHAN_WEAPON"	"140"		""			"60"		"0"		"0"		"100"	"40"
-	"NPC_Weapons"			""					"NPC"		"CHAN_WEAPON"	""			""			"60"		"0"		"0"		"100"	"40"
+	"NPC_Weapons_Loud"		""					"NPC"		"CHAN_WEAPON"	"140"		""			"60"		"0"		"0"		"100"	"40"	"snd_volume_weapon"
+	"NPC_Weapons"			""					"NPC"		"CHAN_WEAPON"	""			""			"60"		"0"		"0"		"100"	"40"	"snd_volume_weapon"
 	"NPC_Body"				""					"NPC"		"CHAN_BODY"		""			""			"60"		"0"		"0"		"100"	"40"
 	"NPC_Looping"			""					"NPC"		"CHAN_STATIC"	""			""			"60"		"0"		"0"		"100"	"40"
 	"NPC"					""					"NPC"		""				""			""			"60"		"0"		"0"		"100"	"40"
+	"Zombies"				"zombie"			"NPC"		""				""			""			"50"		"0"		"0"		"100"   "40"
 	
+	"AHELI_WEAPON"			"aheli_weapon"		""			""				"140"		""			"50"		"0"		"1"		"100"	"40"
+	"GUNSHIP_WEAPON"		"gunship_weapon"	""			""				"140"		""			"50"		"0"		"1"		"100"	"40"
+	"STRIDER_WEAPON"		"strider_weapon"	""			""				"140"		""			"50"		"0"		"1"		"100"	"40"
+	
+	"Physics"				"physics/"			""			""				""			""			"60"		"0"		"0"		"100"	"40"	"snd_volume_physics"
 	"Ambient"				"ambien"			""			""				""			""			"60"		"0"		"0"		"100"	"40"	"snd_volume_ambient"
+	"Music"					"music/"			""			""				""			""			"60"		"0"		"0"		"75"	"40"	"snd_volume_music"
+	"Dialog"				"vo/"				""			""				""			""			"60"		"0"		"1"		"100"	"20"
+	"Dialog"				"combined/"			""			""				""			""			"60"		"0"		"0"		"100"	"20"
+	"Combat"				"weapon"			""			""				"110"		""			"50"		"0"		"0"		"100"	"40"
+	"Combat"				"explo"				""			""				"110"		""			"50"		"0"		"0"		"100"	"40"
+	"Weapons"				"weapon"			""			""				"120"		""			"60"		"0"		"0"		"100"	"40"	"snd_volume_weapon"
+	"Footsteps"				"footstep"			""			""				""			""			"20"		"0"		"0"		"100"	"40"
+	"Footsteps"				"_step"				""			""				""			""			"20"		"0"		"0"		"100"	"40"
+	"Footsteps"				"foot"				""			""				""			""			"20"		"0"		"0"		"100"	"40"
+
+	"Ambient_Alarms"		"ambient/alarms"	""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	"Ambient_Atmosphere"	"ambient/atmos"		""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	"Ambient_Wind"			"ambient/wind"		""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	"Ambient_Water"			"ambient/water"		""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	"Ambient_Fire"			"ambient/fire"		""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	"Ambient_Gas"			"ambient/gas"		""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	"Ambient_Levels"		"ambient/levels"	""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	"Ambient_Creatures"		"ambient/creatures"	""			""				""			""			"20"		"1"		"0"		"60"	"40"
+	"Ambient_Machines"		"ambient/machines"	""			""				""			""			"50"		"1"		"0"		"60"	"40"
 	
 	"Container"				"container"			""			""				""			""			"60"		"0"		"0"		"100"	"40"
 
@@ -82,14 +126,6 @@
 	"Vehicles"				"vehicles/"			""			""				""			""			"60"		"0"		"0"		"68"	"40"
 	"Vehicles_Looping"		"vehicles/"			""			"CHAN_STATIC"	""			""			"60"		"0"		"0"		"68"	"40"
 
-
-
-	"Physics"				"physics/"			""			""				""			""			"60"		"0"		"0"		"100"	"40"	"snd_volume_physics"
-
-
-	"Dialog"				"combined/"			""			""				""			""			"60"		"0"		"0"		"100"	"20"
-	"Combat"				"explo"				""			""				"110"		""			"60"		"0"		"0"		"100"	"40"
-	"Weapons"				"weapon"			""			""				"120"		""			"60"		"0"		"0"		"100"	"40"	"snd_volume_weapon"
 
 	"Quiet"					""					""			""				"0"			"70"		"60"		"0"		"0"		"100"	"40"
 	"Medium"				""					""			""				"71"		"90"		"60"		"0"		"0"		"100"	"40"
@@ -135,6 +171,13 @@
 //		"oldWheatleyVO"         "0.7" "1.0" "0.35" "0.0" "0.0"
 		"caveVO"                	"0.88" "1.0" "1.0" "0.0" "0.0"
 		"coreVO"                	"0.75" "1.0" "0.35" "0.0" "0.0"
+		
+		"Alyx_Dialog"		"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Citizen_Dialog"	"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Barney_Dialog"		"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Metrocop_Dialog"	"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Soldier_Dialog"	"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Dialog"			"0.7" "1.0" "0.35" "0.0" "0.0"
 
 		"inTBeam"               	"0.6" "1.0" "1.0" "0.0" "0.0"
 		"gelBounce"             	"0.6" "1.0" "1.0" "0.0" "0.0"
@@ -142,17 +185,21 @@
 		"beep"					"0.6" "1.0" "1.0" "0.0" "0.0"
 		"epilogueMusic"			"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Music"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		
+		"AHELI_WEAPON"			"0.85" "1.0" "1.0" "0.0" "0.0"
+		"GUNSHIP_WEAPON"		"0.85" "1.0" "1.0" "0.0" "0.0"
+		"STRIDER_WEAPON"		"0.85" "1.0" "1.0" "0.0" "0.0"
 
 		"bullethit"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		"bulletmiss"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Explosions"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		
+		"Player_Suit"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Player_Fall"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Portalgun"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Player_Weapons_Loud"		"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Player_Weapons"			"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Player"					"0.6" "1.0" "1.0" "0.0" "0.0"
-				
 
 		"turrets"				"0.6" "1.05" "1.0" "0.0" "0.0"
 		"defective_turrets"    	"0.6" "1.0" "1.0" "0.0" "0.0"
@@ -166,6 +213,100 @@
 		"Ambient"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Container"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		
+		"ReducedDuckingSm"		"0.6" "1.0" "1.0" "0.0" "0.0"
+		"ReducedDuckingMd"		"0.6" "1.0" "1.0" "0.0" "0.0"
+		"ReducedDuckingLg"		"0.6" "1.0" "1.0" "0.0" "0.0"
+		"ReducedDuckingXl"		"0.6" "1.0" "1.0" "0.0" "0.0"
+		"ReducedDuckingXxl"		"0.8" "1.0" "1.0" "0.0" "0.0"
+		"ReducedDuckingMstr"		"0.6" "1.0" "1.0" "0.0" "0.0"
+		
+		"Robot"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Claw"			        "0.6" "1.0" "1.0" "0.0" "0.0"
+		"Trains"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Doors"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Buttons"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Items"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Beams"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Vehicles"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Vehicles_Looping"		"0.6" "1.0" "1.0" "0.0" "0.0"
+		
+		"UI"						"1.0" "1.0" "1.0" "0.0" "0.0"
+		
+		"Physics"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Dialog"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Combat"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Weapons"				"0.8" "1.0" "1.0" "0.0" "0.0"
+		"Physgun"				"0.8" "1.0" "1.0" "0.0" "0.0"
+		
+		"Quiet"					"0.33" "1.0" "1.0" "0.0" "0.0"
+		"Medium"				"0.5" "1.0" "1.0" "0.0" "0.0"
+		"Loud"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"VeryLoud"				"0.7" "1.0" "1.0" "0.0" "0.0"
+		"SuperLoud"				"0.8" "1.0" "1.0" "0.0" "0.0"
+		
+		"All"					"0.6" "1.0" "1.0" "0.0" "0.0"
+
+		"testTBin"				"1.0" "1.0" "1.0" "0.0" "0.0"
+		"testGelBounce"			"1.0" "1.0" "1.0" "0.0" "0.0"
+		"testGelSpeed"			"1.0" "1.0" "1.0" "0.0" "0.0"
+		"unduckedMusic"			"0.6" "1.0" "1.0" "0.0" "0.0"
+		"unTBeam"			    "0.6" "1.0" "1.0" "0.0" "0.0"
+		"xLoud"			        "0.8" "1.0" "1.0" "0.0" "0.0"
+	}
+	"DISPLAY_MIX"
+	{
+		"voip"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"commentary"           	"0.7" "1.0" "0.0" "0.0" "0.0"
+		"mstr"                  	"1.0" "1.0" "0.0" "0.0" "0.0"
+		"noDSP"                 	"0.6" "1.0" "0.0" "0.0" "0.0"
+		"potatosVO"             	"0.4" "1.0" "0.32" "0.0" "0.0"
+		"gladosVO"              	"0.7" "1.0" "0.32" "0.0" "0.0"
+		"announcerVO"          	 "0.7" "1.0" "0.35" "0.0" "0.0"
+		"wheatleyVO"            	"0.7" "1.0" "0.35" "0.0" "0.0"
+//		"oldWheatleyVO"         "0.7" "1.0" "0.35" "0.0" "0.0"
+		"caveVO"                	"0.88" "1.0" "1.0" "0.0" "0.0"
+		"coreVO"                	"0.75" "1.0" "0.35" "0.0" "0.0"
+		
+		"Alyx_Dialog"		"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Citizen_Dialog"	"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Barney_Dialog"		"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Metrocop_Dialog"	"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Soldier_Dialog"	"0.7" "1.0" "0.35" "0.0" "0.0"
+		"Dialog"			"0.7" "1.0" "0.35" "0.0" "0.0"
+
+		"inTBeam"               	"0.6" "1.0" "1.0" "0.0" "0.0"
+		"gelBounce"             	"0.6" "1.0" "1.0" "0.0" "0.0"
+
+		"beep"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"epilogueMusic"			"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Music"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		
+		"AHELI_WEAPON"			"1" "1.0" "1.0" "0.0" "0.0"
+		"GUNSHIP_WEAPON"		"1" "1.0" "1.0" "0.0" "0.0"
+		"STRIDER_WEAPON"		"1" "1.0" "1.0" "0.0" "0.0"
+
+		"bullethit"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"bulletmiss"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Explosions"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		
+		"Player_Suit"				"0.7" "1.0" "1.0" "0.0" "0.0"
+		"Player_Fall"				"0.7" "1.0" "1.0" "0.0" "0.0"
+		"Portalgun"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Player_Weapons_Loud"		"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Player_Weapons"			"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Player"					"0.6" "1.0" "1.0" "0.0" "0.0"
+
+		"turrets"				"0.6" "1.05" "1.0" "0.0" "0.0"
+		"defective_turrets"    	"0.6" "1.0" "1.0" "0.0" "0.0"
+		"NPC_Voice"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"NPC_Weapons_Loud"		"0.6" "1.0" "1.0" "0.0" "0.0"
+		"NPC_Weapons"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"NPC_Body"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"NPC_Looping"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"NPC"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		
+		"Ambient"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Container"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		
 		"ReducedDuckingSm"		"0.6" "1.0" "1.0" "0.0" "0.0"
 		"ReducedDuckingMd"		"0.6" "1.0" "1.0" "0.0" "0.0"
@@ -190,9 +331,10 @@
 		"Dialog"					"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Combat"					"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Weapons"				"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Physgun"				"0.8" "1.0" "1.0" "0.0" "0.0"
 		
 		"Quiet"					"0.6" "1.0" "1.0" "0.0" "0.0"
-		"Medium"					"0.6" "1.0" "1.0" "0.0" "0.0"
+		"Medium"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		"Loud"					"0.6" "1.0" "1.0" "0.0" "0.0"
 		"VeryLoud"				"0.6" "1.0" "1.0" "0.0" "0.0"
 		"SuperLoud"				"0.6" "1.0" "1.0" "0.0" "0.0"
@@ -205,6 +347,49 @@
 		"unduckedMusic"			"0.6" "1.0" "1.0" "0.0" "0.0"
 		"unTBeam"			    "0.6" "1.0" "1.0" "0.0" "0.0"
 		"xLoud"			        "0.8" "1.0" "1.0" "0.0" "0.0"
+	}
+	"Voicetest_Mix"
+	{
+		"NPC_Voice"				"0.7" "1.0" "1.0" "0.0" "0.0"
+		"Dialog"				"0.7" "1.0" "1.0" "0.0" "0.0"	
+		"Alyx_Dialog"			"0.7" "1.0" "1.0" "0.0" "0.0"
+		"Citizen_Dialog"		"1.0" "1.0" "1.0" "0.0" "0.0"
+		"Barney_Dialog"			"1.0" "1.0" "1.0" "0.0" "0.0"
+		"Metrocop_Dialog"		"1.0" "1.0" "1.0" "0.0" "0.0"
+		"Soldier_Dialog"		"1.0" "1.0" "1.0" "0.0" "0.0"
+		"All"					"0.1" "1.0" "1.0" "0.0" "0.0"
+	}
+	"Citadel_Dialog_Only"
+	{
+		"NPC_Voice"				"1.0"	"1.0" "1" "0.0" "0.0"
+		"Dialog"				"1.0"	"1.0" "1" "0.0" "0.0"	
+		"Alyx_Dialog"			"1.0"	"1.0" "1" "0.0" "0.0"
+		"Gman_Dialog"			"1.0"	"1.0" "1" "0.0" "0.0"
+		"Music"					"0.8"	"1.0" "0" "0.0" "0.0"
+		"All"					"0.0"	"0.0" "0" "0.0" "1.0"
+	}
+	"Zombie_Dark_Tunnel"
+	{
+		"Explosions"				"0.9"	"1.0" "1.0" "0.0" "0.0"
+		"Player_Weapons_Loud"		"1"		"1.0" "1.0" "0.0" "0.0"
+		"Player_Weapons"			"0.6" 	"1.0" "1.0" "0.0" "0.0"
+		"Weapons"					"0.8" 	"1.0" "1.0" "0.0" "0.0"
+		"Player_Suit"				"0.55"	"1.0" "1.0" "0.0" "0.0"
+		
+		"AHELI_WEAPON"				"0.85" "1.0" "1.0" "0.0" "0.0"
+		"GUNSHIP_WEAPON"			"0.85" "1.0" "1.0" "0.0" "0.0"
+		"STRIDER_WEAPON"			"0.85" "1.0" "1.0" "0.0" "0.0"
+		
+		"bullethit"					"0.65" "1.0" "1.0" "0.0" "0.0"
+		
+		"Music"						"0.8" "1.0" "1.0" "0.0" "0.0"
+		
+		"Ambient"					"1"		"1.0" "1.0" "0.0" "0.0"
+		"Footsteps"					"1"		"1.0" "1.0" "0.0" "0.0"
+		"Physgun"					"0.6"	"1.0" "1.0" "0.0" "0.0"
+		"Zombies"					"1"		"1.0" "1.0" "0.0" "0.0"
+		
+		"All"					"0.7" "1.0" "1.0" "0.0" "0.0"
 	}
 	"Silent_Mix"
 	{
@@ -219,6 +404,12 @@
 //		"oldWheatleyVO"         "0.7" "1.0" "0.35" "0.0" "0.0"
 		"caveVO"                	"0.0" "1.0" "1.0" "0.0" "0.0"
 		"coreVO"                	"0.0" "1.0" "0.35" "0.0" "0.0"
+		
+		"Alyx_Dialog"		"0.0" "1.0" "0.35" "0.0" "0.0"
+		"Citizen_Dialog"	"0.0" "1.0" "0.35" "0.0" "0.0"
+		"Barney_Dialog"		"0.0" "1.0" "0.35" "0.0" "0.0"
+		"Metrocop_Dialog"	"0.0" "1.0" "0.35" "0.0" "0.0"
+		"Soldier_Dialog"	"0.0" "1.0" "0.35" "0.0" "0.0"
 
 		"inTBeam"               	"0.0" "1.0" "1.0" "0.0" "0.0"
 		"gelBounce"             	"0.0" "1.0" "1.0" "0.0" "0.0"
@@ -227,16 +418,20 @@
 		"epilogueMusic"			"0.0" "1.0" "1.0" "0.0" "0.0"
 		"Music"					"0.0" "1.0" "1.0" "0.0" "0.0"
 
+		"AHELI_WEAPON"			"0.0" "1.0" "1.0" "0.0" "0.0"
+		"GUNSHIP_WEAPON"		"0.0" "1.0" "1.0" "0.0" "0.0"
+		"STRIDER_WEAPON"		"0.0" "1.0" "1.0" "0.0" "0.0"
+
 		"bullethit"				"0.0" "1.0" "1.0" "0.0" "0.0"
 		"bulletmiss"				"0.0" "1.0" "1.0" "0.0" "0.0"
 		"Explosions"				"0.0" "1.0" "1.0" "0.0" "0.0"
 		
+		"Player_Suit"				"0.0" "1.0" "1.0" "0.0" "0.0"
 		"Player_Fall"				"0.0" "1.0" "1.0" "0.0" "0.0"
-		"Portalgun"				"0.0" "1.0" "1.0" "0.0" "0.0"
+		"Portalgun"					"0.0" "1.0" "1.0" "0.0" "0.0"
 		"Player_Weapons_Loud"		"0.0" "1.0" "1.0" "0.0" "0.0"
 		"Player_Weapons"			"0.0" "1.0" "1.0" "0.0" "0.0"
 		"Player"					"0.0" "1.0" "1.0" "0.0" "0.0"
-				
 
 		"turrets"				"0.0" "1.05" "1.0" "0.0" "0.0"
 		"defective_turrets"    	"0.0" "1.0" "1.0" "0.0" "0.0"
@@ -249,7 +444,6 @@
 		
 		"Ambient"				"0.0" "1.0" "1.0" "0.0" "0.0"
 		"Container"				"0.0" "1.0" "1.0" "0.0" "0.0"
-		
 		
 		"ReducedDuckingSm"		"0.0" "1.0" "1.0" "0.0" "0.0"
 		"ReducedDuckingMd"		"0.0" "1.0" "1.0" "0.0" "0.0"
@@ -436,12 +630,10 @@
 		"UI"				"1.0" "1.0" "1.0" "0.95" "0.0"
 		"ReducedDuckingMstr"	"1.0" "1.0" "1.0" "0.95" "0.0"
 //		"oldWheatleyVO"    "1.0" "1.0" "1.0" "1.0" "0.0"
-
 	}
 	"epilogueMusicLayer"
 	{
 		"Ambient"				"0.5" "1.0" "1.0" "0.0" "0.0"
-
 	}
 }
 
