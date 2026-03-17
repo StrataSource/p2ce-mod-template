@@ -105,7 +105,7 @@
 						// Due to internal limitations, it is not possible to specify both a background movie AND a map at the same time.
 						// Should either the background map or video fail to load, background_image is displayed by the UI as a last resort.
 						
-						background_map = "p2ce_background_laser_intro"
+						background_map = "sdk_template_background"
 						background_music = "UIPanorama.Music.P2CE.Menu3"
 						background_image = "{campaign_art}/template/campaign_bg.png"
 						
@@ -162,7 +162,7 @@
 					
 					meta = {
 						thumbnail = "{campaign_art}/template/chapters/chapter1.png"
-						background_map = "p2ce_background_laser_intro"
+						background_map = "sdk_template_background"
 						background_image = "{campaign_art}/template/campaign_bg.png"
 					}
 					
