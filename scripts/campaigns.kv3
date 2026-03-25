@@ -4,7 +4,7 @@
 	// Campaign saves are stored separately by P2:CE's save management system and will not conflict with other campaigns (e.g.: the Portal 2 base game, Half-Life 2, et cetera).
 	// 
 	// You can specify multiple campaigns in this file, stored in your add-on's scripts directory.
-	// See the Half-Life 2 campaigns.kv3 file for an example.
+	// See the Half-Life 2 campaigns.kv3 file in the P2:CE addons repo for an example.
 	//
 	// Addons with valid campaign KeyValue3 entry files can co-exist with one another, and will be detected by the campaign system in P2:CE.
 	
@@ -51,6 +51,9 @@
 		// Full campaign logo, as displayed in the campaign's main menu.
 		full_logo = "{campaign_art}/template/full_logo.png"
 		
+		// Logos can be made larger in your mod's main menu. Available parameters are "standard" and "large".
+		full_logo_size_preset = standard
+		
 		// Background for campaign entry, as displayed in selection UI
 		selector_button_background = "{campaign_art}/template/campaign_btn_bg.png"
 	}
@@ -59,9 +62,12 @@
 	"campaigns" = {
 		// This is your campaign. It dictates the entirety of your story, and is used internally by P2:CE to enable campaign-specific features,
 		// such as progression tracking, save data isolation and chapter state control.
+		// 
+		// You can adjust the campaign_default ConVar to always force a specific campaign. This is ideal for mods that only utilize one campaign - see
+		// cfg/autoexec.cfg to see how this can be easily achieved.
 		"P2CE_Mod_Template" = {
 			// Define your campaign's title here. This is displayed by the UI, and additionally supports localization tokens as specified in "panorama_{LANGUAGE}.txt".
-			// This is required for publishing to the Workshop.
+			// This is required for publishing to either the Workshop or as a whole standalone mod.
 			title = "Portal 2: Community Edition - Mod Template"
 			
 			// Set this to false to lock all chapters except for chapter 1.
@@ -107,7 +113,7 @@
 						
 						background_map = "sdk_template_background"
 						background_music = "UIPanorama.Music.P2CE.Menu3"
-						background_image = "{campaign_art}/template/campaign_bg.png"
+						background_image = "{campaign_art}/template/ch1_background_map.png"
 						
 						// Background images as displayed by the loading screen UI. This can be overridden by maps.
 						loading_screen = "{campaign_art}/template/loading/loadingscreen_sample_ch1.png"
@@ -171,7 +177,7 @@
 						{
 							name = "sdk_template_mechanics"
 							meta = {
-								name = "P2:CE SDK Mod Template - Mechanics Sample"
+								name = "Mechanics Sample"
 							}
 						},
 					]
