@@ -68,7 +68,7 @@ Mods can be launched directly from the Steam client if placed in the `SteamApps/
 
 Note that you must quit and relaunch Steam for your mod to show up when you first create it.
 
-## Command Line
+### Command Line
 Launching your mod can also be done programmatically via the P2:CE executable. Pass `-game "path\to\mod"` along with any additional command-line arguments to the P2:CE game executable in your game install.
 
 To launch on Windows:
