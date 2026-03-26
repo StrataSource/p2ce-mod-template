@@ -38,7 +38,7 @@ Clone this repository into a new working tree directory using the following comm
 ```bash
 mkdir p2ce-mod-work
 cd p2ce-mod-work
-git clone https://github.com/StrataSource/p2ce-mod-template.git my-new-mod-name --recurse
+git clone https://github.com/StrataSource/p2ce-mod-template.git my-new-mod-name --recurse --checkout feat/lite
 ```
 
 Then, rename `p2ce-mod-template_english.txt` in the `resources` directory to `[mod-name]_english.txt` to enable mod-specific localization.
