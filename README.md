@@ -5,19 +5,7 @@
   </picture>
 </p>
 
-This is a basic skeleton that can be used to create mods building upon the Portal 2: Community Edition feature set. It has one sample campaign with a single test chamber that can be played through to completion.
-
-<p align="center">
-  <picture>
-      <img width=800 src=".assets/mod_template_main_menu.png" alt="Mod Template main menu"/>
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-      <img width=800 src=".assets/mod_template_mechanics_sample.png" alt="Sample map"/>
-  </picture>
-</p>
+This is a skeleton that can be used to create mods building upon the Portal 2: Community Edition feature set. This variant only contains the absolute bare minimum resources required to boot into a P2:CE mod.
 
 ## Setup Instructions
 
