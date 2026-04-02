@@ -52,7 +52,7 @@
 		full_logo = "{campaign_art}/template/full_logo.png"
 		
 		// Logos can be made larger in your mod's main menu. Available parameters are "standard" and "large".
-		full_logo_size_preset = standard
+		full_logo_size_preset = "standard"
 		
 		// Background for campaign entry, as displayed in selection UI
 		selector_button_background = "{campaign_art}/template/campaign_btn_bg.png"
