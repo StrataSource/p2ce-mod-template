@@ -16,42 +16,48 @@
 
 	// Mounts content from Portal 2 and P2CE.
 	// To add additional mounts, see cfg/mounts.kv
+	// 
+	// This block is only used if your mod depends on external content from other games
+	// The number for the specific game corresponds to the Steam application ID of that game
+	// Portal 2, for instance, is appid 620; Team Fortress 2 is appid 440
+	// 
+	// Uncomment the below block to enable external content mounting.
 
-	mount
-	{
-		// Portal 2
-		620
-		{
-			"required" "1"
-
-			// Priority is determined by the order in which folders are defined.
-			// For example, assets in "portal2" will be overridden by assets in "update" and higher mods.
-
-			// PeTI/Puzzlemaker (DLC 2)
-			"portal2_dlc2"
-			{
-				"vpk" "pak01"
-			}
-
-			// Peer Review (DLC 1)
-			"portal2_dlc1"
-			{
-				"vpk" "pak01"
-			}
-			
-			// L4D2 Title Update
-			"update"
-			{
-				"vpk" "pak01"
-			}
-			
-			// Base Game (SP + Coop)
-			"portal2"
-			{
-				"vpk" "pak01"
-			}
-		}
-	}
+	// mount
+	// {
+	// 	// Portal 2
+	// 	620
+	// 	{
+	// 		"required" "1"
+	// 
+	// 		// Priority is determined by the order in which folders are defined.
+	// 		// For example, assets in "portal2" will be overridden by assets in "update" and higher mods.
+	// 
+	// 		// PeTI/Puzzlemaker (DLC 2)
+	// 		"portal2_dlc2"
+	// 		{
+	// 			"vpk" "pak01"
+	// 		}
+	// 
+	// 		// Peer Review (DLC 1)
+	// 		"portal2_dlc1"
+	// 		{
+	// 			"vpk" "pak01"
+	// 		}
+	// 		
+	// 		// L4D2 Title Update
+	// 		"update"
+	// 		{
+	// 			"vpk" "pak01"
+	// 		}
+	// 		
+	// 		// Base Game (SP + Coop)
+	// 		"portal2"
+	// 		{
+	// 			"vpk" "pak01"
+	// 		}
+	// 	}
+	// }
 
 	FileSystem
 	{
@@ -67,9 +73,6 @@
 
 		SearchPaths
 		{
-			// This is the path used to load required P2:CE game libraries (client/server and coop matchmaking code)
-			gamebin									p2ce/bin
-			
 			// Custom content will get mounted to this directory FIRST and loaded on top of this mod's content.
 			game 									"|gameinfo_path|custom/*"
 			
@@ -83,6 +86,15 @@
 			
 			// Hammer content - needed for it to work
 			game									hammer
+
+			// Portal 2 content - repackaged to reduce filesize
+			// This is a bedrock dependency for P2:CE, not having this present will
+			// cause asset dependency problems!!!
+			Game				portal2/portal2/portal2.vpk
+			Game				portal2/portal2
+
+			// This is the path used to load required P2:CE game libraries (client/server and coop matchmaking code)
+			gamebin									p2ce/bin
 		}
 	}
 }
