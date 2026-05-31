@@ -485,22 +485,6 @@
 				"input_map_max" "1.0" //pitch to fade in to
 				"default_to_max" "false"	
 			}
-
-			"import_stack" "p2_update_music_spatial_portals"
-			"source_info"
-			{
-				"source"   "entity"
-			}
-			"volume_apply_occlusion"
-			{
-				"input2" "1.0"
-			}
-
-
-			"speakers_spatialize"
-			{
-				"input_radius"  "200"
-			}
 		}
 	}
 }
