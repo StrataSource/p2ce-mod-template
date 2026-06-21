@@ -237,6 +237,17 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		
+		"DefaultHudMessage"
+		{
+			"1"
+			{
+				"name"		"Lexend Deca"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias" "1"
+			}
+		}
+		
 		"DefaultLarger"
 		{
 			"1"
@@ -1551,17 +1562,17 @@ Scheme
 	CustomFontFiles
 	{
 		// Core
-		"1"		"resource/fonts/core/univercb.ttf"	[!$TURKISH]
-		"2"		"resource/fonts/core/univercl.ttf"	[!$TURKISH]
-		"3"		"resource/fonts/core/universc.ttf"	[!$TURKISH]
-		"1"		"resource/fonts/core/univercb_t.ttf"	[$TURKISH]
-		"2"		"resource/fonts/core/univercl_t.ttf"	[$TURKISH]
-		"3"		"resource/fonts/core/universc_t.ttf"	[$TURKISH]
+		"1"		"resource/fonts/core/univercb.vfont"	[!$TURKISH]
+		"2"		"resource/fonts/core/univercl.vfont"	[!$TURKISH]
+		"3"		"resource/fonts/core/universc.vfont"	[!$TURKISH]
+		"1"		"resource/fonts/core/univercb_t.vfont"	[$TURKISH]
+		"2"		"resource/fonts/core/univercl_t.vfont"	[$TURKISH]
+		"3"		"resource/fonts/core/universc_t.vfont"	[$TURKISH]
 		
 		// HL2
-		"4"		"resource/fonts/hl2/HALFLIFE2.ttf"
-		"5"		"resource/fonts/hl2/HL2crosshairs.ttf"
-		"6"		"resource/fonts/hl2/HL2EP2.ttf"
+		"4"		"resource/fonts/hl2/HALFLIFE2.vfont"
+		"5"		"resource/fonts/hl2/HL2crosshairs.vfont"
+		"6"		"resource/fonts/hl2/HL2EP2.vfont"
 		
 		// Borrowed from hl2_complete/clientscheme.res
 		"7"		"resource/fonts/hl2/GorDIN-Regular.ttf"
@@ -1572,6 +1583,6 @@ Scheme
 		
 		// Strata Fonts
 		"12"	"resource/fonts/core/CascadiaMono-Regular.ttf"
-		"13"	"resource/fonts/strata/LexendDeca.ttf"
+		"13"	"resource/fonts/strata/LexendDeca.vfont"
 	}
 }
