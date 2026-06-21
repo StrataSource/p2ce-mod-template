@@ -995,20 +995,20 @@ Scheme
 	CustomFontFiles
 	{
 		// Core
-		"1"		"resource/fonts/core/univercb.ttf"	[!$TURKISH]
-		"2"		"resource/fonts/core/univercl.ttf"	[!$TURKISH]
-		"3"		"resource/fonts/core/universc.ttf"	[!$TURKISH]
-		"1"		"resource/fonts/core/univercb_t.ttf"	[$TURKISH]
-		"2"		"resource/fonts/core/univercl_t.ttf"	[$TURKISH]
-		"3"		"resource/fonts/core/universc_t.ttf"	[$TURKISH]
+		"1"		"resource/fonts/core/univercb.vfont"	[!$TURKISH]
+		"2"		"resource/fonts/core/univercl.vfont"	[!$TURKISH]
+		"3"		"resource/fonts/core/universc.vfont"	[!$TURKISH]
+		"1"		"resource/fonts/core/univercb_t.vfont"	[$TURKISH]
+		"2"		"resource/fonts/core/univercl_t.vfont"	[$TURKISH]
+		"3"		"resource/fonts/core/universc_t.vfont"	[$TURKISH]
 		"4"		"vgui/fonts/marlett.ttf"
 		
 		// HL2
-		"5"		"resource/fonts/hl2/HALFLIFE2.ttf"
-		"6"		"resource/fonts/hl2/HL2EP2.ttf"
+		"5"		"resource/fonts/hl2/HALFLIFE2.vfont"
+		"6"		"resource/fonts/hl2/HL2EP2.vfont"
 		
 		// Strata Fonts
-		"7"		"resource/fonts/strata/LexendDeca.ttf"
+		"7"		"resource/fonts/strata/LexendDeca.vfont"
 		"8"		"resource/fonts/core/CascadiaMono-Regular.ttf"
 	}
 }
