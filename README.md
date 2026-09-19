@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-This is a basic skeleton that can be used to create mods building upon the Portal 2: Community Edition feature set. It has one sample campaign with a single test chamber that can be played through to completion.
+This is a basic skeleton that can be used to create mods building upon the Portal 2: Community Edition feature set. It has one sample campaign with a single test chamber and three connected maps that can be played through to completion.
 
 <p align="center">
   <picture>
