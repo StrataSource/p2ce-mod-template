@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game 		"Portal 2: Community Edition - Mod Template"
+	game 		"Portal 2: Community Edition - Mod Template (Lite)"
 
 	// The icon used in Steam.
 	// Even though `icon` is set to "resource/icon", Steam will still use "resource/icon_big.tga"
