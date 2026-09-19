@@ -125,7 +125,25 @@
 						{
 							name = "sdk_template_mechanics"
 							meta = {
-								name = "Mechanics Sample"
+								title = "Mechanics Sample"
+							}
+						},
+						{
+							name = "sdk_barebones_campaign_1"
+							meta = {
+								title = "Blank Map 1"
+							}
+						},
+						{
+							name = "sdk_barebones_campaign_2"
+							meta = {
+								title = "Blank Map 2"
+							}
+						},
+						{
+							name = "sdk_barebones_campaign_3"
+							meta = {
+								title = "Blank Map 3"
 							}
 						},
 					]
@@ -177,7 +195,7 @@
 						{
 							name = "sdk_template_mechanics"
 							meta = {
-								name = "Mechanics Sample"
+								title = "Mechanics Sample"
 							}
 						},
 					]
